@@ -1,0 +1,13 @@
+{{- $cols := .Get "cols" | default 3 -}}
+{{- $gap := .Get "gap" | default 4 -}}
+{{- $style := .Get "style" | default "" -}}
+
+{{- $css := printf "--hextra-feature-grid-cols: %v; %s" $cols $style -}}
+
+
+<div
+  class="hextra-feature-grid hx-grid sm:max-lg:hx-grid-cols-2 max-sm:hx-grid-cols-1 hx-gap-{{ $gap }} hx-w-full not-prose"
+  {{ with $css }}style="{{ . | safeCSS }}"{{ end }}
+>
+  {{ .Inner }}
+</div>

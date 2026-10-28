@@ -1,0 +1,9 @@
+<div id="bar-chart-container-{{ .id }}" 
+    class="bar-chart-container" 
+    data-text="{{ .text }}" 
+    data-subtext="{{ .subtext }}" 
+    data-chart-data="{{ .data | jsonify }}"
+    items="{{ .items | jsonify }}"
+    rotated="{{ .rotated | default false }}"
+    style="{{ .style | default "width: 100%; height: 400px;" | safeCSS }}">
+</div>

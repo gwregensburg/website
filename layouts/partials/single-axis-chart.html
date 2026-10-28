@@ -1,0 +1,7 @@
+<div id="single-axis-chart-container-{{ .id }}" 
+    class="single-axis-chart-container" 
+    data-text="{{ .text }}" 
+    data-subtext="{{ .subtext }}" 
+    data-chart-data="{{ .data | jsonify }}"
+    style="{{ .style | default "width: 100%; height: 400px;" | safeCSS }}">
+</div>

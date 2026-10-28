@@ -1,0 +1,180 @@
+# Pages CMS (https://pagescms.org): web editor for the website content.
+# Editors are invited by email in Pages CMS. Every save is a commit on main, which the
+# GitHub Pages workflow publishes. Homepage and layout pages are deliberately not editable here.
+
+media:
+  input: static/images
+  output: /images
+  categories: [image]
+  rename: safe
+
+settings:
+  content:
+    # Keep front matter keys that aren't configured below instead of dropping them on save.
+    merge: true
+  commit:
+    # Record the editor's name in the commit.
+    identity: user
+    # "deploy" in the message makes the Pages workflow publish the change.
+    templates:
+      create: "deploy: {path} angelegt (via Pages CMS)"
+      update: "deploy: {path} geändert (via Pages CMS)"
+      delete: "deploy: {path} gelöscht (via Pages CMS)"
+      rename: "deploy: {oldPath} umbenannt in {newPath} (via Pages CMS)"
+
+content:
+  - name: events
+    label: Veranstaltungen
+    type: file
+    path: data/events.yaml
+    format: yaml
+    list: true
+    fields:
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: day
+        label: Tag
+        type: number
+        required: true
+        options: { min: 1, max: 31 }
+      - name: month
+        label: Monat
+        type: number
+        required: true
+        options: { min: 1, max: 12 }
+      - name: year
+        label: Jahr (zweistellig)
+        description: z. B. 26 für 2026
+        type: number
+        required: true
+        options: { min: 24, max: 99 }
+      - name: end_day
+        label: Bis Tag
+        description: Nur bei mehrtägigen Veranstaltungen
+        type: number
+        options: { min: 1, max: 31 }
+      - name: end_month
+        label: Bis Monat
+        description: Nur bei mehrtägigen Veranstaltungen
+        type: number
+        options: { min: 1, max: 12 }
+      - name: time
+        label: Uhrzeit
+        description: z. B. 19 - 20:30 Uhr
+        type: string
+      - name: location
+        label: Ort
+        type: string
+        required: true
+      - name: organizer
+        label: Veranstalter
+        type: string
+      - name: link
+        label: Link für mehr Informationen
+        type: string
+      - name: description
+        label: Beschreibung
+        description: Markdown möglich, z. B. **fett** oder [Linktext](https://…)
+        type: text
+      - name: internal
+        label: Eigene Vereinsveranstaltung
+        description: Wird hervorgehoben und zusätzlich im Mitgliederbereich angezeigt.
+        type: boolean
+      - name: subtitle
+        type: string
+        hidden: true
+
+  - name: news
+    label: Aktuelles
+    type: collection
+    path: content/aktuelles
+    format: yaml-frontmatter
+    exclude: [_index.md]
+    filename: "{primary}.md"
+    view:
+      fields: [title, date]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: date
+        label: Datum
+        type: date
+        required: true
+        options: { format: yyyy-MM-dd }
+      - name: description
+        label: Kurzbeschreibung
+        description: Erscheint in der Übersicht und in Suchmaschinen.
+        type: text
+      - name: image
+        label: Vorschaubild
+        type: image
+      - name: authors
+        label: Autor:innen
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Name
+            type: string
+      - name: tags
+        label: Schlagwörter
+        type: string
+        list: true
+      - name: toc
+        label: Inhaltsverzeichnis anzeigen
+        type: boolean
+      - name: body
+        label: Text
+        description: Markdown. Bilder mit ![Beschreibung](/images/datei.jpg) einfügen.
+        # Plain markdown editor on purpose: existing posts contain raw HTML and Hugo shortcodes,
+        # which a WYSIWYG editor could rewrite.
+        type: code
+        options: { format: markdown }
+
+  - name: books
+    label: Bibliothek
+    type: file
+    path: data/books.yaml
+    format: yaml
+    list: true
+    fields:
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: subtitle
+        label: Untertitel
+        type: string
+      - name: author
+        label: Autor:in / Herausgeber
+        type: string
+      - name: published
+        label: Erschienen
+        description: z. B. April 2024
+        type: string
+      - name: image
+        label: Cover
+        type: image
+      - name: link
+        label: Link
+        type: string
+      - name: description
+        label: Beschreibung
+        type: text
+      - name: tipp
+        label: Buchtipp
+        description: Wird als Tipp hervorgehoben.
+        type: boolean
+      - name: tags
+        label: Schlagwörter
+        type: string
+        list: true

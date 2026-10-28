@@ -1,0 +1,40 @@
+{
+  "name": "Gemeinschaftlich Wohnen Regensburg",
+
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  // 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+  // "features": { "ghcr.io/devcontainers/features/docker-in-docker:2": {} },
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "extended": true,
+      "version": "0.140.0"
+    },
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+
+  // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [1313],
+
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Set *default* container specific settings.json values on container create.
+      "settings": {
+        "html.format.templating": true
+      },
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "tamasfe.even-better-toml",
+        "budparr.language-hugo-vscode",
+        "anthropic.claude-code"
+      ]
+    }
+  },
+
+  "remoteUser": "vscode"
+}

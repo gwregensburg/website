@@ -1,0 +1,7 @@
+{{ $books := .Site.Data.books }}
+
+{{ range $books }}
+  <div class="hx-mt-6 hx-mb-6">
+    {{ partial "book" . }}
+  </div>
+{{ end }}

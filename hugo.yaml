@@ -1,0 +1,145 @@
+# Hugo configuration file
+title: Gemeinschaftlich Wohnen Regensburg
+description: Gemeinsam sozialen, inklusiven, bezahlbaren und lebenswerten Wohnraum schaffen - für alle Menschen, ungeachtet ihrer Religion, ihrer Herkunft, ihrer Lebensform oder ihres Geschlechts. In radelbarer Entfernung zur Regensburger Altstadt, barrierefrei und klimaverträglich.
+languageCode: de-de
+theme: hextra
+enableRobotsTXT: true
+enableGitInfo: true
+
+markup:
+  # allow raw html
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # enable hextra syntax highlight
+  highlight:
+    noClasses: false
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: de
+languages:
+  de:
+    languageName: Deutsch
+    weight: 1
+    title: Gemeinschaftlich Wohnen Regensburg
+
+menu:
+  main:
+    - name: Wohnprojekte
+      pageRef: /wohnprojekte
+      weight: 1
+    - name: Mitmachen
+      pageRef: /mitmachen
+      weight: 2
+    - name: Veranstaltungen
+      pageRef: /veranstaltungen
+      weight: 3
+    - identifier: aktuelles
+      name: Aktuelles
+      pageRef: /aktuelles
+      weight: 4
+    - identifier: wissen
+      name: Wissen
+      pageRef: /wissen
+      weight: 5
+    - name: Kontakt
+      pageRef: /contact
+      weight: 7
+    - name: Verein
+      pageRef: /verein
+      weight: 8
+    - name: RSS
+      weight: 9
+      pageRef: /aktuelles/index.xml
+    - name: Search
+      weight: 10
+      params:
+        type: search
+    - name: Email
+      weight: 1
+      url: "mailto:info@gemeinschaftlich-wohnen-regensburg.de"
+      params:
+        icon: mail
+    - name: Signal
+      weight: 1
+      url: "https://signal.group/#CjQKINArAY1vjpQqAQ_uyO3GLCDSRcWIu0mXj0k7zl6-7mFzEhBeubuwgK_Yc-b7zRiCLUJh"
+      params:
+        icon: signal
+    - name: Instagram
+      weight: 1
+      url: "https://www.instagram.com/gemeinschaftlich_wohnen_rgb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+      params:
+        icon: instagram
+
+params:
+  description: Gemeinsam sozialen, inklusiven, bezahlbaren und lebenswerten Wohnraum schaffen - für alle Menschen, ungeachtet ihrer Religion, ihrer Herkunft, ihrer Lebensform oder ihres Geschlechts. In radelbarer Entfernung zur Regensburger Altstadt, barrierefrei und klimaverträglich.
+
+  editURL:
+    enable: false
+
+  contact:
+    email: info@gemeinschaftlich-wohnen-regensburg.de
+
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: logo.png
+      # dark: images/logo-dark.svg
+      width: 40
+      height: 20
+      link: /
+    width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: light
+    displayToggle: false
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+
+  rss:
+    sections: [aktuelles, veranstaltungen]
+
+  displayUpdatedDate: true
+  dateFormat: "2. January 2006"
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+      
+data:
+  wohnprojekte_in_der_plk: "Wohnprojekte in der PLK.json"
+
+security:
+  enableInlineShortcodes: true
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  x:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true

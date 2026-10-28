@@ -1,0 +1,15 @@
+{{- $title := .Get "title" -}}
+{{- $content := .Get "content" -}}
+{{- $date := .Get "date" -}}
+
+<li>
+  <div class="date layout-large">
+    <h4>{{ $date }}</h4>
+  </div>
+  <div class="point"></div>
+  <div class="content">
+    <h4 class="layout-small">{{ $date }}</h3>
+    <h3>{{ $title }}</h3>
+    <p>{{ $content | markdownify }}</p>
+  </div>
+</li>

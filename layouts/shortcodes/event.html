@@ -1,0 +1,52 @@
+{{- $title := .Get "title" -}}
+{{- $day := .Get "day" -}}
+{{- $end_day := .Get "end_day" -}}
+{{- $month := .Get "month" -}}
+{{- $end_month := .Get "end_month" -}}
+{{- $time := .Get "time" -}}
+{{- $location := .Get "location" -}}
+{{- $organizer := .Get "organizer" -}}
+{{- $link := .Get "link" -}}
+{{- $internal := .Get "internal" -}}
+
+{{ $defaultClass := "hx-mt-6" }}
+{{ $internalClass := "hx-mt-6 hx-border-blue-200 highlight-event" }}
+
+{{ $class := cond (eq $internal "true") $internalClass $defaultClass }}
+{{- $titleSlug :=  $title | lower | replaceRE "\\s+" "-" | replaceRE "[^\\w\\s-]+" "" -}}
+
+<div class="{{ $class }}">
+  <span class="anchor-link" id="{{ $titleSlug }}"></span>
+  <h2 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">
+    {{ $title }}
+    <a href="#{{ $titleSlug }}" class="subheading-anchor" aria-label="Permalink for this section"></a>
+  </h2>
+  <div style="display: flex; flex-wrap:wrap">
+    <div class="dot hx-text-xl hx-font-bold">
+      <div>{{ $day }}.</div>
+      <div>{{ $month }}.</div>
+    </div>
+    {{- with $end_day -}}
+    <div class="dot hx-text-xl hx-font-bold"></div>
+      <div>{{ $end_day }}.</div>
+      <div>{{ $end_month }}.</div>
+    </div>
+    {{- end -}}
+    <div>
+      <p class="hx-text-gray-600" style="inline-size: 100%; margin: 0rem; ">⏱️ {{ $time }}</p>
+      <p class="hx-text-gray-600" style="inline-size: 100%; margin: 0rem; ">📍 {{ $location }}</p>
+      {{- with $organizer -}}
+        <p class="hx-text-gray-600" style="inline-size: 100%; margin: 0rem; ">💡 {{ $organizer }}</p>
+      {{- end -}}
+    </div>
+  </div>
+  
+  <p>
+    {{ .InnerDeindent | markdownify }}
+  </p>
+  {{- with $link -}}
+    <div class="content">
+      <a target="_blank" href="{{ $link }}">Mehr Informationen...</a>
+    </div>
+  {{- end -}}
+</div>

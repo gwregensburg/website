@@ -1,0 +1,30 @@
+{{- $topN := .Get "topN"| default "0" | int -}}
+{{- $internal := .Get "internal" | default "false" | lower | eq "true" -}}
+{{ $currentDate := now.Format "2006-01-02" }}
+
+{{ $events := .Site.Data.events }}
+{{ $futureEvents := slice }}
+
+{{/* Events are edited in the CMS and may be in any order in events.yaml, so sort by date here. */}}
+{{ range $events }}
+  {{ $eventDate := printf "20%02d-%s-%s" .year (partial "utils/pad2" .month) (partial "utils/pad2" .day) }}
+  {{ if ge $eventDate $currentDate }}
+    {{ $futureEvents = $futureEvents | append (merge . (dict "sort_date" $eventDate)) }}
+  {{ end }}
+{{ end }}
+
+{{ $futureEvents = sort $futureEvents "sort_date" }}
+
+{{ if $internal }}
+  {{ $futureEvents = where $futureEvents "internal" true }}
+{{ end }}
+
+{{ if gt $topN 0 }}
+  {{ $futureEvents = first $topN $futureEvents }}
+{{ end }}
+
+{{ range $futureEvents }}
+  <div class="hx-mt-6 hx-mb-6">
+    {{ partial "event" . }}
+  </div>
+{{ end }}

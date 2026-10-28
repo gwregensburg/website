@@ -1,0 +1,306 @@
+q1:
+  question: Kannst Du dir vorstellen, auf der PLK zu wohnen?
+  responses:
+    Ja: 58
+    Nein: 2
+  type: pie
+q11:
+  items:
+  - Günstiges Wohnen
+  - Architektonischer Anspruch
+  - Ökologische Bausubstanz
+  - Holzbau
+  - Großzügige Fahrradstellplätze
+  - Fahrradstellplätze mit Lademöglichkeit
+  - Tiefgarage
+  - Flexible / änderbare Grundrisse
+  - Möglichkeit zur zufälligen Begegnung
+  - Erschließung der Wohnungen durch Laubengänge
+  - Berücksichtigung individueller Wünsche
+  question: Bauen & Architektur
+  responses:
+    Unwichtig:
+    - 0
+    - 1
+    - 0
+    - 5
+    - 1
+    - 5
+    - 16
+    - 4
+    - 0
+    - 7
+    - 3
+    Wichtig:
+    - 37
+    - 15
+    - 45
+    - 20
+    - 33
+    - 18
+    - 9
+    - 18
+    - 43
+    - 12
+    - 16
+  type: radar
+q12:
+  items:
+  - Mehrgenerationenwohnen
+  - Familienfreundlich / viele Familien
+  - Studentisches Wohnen
+  - Wohnen im Alter
+  - Single-Wohnungen
+  - Geförderter Wohnraum
+  - Inklusives Wohnen
+  - Vielfalt von Nationalitäten
+  - Belegungsschlüssel (stellt bei Fluktuation eine ausgeglichene Bewohnerschaft sicher)
+  question: Bewohnerstruktur
+  responses:
+    Unwichtig:
+    - 0
+    - 1
+    - 6
+    - 3
+    - 6
+    - 2
+    - 2
+    - 4
+    - 3
+    Wichtig:
+    - 37
+    - 31
+    - 6
+    - 32
+    - 15
+    - 18
+    - 15
+    - 21
+    - 20
+  type: radar
+q13:
+  items:
+  - Gemeinschaftsgarten
+  - Dachgarten / Dachterrasse
+  - Werkstatt
+  - Musikzimmer
+  - Gästeappartment
+  - Stauraum / Kellerabteil
+  - Gemeinschaftsraum
+  - Gemeinschaftsküche
+  - Waschküche
+  - Coworking-Space
+  question: Gemeinschaftsflächen
+  responses:
+    Unwichtig:
+    - 0
+    - 2
+    - 2
+    - 6
+    - 2
+    - 0
+    - 0
+    - 6
+    - 7
+    - 3
+    Wichtig:
+    - 44
+    - 25
+    - 32
+    - 14
+    - 26
+    - 46
+    - 43
+    - 19
+    - 27
+    - 18
+  type: radar
+q15:
+  question: Die Gründung eines Wohnprojekts erfordert Aufwand. In der heißen Phase
+    bedeutet das meist ein Treffen alle zwei Wochen sowie aktive Mitarbeit in einer
+    Arbeitsgruppe. Bist du dafür bereit?
+  responses:
+    Ja: 49
+    Nein: 8
+  type: pie
+q16:
+  question: Wie viel Zeit könntest du monatlich im Schnitt in etwa aufwenden? In Stunden?
+  responses:
+  - - 20
+    - 4
+  - - 15
+    - 3
+  - - 10
+    - 14
+  - - 12
+    - 2
+  - - 2
+    - 3
+  - - 6
+    - 4
+  - - 30
+    - 1
+  - - 3
+    - 2
+  - - 4
+    - 7
+  - - 5
+    - 4
+  - - 8
+    - 6
+  - - 1
+    - 2
+  - - 9
+    - 1
+  - - 0
+    - 1
+  type: single-axis
+q19:
+  question: Um Verbindlichkeit zwischen den Projektmitgliedern zu schaffen wird meist
+    ein Gesellschaftsvertrag aufgesetzt der mit einer Einlage einhergeht. In der Regel
+    etwa 1000 € pro Mitglied. Dieses Geld wird für den Planungsprozess benötigt. Im
+    besten Fall investierst Du damit in deine Wohnzukunft, im schlechtesten Fall bekommt
+    das Projekt trotz intensiver Planung keinen Zuschlag bei der Vergabe und das Geld
+    ist weg. Ist die Gruppe untätig, so bekommst du es am Ende wahrscheinlich einfach
+    zurück. Kannst du Dir vorstellen, eine solche Einlage zu leisten?
+  responses:
+    Ja: 51
+    Nein: 4
+  type: pie
+q2:
+  items:
+  - Baugemeinschaft (WEG)
+  - Genossenschaft
+  - Mietshäusersyndikat
+  question: Welche Rechtsform wünschst du dir?
+  responses:
+    Ja:
+    - 14
+    - 51
+    - 25
+    Nein:
+    - 10
+    - 5
+    - 8
+  type: bar
+q3:
+  question: Falls deine Antwort bei Genossenschaft "Ja" war - wärst du bereit, Gründungsmitglied
+    einer neuen Genossenschaft zu werden?
+  responses:
+    Ja: 47
+    Nein: 8
+  type: pie
+q4:
+  question: Falls deine Antwort bei Genossenschaft "Ja" war - bevorzugst du eine Neugründung
+    einer Genossenschaft oder den Anschluss an eine bestehende?
+  responses:
+    Anschluss an eine bestehende Genossenschaft: 6
+    Keine Präferenz: 43
+    Neugründung: 4
+  type: pie
+q5:
+  items:
+  - Abgeschlossene Wohnung
+  - Clusterwohnung
+  - WG
+  question: Welche Wohnform kommt für dich in Frage?
+  responses:
+    Ja:
+    - 53
+    - 19
+    - 5
+    Nein:
+    - 3
+    - 8
+    - 5
+  type: bar
+q6:
+  items:
+  - < 15 Wohnungen
+  - 15 - 30 Wohnungen
+  - 30 - 50 Wohnungen
+  - '> 50 Wohnungen'
+  question: Wie groß sollte das Wohnprojekt sein?
+  responses:
+    Ja:
+    - 25
+    - 41
+    - 24
+    - 13
+    Nein:
+    - 6
+    - 5
+    - 11
+    - 9
+  type: bar
+q7:
+  items:
+  - '2025'
+  - '2026'
+  - '2027'
+  - '2028'
+  - '2029'
+  - egal
+  question: Bis wann möchtest du spätestens einziehen?
+  responses:
+    Ja:
+    - 4
+    - 7
+    - 12
+    - 15
+    - 15
+    - 32
+    Nein:
+    - 1
+    - 1
+    - 7
+    - 7
+    - 5
+    - 3
+  type: bar
+q8:
+  question: Wie groß sollte deine Wohnung sein? Quadratmeter?
+  responses:
+  - - 85
+    - 1
+  - - 65
+    - 1
+  - - 100
+    - 10
+  - - 70
+    - 8
+  - - 110
+    - 1
+  - - 90
+    - 4
+  - - 80
+    - 7
+  - - 60
+    - 7
+  - - 55
+    - 3
+  - - 75
+    - 1
+  - - 50
+    - 5
+  - - 35
+    - 1
+  - - 45
+    - 1
+  - - 50
+    - 1
+  type: single-axis
+q9:
+  question: Wie viele Zimmer bräuchte deine Wohnung?
+  responses:
+  - - 3
+    - 25
+  - - 2
+    - 15
+  - - 5
+    - 2
+  - - 4
+    - 12
+  - - -2
+    - 1
+  type: single-axis

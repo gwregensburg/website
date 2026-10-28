@@ -1,0 +1,12 @@
+# Hugo output
+public/
+resources/
+.hugo_build.lock
+
+# Editor
+.vscode/
+.DS_Store
+
+# Raw survey exports contain personal data (names, email addresses) and must never be committed.
+# scripts/survey-plk.py reads them locally and writes the aggregated data/plk.yaml.
+data/*.json

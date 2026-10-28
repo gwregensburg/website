@@ -1,0 +1,40 @@
+{{- $title := .Get "title" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $image := .Get "image" -}}
+{{- $link := .Get "link" -}}
+{{- $size := .Get "size" | default "small" -}}
+
+
+{{- $css := printf "media-object-img %s" $size -}}
+
+{{- if and $image (not (urls.Parse $image).Scheme) -}}
+  {{/* Process images in assets */}}
+  {{- with resources.Get $image -}}
+    {{- $image = .Permalink -}}
+  {{- else -}}
+    {{/* Otherwise, use relative link of the image */}}
+    {{- if hasPrefix $image "/" -}}
+      {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
+    {{- else -}}
+      {{- $image = absURL $image -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="media-object-bg">
+  <h2 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">{{ $title }}</h2>
+  {{ if $image }}
+  <img {{ with $css }}class="{{ . | safeCSS }}"{{ end }} src="{{ $image }}" alt="Image">
+  {{ end }}
+  <div>
+    <p class="hx-text-gray-600" style="inline-size: 100%; margin: 0rem; margin-bottom: 0.1rem">{{ $subtitle }}</p>
+    <p>
+      {{ .InnerDeindent | markdownify }}
+    </p>
+  </div>
+  {{- with $link -}}
+    <div class="content">
+      <a href="{{ $link }}">Mehr Informationen...</a>
+    </div>
+  {{- end -}}
+</div>

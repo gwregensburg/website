@@ -1,0 +1,5 @@
+<div id="chart-container">
+  {{ range $key, $question := $.Site.Data.wohnprojekte_in_der_plk.questions }}
+  <div class="chart" id="chart-{{ $key }}" style="width:600px;height:400px;"></div>
+  {{ end }}
+</div>
