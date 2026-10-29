@@ -25,41 +25,33 @@ settings:
 content:
   - name: events
     label: Veranstaltungen
-    type: file
-    path: data/events.yaml
+    type: collection
+    path: data/events
     format: yaml
-    list: true
+    filename: "{fields.date}-{fields.title}.yaml"
+    view:
+      fields: [date, title, location]
+      primary: title
+      sort: [date, title]
+      search: [title, location, organizer]
+      default:
+        sort: date
+        order: desc
     fields:
       - name: title
         label: Titel
         type: string
         required: true
-      - name: day
-        label: Tag
-        type: number
+      - name: date
+        label: Datum
+        type: date
         required: true
-        options: { min: 1, max: 31 }
-      - name: month
-        label: Monat
-        type: number
-        required: true
-        options: { min: 1, max: 12 }
-      - name: year
-        label: Jahr (zweistellig)
-        description: z. B. 26 für 2026
-        type: number
-        required: true
-        options: { min: 24, max: 99 }
-      - name: end_day
-        label: Bis Tag
+        options: { format: yyyy-MM-dd }
+      - name: end_date
+        label: Bis
         description: Nur bei mehrtägigen Veranstaltungen
-        type: number
-        options: { min: 1, max: 31 }
-      - name: end_month
-        label: Bis Monat
-        description: Nur bei mehrtägigen Veranstaltungen
-        type: number
-        options: { min: 1, max: 12 }
+        type: date
+        options: { format: yyyy-MM-dd }
       - name: time
         label: Uhrzeit
         description: z. B. 19 - 20:30 Uhr

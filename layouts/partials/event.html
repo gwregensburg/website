@@ -6,7 +6,8 @@
   {{ $class = $internalClass }}
 {{ end }}
 
-{{- $titleSlug := printf "%s-20%02d-%s-%s" (.title | lower | replaceRE "\\s+" "-" | replaceRE "[^\\w\\s-]+" "") .year (partial "utils/pad2" .month) (partial "utils/pad2" .day) -}}
+{{- $start := time .date -}}
+{{- $titleSlug := printf "%s-%s" (.title | lower | replaceRE "\\s+" "-" | replaceRE "[^\\w\\s-]+" "") ($start.Format "2006-01-02") -}}
 
 <div class="{{ $class }}">
   <span class="anchor-link" id="{{ $titleSlug }}"></span>
@@ -15,16 +16,17 @@
     <a href="#{{ $titleSlug }}" class="subheading-anchor" aria-label="Permalink for this section"></a>
   </h2>
   <div class="dot hx-text-xl hx-font-bold">
-    <div>{{ partial "utils/pad2" .day }}.</div>
-    <div>{{ partial "utils/pad2" .month }}.</div>
+    <div>{{ $start.Format "02" }}.</div>
+    <div>{{ $start.Format "01" }}.</div>
   </div>
-  {{- if .end_day -}}
+  {{- with .end_date -}}
+  {{- $end := time . -}}
   <div class="dot-dash hx-text-xl hx-font-bold">
     <p>–</p>
   </div>
   <div class="dot hx-text-xl hx-font-bold">
-    <div>{{ partial "utils/pad2" .end_day }}.</div>
-    <div>{{ partial "utils/pad2" .end_month }}.</div>
+    <div>{{ $end.Format "02" }}.</div>
+    <div>{{ $end.Format "01" }}.</div>
   </div>
   {{- end -}}
   <div>

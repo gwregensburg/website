@@ -5,9 +5,9 @@
 {{ $events := .Site.Data.events }}
 {{ $futureEvents := slice }}
 
-{{/* Events are edited in the CMS and may be in any order in events.yaml, so sort by date here. */}}
+{{/* One file per event in data/events/, edited in the CMS; sort by date here rather than relying on file names. */}}
 {{ range $events }}
-  {{ $eventDate := printf "20%02d-%s-%s" .year (partial "utils/pad2" .month) (partial "utils/pad2" .day) }}
+  {{ $eventDate := (time .date).Format "2006-01-02" }}
   {{ if ge $eventDate $currentDate }}
     {{ $futureEvents = $futureEvents | append (merge . (dict "sort_date" $eventDate)) }}
   {{ end }}

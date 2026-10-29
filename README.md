@@ -6,7 +6,7 @@ Quellcode der Webseite [gemeinschaftlich-wohnen-regensburg.de](https://gemeinsch
 Veranstaltungen, Aktuelles und Bibliothek werden im Browser über [Pages CMS](https://app.pagescms.org) bearbeitet. Die Konfiguration liegt in `.pages.yml`.
 - Redakteur:innen werden in Pages CMS per E-Mail eingeladen und brauchen kein GitHub-Konto.
 - Jedes Speichern ist ein Commit auf `main` mit `deploy` in der Nachricht, die Webseite wird danach automatisch neu gebaut (dauert ca. 1–2 Minuten).
-- Veranstaltungen werden auf der Webseite nach Datum sortiert, die Reihenfolge in `data/events.yaml` ist egal. Vergangene Veranstaltungen verschwinden mit dem täglichen Neubau.
+- Jede Veranstaltung ist eine eigene Datei in `data/events/` (`<datum>-<titel>.yaml`). Auf der Webseite wird nach Datum sortiert, vergangene Veranstaltungen verschwinden mit dem täglichen Neubau.
 - Startseite und Layout-Seiten (viele Shortcodes) sind bewusst nicht im CMS und werden direkt im Repository bearbeitet.
 
 ## Entwicklung
