@@ -1,6 +1,6 @@
 <div>
     {{ $paramKey := .Get "key" }}
-    {{ range $key, $data := .Site.Data.plk }}
+    {{ range $key, $data := hugo.Data.plk }}
         {{ if eq $key $paramKey }}
             <h4>{{ $data.question }}</h4>
             {{ if eq $data.type "pie" }}

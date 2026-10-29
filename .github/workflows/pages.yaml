@@ -45,7 +45,7 @@ jobs:
       # - name: Install Dart Sass
       #   run: sudo snap install dart-sass
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           submodules: recursive
           fetch-depth: 0
@@ -55,13 +55,13 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb  
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       # Resized images (partials/image.html) are cached between runs, so only new or changed images
       # are processed. Without the cache a build takes a few minutes, with it a few seconds.
       - name: Restore image cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: resources/_gen
           key: hugo-images-${{ env.HUGO_VERSION }}-${{ hashFiles('static/images/**', 'hugo.yaml', 'layouts/partials/image.html') }}
@@ -78,7 +78,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
 
@@ -90,7 +90,7 @@ jobs:
     needs: build
     steps:
       - name: Download built site
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: github-pages
       - name: Unpack
@@ -111,4 +111,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

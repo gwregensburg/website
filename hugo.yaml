@@ -1,7 +1,7 @@
 # Hugo configuration file
 title: Gemeinschaftlich Wohnen Regensburg
 description: Gemeinsam sozialen, inklusiven, bezahlbaren und lebenswerten Wohnraum schaffen - für alle Menschen, ungeachtet ihrer Religion, ihrer Herkunft, ihrer Lebensform oder ihres Geschlechts. In radelbarer Entfernung zur Regensburger Altstadt, barrierefrei und klimaverträglich.
-languageCode: de-de
+locale: de-de
 theme: hextra
 enableRobotsTXT: true
 enableGitInfo: true
@@ -44,7 +44,7 @@ outputs:
 defaultContentLanguage: de
 languages:
   de:
-    languageName: Deutsch
+    label: Deutsch
     weight: 1
     title: Gemeinschaftlich Wohnen Regensburg
 
