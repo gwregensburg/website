@@ -86,7 +86,7 @@ content:
     exclude: [_index.md]
     filename: "{primary}.md"
     view:
-      fields: [title, date]
+      fields: [image, title, date]
       primary: title
       sort: [date, title]
       default:
