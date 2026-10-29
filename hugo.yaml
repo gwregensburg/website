@@ -144,9 +144,6 @@ params:
       # date | lastmod | publishDate | title | weight
       sortBy: date
       sortOrder: desc # or "asc"
-      
-data:
-  wohnprojekte_in_der_plk: "Wohnprojekte in der PLK.json"
 
 security:
   enableInlineShortcodes: true

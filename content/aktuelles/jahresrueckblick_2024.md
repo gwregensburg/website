@@ -40,7 +40,7 @@ Allen Anfang nimmt es im <span class="highlight">Februar</span> bei einem Treffe
   🌲
 </div>
 
-Bei diesem ersten Treffen steht schon ein Inserat aus einem der Immobilienportale im Raum - die [Wittelsbacher Str. 7](/mitmachen/grundstuecke/wittelsbacher_str_7). Unter dem Druck der drängende Abgabefrist Mitte <span class="highlight">März</span> stricken wir in einer *tour de force* ein [Konzept](docs/Demosios_Konzept_Wittelsbacherstr_Abgabe.pdf) und geben es gerade rechtzeitig noch ab. Eine erste Projektgruppe formiert sich unter dem Arbeitsnamen [Demosios](/demosios), mit dem Ziel eine Genossenschaft zu gründen.
+Bei diesem ersten Treffen steht schon ein Inserat aus einem der Immobilienportale im Raum - die [Wittelsbacher Str. 7](/mitmachen/grundstuecke/wittelsbacher_str_7). Unter dem Druck der drängende Abgabefrist Mitte <span class="highlight">März</span> stricken wir in einer *tour de force* ein [Konzept](/docs/Demosios_Konzept_Wittelsbacherstr_Abgabe.pdf) und geben es gerade rechtzeitig noch ab. Eine erste Projektgruppe formiert sich unter dem Arbeitsnamen [Demosios](/demosios), mit dem Ziel eine Genossenschaft zu gründen.
 
 <div style="text-align: center;">
   🌲
@@ -74,7 +74,7 @@ Im <span class="highlight">Mai</span> haben wir - zusammen mit den [Architects 4
   🌲
 </div>
 
-Im <span class="highlight">Juni</span> veranstalten wir den ersten Stammtisch in der [Prinz-Leopold-Kaserne](/mitmachen/grundstuecke/plk/), der einen lockeren Austausch Gleichgesinnter ermöglichen soll. Diese regelmäßige Sommerveranstaltung wurde für die folgenden Male aufgrund der besseren Erreichbarkeit in den Stadtpark verlegt. Weiterhin besuchen wir im Rahmen des Tags der offenen Wohnprojekte drei Genossenschaften in München und bekommen aus erster Hand Einblicke in vier Projekte. Unser [Bericht](/aktuelles/tag_der_offenen_wohnprojekte_2024/) darüber hat es sogar in den Newsletter der [mitbauzentrale München](https://www.mitbauzentrale-muenchen.de/startseite.html) geschafft! 🎉
+Im <span class="highlight">Juni</span> veranstalten wir den ersten Stammtisch in der [Prinz-Leopold-Kaserne](/plk/), der einen lockeren Austausch Gleichgesinnter ermöglichen soll. Diese regelmäßige Sommerveranstaltung wurde für die folgenden Male aufgrund der besseren Erreichbarkeit in den Stadtpark verlegt. Weiterhin besuchen wir im Rahmen des Tags der offenen Wohnprojekte drei Genossenschaften in München und bekommen aus erster Hand Einblicke in vier Projekte. Unser [Bericht](/aktuelles/tag_der_offenen_wohnprojekte_2024/) darüber hat es sogar in den Newsletter der [mitbauzentrale München](https://www.mitbauzentrale-muenchen.de/startseite.html) geschafft! 🎉
 
 <div style="text-align: center;">
   🌲
@@ -107,7 +107,7 @@ Neben der Wittelsbacher Str. 7 hat sich eine andere Projektmöglichkeit aufgetan
   🌲
 </div>
 
-Zusammen mit [den Architects 4 Future](/a4f), [bauwärts](https://bauwaerts.de/) und dem [Architekturkreis](https://www.architekturkreis.de/) organisieren wir im <span class="highlight">Oktober</span> die [2. Baukulturtage](/baukulturtage-2) im M26, eine mehrtägige Veranstaltung mit dem Schwerpunkt gemeinschaftliches Wohnen. Unter den hochkarätigen Sprecher:innen finden sich Prof. Boucsein von der TUM, Nathalie Schaller von der mitbauzentrale München, Michael Kroll von der Genossenschaft raumFair und Konstantin Bauch vom afa & Institut für Sozialplanung München. Seitens der Stadt Regensburg stellte Tanja Flemmig das [Neubaugebiet Keilberg](/mitmachen/grundstuecke/keilberg_hollerweg/) vor und Tobias Ruf berichtete über den Stand auf der [Prinz-Leopold-Kaserne](/mitmachen/grundstuecke/plk). Abgerundet wurde die Veranstaltung durch eine Podiumsdiskussion über Genossenschaften (Anette Fischer, W.I.R., Michael Kroll raumFair) und Baugenossenschaften (Leben im Aureliaweg, Burgweinting) sowie einen Film über das Projekt wagnis 4 in München. 
+Zusammen mit [den Architects 4 Future](/a4f), [bauwärts](https://bauwaerts.de/) und dem [Architekturkreis](https://www.architekturkreis.de/) organisieren wir im <span class="highlight">Oktober</span> die [2. Baukulturtage](/baukulturtage-2) im M26, eine mehrtägige Veranstaltung mit dem Schwerpunkt gemeinschaftliches Wohnen. Unter den hochkarätigen Sprecher:innen finden sich Prof. Boucsein von der TUM, Nathalie Schaller von der mitbauzentrale München, Michael Kroll von der Genossenschaft raumFair und Konstantin Bauch vom afa & Institut für Sozialplanung München. Seitens der Stadt Regensburg stellte Tanja Flemmig das [Neubaugebiet Keilberg](/mitmachen/grundstuecke/keilberg_hollerweg/) vor und Tobias Ruf berichtete über den Stand auf der [Prinz-Leopold-Kaserne](/plk/). Abgerundet wurde die Veranstaltung durch eine Podiumsdiskussion über Genossenschaften (Anette Fischer, W.I.R., Michael Kroll raumFair) und Baugenossenschaften (Leben im Aureliaweg, Burgweinting) sowie einen Film über das Projekt wagnis 4 in München. 
 
 ![](/images/baukulturtage_2.jpg)
 <figure>

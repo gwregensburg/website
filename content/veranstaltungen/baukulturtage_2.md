@@ -41,7 +41,7 @@ Der Fokus der Abendveranstaltungen vom **8. - 11. Oktober** liegt auf den **Koll
   <div>20:15</div>
   <div>Stand des Innovationsquartieres auf der ehemaligen Prinz-Leopold-Kaserne</div>
   <div></div>
-  <div>Tobias Ruf, Städtebauliche Entwicklungsprojekte Stadt Regensburg. <a href="/mitmachen/grundstuecke/plk/">⇾ Details</a></div>
+  <div>Tobias Ruf, Städtebauliche Entwicklungsprojekte Stadt Regensburg. <a href="/plk/">⇾ Details</a></div>
 
   <div>21:00</div>
   <div>Get together mit offenem Ende</div>
@@ -116,7 +116,7 @@ Das M26 befindet sich in der Maximilianstraße 26 in 93047 Regensburg.
 {{<media-object 
       title="8., 10. & 11. Oktober jeweils ab 16:30 Uhr"
 >}}
-Die Architects4Future, die Ortsgruppe des [Mietshäusersyndikat Regensburg](/mitmachen/vernetzen/mhs/) sowie wir als Interessensgemeinschaft von gemeinschaftlich-wohnen-regensburg.de informieren an diesen Tagen zu Möglichkeiten im gemeinschaftlichen Wohnen in Regensburg. Interessierte sind herzlich willkommen sich mit bestehenden Projektgruppen auszutauschen und zu vernetzen. 
+Die Architects4Future, die Ortsgruppe des [Mietshäusersyndikat Regensburg](/mhs/) sowie wir als Interessensgemeinschaft von gemeinschaftlich-wohnen-regensburg.de informieren an diesen Tagen zu Möglichkeiten im gemeinschaftlichen Wohnen in Regensburg. Interessierte sind herzlich willkommen sich mit bestehenden Projektgruppen auszutauschen und zu vernetzen. 
  {{< /media-object >}}
 
 

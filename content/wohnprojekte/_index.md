@@ -33,7 +33,7 @@ Auch in Regensburg [existieren schon](#wohnprojekte-in-regensburg) Wohnprojekte 
       title="Projektgruppe PLK" 
       subtitle="Vielfältig | Kinderfreundlich | Generationsübergreifend | Gemeinschaftlich |  Nachhaltig"
       image="/images/projektgruppe_plk_header.jpg"
-      link="/projektgruppe-plk"
+      link="/kastanienhof/"
       size="large"
     >}}
   Wir suchen Menschen, die **aktiv** ein genossenschaftliches Wohnprojekt im neuen Innovationsquartier im Stadtosten mitgestalten wollen.

@@ -17,7 +17,7 @@ Die Stadtbau wird auf dem Gelände in drei Bauabschnitten ca. 600 Wohnungen erri
   <figcaption>Die Gebäude der Stadtbau sind bereits geplant. Im Juli 2025 ist Baubeginn. © Maier Neuberger Baumanagement GmbH<sup><a href="https://www.mn-b.eu/projekte/wohnungsbau-regensburg-prinz-leopold-kaserne/" target="_blank">↗</a></sup>.</figcaption>
 </figure>
 
-Die [Projektgruppe PLK](/projektgruppe-plk) setzt zusammen mit der Stadtbau ein gemeinschaftliches Mietwohnprojekt um. 
+Die [Projektgruppe PLK](/kastanienhof/) setzt zusammen mit der Stadtbau ein gemeinschaftliches Mietwohnprojekt um. 
 
 ### Freie Bauabschnitte
 

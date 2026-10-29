@@ -9,7 +9,7 @@ authors:
 ---
 ![](/images/MU4.png)
 
-Auf unserem Netzwerktreffen am 13. Mai wurde uns von der Stadtbau das Angebot unterbreitet, einen Teil der Wohnunge des Bauabschnitts MU2 in eine Genossenschaft zu übernehmen. Alle Details sowie die Präsentation der Stadtbau finden sich [hier](/projektgruppe-plk/#gemeinschaftlich-wohnen-im-mu2-der-stadtbau).
+Auf unserem Netzwerktreffen am 13. Mai wurde uns von der Stadtbau das Angebot unterbreitet, einen Teil der Wohnunge des Bauabschnitts MU2 in eine Genossenschaft zu übernehmen. Alle Details sowie die Präsentation der Stadtbau finden sich [hier](/kastanienhof/).
 
 
 Die Zeit bis zur Vergabe im September 2025 ist knapp. Daher sollten sich diejenigen, die **ernsthaftes Interesse** haben, hier mitzuwirken und einzuziehen zu einer tatkräftigen Projektgruppe zusammenfinden. 

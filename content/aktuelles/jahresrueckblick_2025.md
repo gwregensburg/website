@@ -53,7 +53,7 @@ Im <span class="highlight">März</span> erarbeitete eine Gruppe von Interessiert
   🌲
 </div>
 
-Im <span class="highlight">Mai</span> wurde es dann noch konkreter: Auf unserem Netzwerktreffen bot uns die Stadtbau an, auf etwa 1600 Quadratmeter in einem Teil der Wohnunge des Bauabschnitts MU2 auf dem Gelände der ehemaligen Prinz-Leopold-Kaserne ein Wohnprojekt LINK zu gründen. Baubeginn ist Mitte 2026, Bezug ist geplant Mitte 2028. Im Anschluss an das Angebot haben wir als Verein eine [Umfrage](aktuelles/umfrage-plk/) gestartet, um das Interesse daran abzufragen. 60 Engagierte haben teilgenommen und es wurde eine [Projektgruppe](aktuelles/mu2/) gegründet, die derzeit im ständigen Austausch mit der Stadtbau an den Details arbeitet.
+Im <span class="highlight">Mai</span> wurde es dann noch konkreter: Auf unserem Netzwerktreffen bot uns die Stadtbau an, auf etwa 1600 Quadratmeter in einem Teil der Wohnunge des Bauabschnitts MU2 auf dem Gelände der ehemaligen Prinz-Leopold-Kaserne ein Wohnprojekt LINK zu gründen. Baubeginn ist Mitte 2026, Bezug ist geplant Mitte 2028. Im Anschluss an das Angebot haben wir als Verein eine [Umfrage](/aktuelles/umfrage-plk/) gestartet, um das Interesse daran abzufragen. 60 Engagierte haben teilgenommen und es wurde eine [Projektgruppe](/aktuelles/mu2/) gegründet, die derzeit im ständigen Austausch mit der Stadtbau an den Details arbeitet.
 
 ![](/images/Stadtbau_PLK_Rendering.jpg)
 <figure>

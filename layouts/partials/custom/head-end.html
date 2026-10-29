@@ -1,9 +1,15 @@
-
-    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
-    <!-- <script src="/js/survey-charts.js"></script> -->
-    <script src="/js/pie-chart.js"></script>
-    <script src="/js/bar-chart.js"></script>
-    <script src="/js/multiple-pie-chart.js"></script>
-    <script src="/js/single-axis-chart.js"></script>
-    <script src="/js/radar-chart.js"></script>
-    {{ with resources.Get "js/lightbox.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}
+{{- /* Survey charts: only on pages that use the survey-plk shortcode. echarts is self-hosted (pinned
+       version, no third-party request); the chart scripts draw on DOMContentLoaded, so defer is fine. */ -}}
+{{- if .HasShortcode "survey-plk" -}}
+  {{- with resources.Get "js/vendor/echarts-6.1.0.min.js" | fingerprint }}
+    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{- end }}
+  {{- $charts := slice -}}
+  {{- range slice "pie-chart" "bar-chart" "radar-chart" "single-axis-chart" -}}
+    {{- $charts = $charts | append (resources.Get (printf "js/charts/%s.js" .)) -}}
+  {{- end -}}
+  {{- with $charts | resources.Concat "js/charts.js" | minify | fingerprint }}
+    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{- end }}
+{{- end }}
+{{ with resources.Get "js/lightbox.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}

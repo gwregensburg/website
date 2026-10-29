@@ -37,8 +37,14 @@ GitHub Actions baut und veröffentlicht die Seite (`.github/workflows/pages.yaml
 - täglich um 3 Uhr (UTC) automatisch,
 - manuell über den Actions-Tab.
 
+Parallel prüft [lychee](https://lychee.cli.rs) alle internen Links, Bilder und Anker (`#...`) der gebauten Seite. Ein kaputter Link blockiert die Veröffentlichung nicht, aber der Lauf wird rot markiert und die Zusammenfassung des Jobs „links“ listet die betroffenen Seiten. Externe Links werden nicht geprüft.
+
+Interne Links am besten absolut setzen (`/plk/` statt `plk`), sonst brechen sie, wenn eine Seite verschoben wird.
+
 ## Umfrage PLK
 `make evaluate-plk-survey` wertet den Umfrage-Export aus und schreibt die aggregierten Ergebnisse nach `data/plk.yaml`. Der Export selbst (`data/Wohnprojekte in der PLK.json`) enthält Namen und E-Mail-Adressen und darf **nie** committet werden (`.gitignore`).
+
+Die Diagramme auf der Umfrage-Seite nutzen [Apache ECharts](https://echarts.apache.org), selbst gehostet in `assets/js/vendor/` und nur auf Seiten mit dem Shortcode `survey-plk` geladen.
 
 ## TODO (Content)
 - [Broschüre raumFAIR](https://raumfair.de/wp-content/uploads/2022/03/ZAM-Projekt_raumFAIR_a.pdf)

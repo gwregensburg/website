@@ -82,6 +82,25 @@ jobs:
         with:
           path: ./public
 
+  # Checks internal links and anchors (#...) of the built site; external links are skipped (--offline).
+  # Runs next to the deployment, not before it: a broken link shouldn't stop an editor's change from going
+  # live, but the run is marked as failed and the job summary lists the broken links.
+  links:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download built site
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+      - name: Unpack
+        run: mkdir public && tar -xf artifact.tar -C public
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          lycheeVersion: v0.24.2
+          args: --offline --root-dir ${{ github.workspace }}/public --index-files index.html --include-fragments --no-progress 'public/**/*.html'
+
   # Deployment job
   deploy:
     environment:
