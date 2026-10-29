@@ -575,6 +575,11 @@ p > [href^="http"]::before {
   padding: 0.2rem;
 }
 /* Lightbox for images (assets/js/lightbox.js, partials/image.html) */
+a.lightbox-link {
+  /* Not styled like the text links in .content (padding, yellow underline). */
+  padding: 0;
+  text-decoration: none;
+}
 a.lightbox-link img {
   cursor: zoom-in;
 }
@@ -606,4 +611,11 @@ dialog.lightbox img {
   color: white;
   font-size: 2.5rem;
   line-height: 1;
+}
+
+/* Images from partials/image.html carry width/height attributes (reserved space while loading). Where only
+   the height is limited, the width must follow the aspect ratio instead of the attribute.
+   :where() keeps the specificity at zero, so other rules (e.g. width: 100% on phones) still win. */
+:where(img[srcset][style*="max-height"], img[srcset].media-object-img) {
+  width: auto;
 }

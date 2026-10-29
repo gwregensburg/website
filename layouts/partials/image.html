@@ -51,6 +51,7 @@
     {{- end -}}
   {{- end -}}
   {{- $default := cond (gt $img.Width 800) ($img.Resize "800x webp") ($img.Process "webp") -}}
+  {{- /* width/height of the original: reserves space while loading and keeps the size the image had before. */ -}}
   {{- if $lightbox -}}
     {{- $large := $img -}}
     {{- with $ctx.large -}}
@@ -65,7 +66,7 @@
     {{- $large = $large.Fit "2400x2400 webp q85" -}}
     <a href="{{ $large.RelPermalink }}" class="lightbox-link" data-lightbox aria-label="Bild vergrößern">
   {{- end -}}
-  <img src="{{ $default.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ $sizes }}" width="{{ $default.Width }}" height="{{ $default.Height }}" alt="{{ $alt }}"
+  <img src="{{ $default.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ $sizes }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}"
     {{- with $ctx.title }} title="{{ . }}"{{ end }}
     {{- with $ctx.class }} class="{{ . }}"{{ end }}
     {{- with $ctx.style }} style="{{ . | safeCSS }}"{{ end }} loading="lazy" decoding="async">
