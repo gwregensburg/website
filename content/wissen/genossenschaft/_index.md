@@ -20,7 +20,7 @@ Genossenschaften existieren seit dem 19. Jahrhundert und haben immer einen **Fö
 - Bei der Projektfinanzierung einer Wohngenossenschaft haften die Mitglieder nur mit ihren Genossenschaftsanteilen. Sie unterliegen keiner persönlichen Haftung.
 - Wohngenossenschaften haben nachweislich einen guten Einfluss auf ihr Wohnquartier.
 
-Beispiele für genossenschaftliches Wohnen sind zum Beispiel die [W.I.R. eG](/wohnprojekte/beispiele/wir) in Regensburg oder die [Am Ostseeplatz eG](/wohnprojekte/beispiele/lynarstraße) in Berlin. 
+Beispiele für genossenschaftliches Wohnen sind zum Beispiel die [W.I.R. eG](/wohnprojekte/beispiele/wir) in Regensburg oder die [Am Ostseeplatz eG](/wohnprojekte/beispiele/lynarstrasse/) in Berlin. 
 
 Die Stadt Regensburg stellt zudem eine [Übersichtsseite über Wohnbaugenossenschaften](https://www.regensburg.de/leben/wohnen-u-bauen/wohnungssuche-in-regensburg) bereit.
 
