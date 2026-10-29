@@ -25,17 +25,7 @@ Ob die Initiativen mit einer sozialen und ökologischen Ausrichtung den Zuschlag
 
 ## Presse
 
-{{< press "2024-05-02-leerstehendes-ex-kloster-in-regensburger-bestlage" >}}
-
-{{< press "2024-01-16-endlich-bewegung-bei-regensburger-brache-fuer" >}}
-
-{{< press "2023-08-10-bistum-regensburg-sucht-weiter-nutzer-fuer" >}}
-
-{{< press "2023-08-09-leerstand-in-bester-lage-bistum-regensburg" >}}
-
-{{< press "2023-08-07-bester-wohnraum-mitten-in-regensburg-rottet" >}}
-
-{{< press "2022-08-02-wann-endet-der-dornroeschenschlaf-in-der" >}}
+{{< press topic="wittelsbacher" >}}
 
 [^1]: [Nachbarn in Regensburger Wohngebiet kämpfen um Grün: Baurecht sticht Baumschutz](https://www.mittelbayerische.de/lokales/stadt-regensburg/nachbarn-in-regensburger-wohngebiet-kaempfen-um-gruen-baurecht-sticht-baumschutz-15858906). Mittelbayerische. 16.04.2024
 [^2]: [Leerstand in bester Lage: Bistum Regensburg will jetzt Gas geben](https://www.mittelbayerische.de/lokales/stadt-regensburg/leerstand-in-bester-lage-bistum-regensburg-will-jetzt-gas-geben-14046839). Mittelbayerische. 09.98.2024

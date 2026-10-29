@@ -104,21 +104,7 @@ Die Genossenschaft **Werkvolk** aus Amberg bewirbt sich im Juni 2025 als erste G
 
 ## Presse
 
-{{< press "2025-06-10-werkvolk-plant-wohnungen-in-regensburg" >}}
-
-{{< press "2024-06-21-regensburger-kasernenareal-stadttochter-will-2025-bauen" >}}
-
-{{< press "2024-01-16-wasserstoff-foerderung-fuers-innovationsquartier-stadt-regensburg" >}}
-
-{{< press "2023-10-19-hunderte-bezahlbare-wohnungen-in-regensburg-in" >}}
-
-{{< press "2023-10-17-bebauung-in-regensburger-kasernenviertel-verzoegert-sich" >}}
-
-{{< press "2023-09-08-wie-regensburg-klimaneutrale-stadtviertel-schaffen-will" >}}
-
-{{< press "2023-06-07-regensburg-neues-innovationsquartier-setzt-auf-einzigartiges" >}}
-
-{{< press "2022-02-12-stadtosten-buerger-wollen-klartext" >}}
+{{< press topic="plk" >}}
 
 <div class="hx-mt-6">
   <span class="anchor-link" id="tva-rundgang"></span>
@@ -128,8 +114,3 @@ Die Genossenschaft **Werkvolk** aus Amberg bewirbt sich im Juni 2025 als erste G
   <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">TVA ┆ <a target="_blank" href="https://www.tvaktuell.com/cmms-embed/317109">Beitrag anschauen</a></p>
 </div>
 
-{{< press "2021-07-12-vorzeigeviertel-mit-vielen-unwaegbarkeiten" >}}
-
-{{< press "2021-06-07-regensburg-plant-energieautarkes-quartier" >}}
-
-{{< press "2021-03-05-viele-versprechen-fuer-prinz-leopold-kaserne" >}}

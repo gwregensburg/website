@@ -52,14 +52,5 @@ Auf den [2. Baukulturtage](/baukulturtage-2) im Oktober 2024 stellte die Amtslei
 
 ## Presse
 
-{{< press "2025-07-11-geldverschwendung-der-stadt-regensburg-am-hollerweg" >}}
+{{< press topic="keilberg" >}}
 
-{{< press "2025-07-09-biotop-statt-baugebiet-stadt-regensburg-pruefte" >}}
-
-{{< press "2025-07-03-skandal-am-regensburger-keilberg-bebauungsplan-auf" >}}
-
-{{< press "2023-06-21-neue-chancen-auf-grundstuecke-stadt-regensburg" >}}
-
-{{< press "2021-11-01-spd-setzt-in-keilberg-auf-erbpacht" >}}
-
-{{< press "2021-10-06-neue-chance-auf-staedtische-grundstuecke" >}}

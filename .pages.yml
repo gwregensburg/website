@@ -202,7 +202,7 @@ content:
       # Shown only when creating, so editors can pick a short ID. Renaming later would break pages using it.
       field: create
     view:
-      fields: [date, title, source]
+      fields: [date, title, source, topics]
       primary: title
       sort: [date, title, source]
       search: [title, source, author, teaser]
@@ -246,3 +246,17 @@ content:
         label: Teaser
         description: Kurzer Auszug aus dem Artikel.
         type: text
+      - name: topics
+        label: Erscheint auf
+        description: Der Artikel wird automatisch im Abschnitt „Presse“ dieser Seiten angezeigt (neueste zuerst).
+        type: select
+        options:
+          multiple: true
+          values:
+            # name = topic used on the page: {{< press topic="<name>" >}}
+            - { name: plk, label: Prinz-Leopold-Kaserne (PLK) }
+            - { name: kastanienhof, label: Kastanienhof (Projektgruppe 5) }
+            - { name: keilberg, label: Keilberg / Hollerweg }
+            - { name: wittelsbacher, label: Wittelsbacher Str. 7 }
+            - { name: a4f, label: Architects for Future (A4F) }
+            - { name: baukulturtage, label: 2. Baukulturtage }

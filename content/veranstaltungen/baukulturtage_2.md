@@ -143,9 +143,7 @@ Gefördert werden diese Projekte durch die Förderrichtlinie „Selbstbestimmt L
 
 ## Presse
 
-{{< press "2024-10-01-regensburger-baukulturtage-wohnen-jenseits-der-bautraegerfixierung" >}}
-
-{{< press "2024-09-26-wohnen-in-der-gemeinschaft-regensburger-architektin" >}}
+{{< press topic="baukulturtage" >}}
 
 ### Mi(e)tbauzentrale Regensburg vom 8.-11.Oktober 2024 im M26
 <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ August 2024 ┆ Kulturjournal ┆ Ulla Basqué</p>
@@ -171,7 +169,5 @@ Partizipative Gemeinschaftsprojekte beleben Stadtviertel durch die Gestaltung vo
 [^1]:[Gerechte Bodenpolitik und das Negativbeispiel Regensburg. Regensburg Digital.](https://www.regensburg-digital.de/gerechte-bodenpolitik-und-das-negativbeispiel-regensburg/09112018/)
 [^2]:[https://www.neue-heimat-regensburg.de/die-neue-heimat-in-regensburg-wohnugen-fuer-jedermann/](https://www.neue-heimat-regensburg.de/die-neue-heimat-in-regensburg-wohnugen-fuer-jedermann/)
 [^3]:[https://wegraz.at/shared-space-kollaborativem-wohnen-gehoert-die-zukunft/](https://wegraz.at/shared-space-kollaborativem-wohnen-gehoert-die-zukunft/)
-
-
 
 </div>

@@ -1,20 +1,26 @@
-{{/* Renders one press article from data/press/<id>.yaml: {{< press "<id>" >}}. Articles are edited in the CMS. */}}
-{{- $id := .Get 0 | default (.Get "id") -}}
-{{- with index site.Data.press $id -}}
-{{- $article := . -}}
-{{- $date := time .date -}}
-<div class="hx-mt-6">
-  <span class="anchor-link" id="{{ $id }}"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">{{ .title }}
-    <a href="#{{ $id }}" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ {{ if .month_only }}{{ $date | time.Format "January 2006" }}{{ else }}{{ $date | time.Format "02. January 2006" }}{{ end }} ┆ {{ .source }}
-    {{- with .author }} ┆ {{ . }}{{ end }}
-    {{- with .link }} ┆ <a target="_blank" href="{{ . }}">{{ $article.link_label | default "Artikel lesen" }}</a>{{ end }}
-    {{- if .paywall }} ┆ <span class="hx-inline-block hx-align-text-bottom icon" title="Bezahlschranke">{{ replaceRE "<svg" "<svg height=1em" (index site.Data.icons "currency-euro") | safeHTML }}</span>{{ end -}}
-  </p>
-  <p>{{ .teaser | safeHTML }}</p>
-</div>
+{{/*
+  Press articles from data/press/, edited in the CMS.
+    {{< press topic="plk" >}}  all articles with this topic, newest first
+    {{< press "<id>" >}}       a single article (id = file name without .yaml)
+*/}}
+{{- with .Get "topic" -}}
+  {{- $topic := . -}}
+  {{- $found := slice -}}
+  {{- range $id, $article := site.Data.press -}}
+    {{- if in ($article.topics | default slice) $topic -}}
+      {{- $found = $found | append (dict "id" $id "date" $article.date "article" $article) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range sort $found "date" "desc" -}}
+    {{ partial "press-article" . }}
+  {{- else -}}
+    {{- warnf "press: no articles with topic %q in %s" $topic $.Position -}}
+  {{- end -}}
 {{- else -}}
-{{- warnf "press: unknown article %q in %s" $id $.Position -}}
+  {{- $id := .Get 0 | default (.Get "id") -}}
+  {{- with index site.Data.press $id -}}
+    {{ partial "press-article" (dict "id" $id "article" .) }}
+  {{- else -}}
+    {{- warnf "press: unknown article %q in %s" $id $.Position -}}
+  {{- end -}}
 {{- end -}}

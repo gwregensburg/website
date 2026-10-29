@@ -28,12 +28,5 @@ Die zehn Forderungen samt Erklärung und Kontext finden sich [hier](https://www.
 
 ## Presse
 
-{{< press "2024-10-01-regensburger-baukulturtage-wohnen-jenseits-der-bautraegerfixierung" >}}
+{{< press topic="a4f" >}}
 
-{{< press "2024-09-26-wohnen-in-der-gemeinschaft-regensburger-architektin" >}}
-
-{{< press "2024-08-mietbauzentrale-regensburg-vom-8-11-oktober" >}}
-
-{{< press "2024-08-29-aeltere-paare-erproben-neue-wohnformen" >}}
-
-{{< press "2022-07-19-bauwende-jetzt-gefordert-auch-fuer-das" >}}
