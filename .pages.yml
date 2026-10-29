@@ -134,10 +134,18 @@ content:
 
   - name: books
     label: Bibliothek
-    type: file
-    path: data/books.yaml
+    type: collection
+    path: data/books
     format: yaml
-    list: true
+    filename: "{fields.title}.yaml"
+    view:
+      fields: [image, title, subtitle, author, tipp]
+      primary: title
+      sort: [weight, title]
+      search: [title, subtitle, author]
+      default:
+        sort: weight
+        order: asc
     fields:
       - name: title
         label: Titel
@@ -164,8 +172,20 @@ content:
         type: text
       - name: tipp
         label: Buchtipp
-        description: Wird als Tipp hervorgehoben.
-        type: boolean
+        description: Wird auf der Webseite als Tipp hervorgehoben.
+        # A select instead of a boolean, so the table shows ★ instead of "True".
+        type: select
+        options:
+          multiple: true
+          max: 1
+          placeholder: Kein Tipp
+          values:
+            - name: "★"
+              label: "★ Buchtipp"
+      - name: weight
+        label: Reihenfolge
+        description: Kleinere Zahl = weiter oben in der Bibliothek. Neue Bücher ohne Zahl stehen ganz unten.
+        type: number
       - name: tags
         label: Schlagwörter
         type: string

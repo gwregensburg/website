@@ -1,6 +1,10 @@
-{{ $books := .Site.Data.books }}
+{{/* One file per book in data/books/, edited in the CMS. "weight" sets the order (smaller = higher); books without one go last. */}}
+{{- $books := slice -}}
+{{- range .Site.Data.books -}}
+  {{- $books = $books | append (merge (dict "weight" 9999) .) -}}
+{{- end -}}
 
-{{ range $books }}
+{{ range sort $books "weight" }}
   <div class="hx-mt-6 hx-mb-6">
     {{ partial "book" . }}
   </div>
