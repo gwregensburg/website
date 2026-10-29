@@ -3,15 +3,15 @@
 {{- with .article -}}
 {{- $article := . -}}
 {{- $date := time .date -}}
-<div class="hx-mt-6">
+<div class="hx:mt-6">
   <span class="anchor-link" id="{{ $id }}"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">{{ .title }}
+  <h3 class="not-prose hx:text-xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400">{{ .title }}
     <a href="#{{ $id }}" class="subheading-anchor" aria-label="Permalink for this section"></a>
   </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ {{ if .month_only }}{{ $date | time.Format "January 2006" }}{{ else }}{{ $date | time.Format "02. January 2006" }}{{ end }} ┆ {{ .source }}
+  <p class="hx:mt-22 hx:mb-2 hx:text-gray-600">⏱️ {{ if .month_only }}{{ $date | time.Format "January 2006" }}{{ else }}{{ $date | time.Format "02. January 2006" }}{{ end }} ┆ {{ .source }}
     {{- with .author }} ┆ {{ . }}{{ end }}
     {{- with .link }} ┆ <a target="_blank" href="{{ . }}">{{ $article.link_label | default "Artikel lesen" }}</a>{{ end }}
-    {{- if .paywall }} ┆ <span class="hx-inline-block hx-align-text-bottom icon" title="Bezahlschranke">{{ replaceRE "<svg" "<svg height=1em" (index hugo.Data.icons "currency-euro") | safeHTML }}</span>{{ end -}}
+    {{- if .paywall }} ┆ <span class="hx:inline-block hx:align-text-bottom icon" title="Bezahlschranke">{{ replaceRE "<svg" "<svg height=1em" (index hugo.Data.icons "currency-euro") | safeHTML }}</span>{{ end -}}
   </p>
   <p>{{ .teaser | safeHTML }}</p>
 </div>

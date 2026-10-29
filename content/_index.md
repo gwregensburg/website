@@ -2,26 +2,26 @@
 layout: hextra-home
 ---
 
-<div class=" hx-mb-2">
+<div class=" hx:mb-2">
 {{< hextra/hero-headline >}}
   Gemeinschaftlich Wohnen Regensburg e.V.
 {{< /hextra/hero-headline >}}
 </div>
 
 
-<!-- <div class="hx-mb-6">
+<!-- <div class="hx:mb-6">
 {{< hextra/hero-subtitle >}}
   Das nächste Netzwerktreffen findet im Rahmen der <b>Baukulturtage</b> am <b>12. November 2025</b> um <b>19 Uhr</b> im <b>M26</b> statt! Hier das <a href="/docs/Klappflyer_Baukulturtage.pdf">Programm</a>.
 {{< /hextra/hero-subtitle >}}
 </div> -->
 
-<!-- <div class="hx-mb-6">
+<!-- <div class="hx:mb-6">
 {{< hextra/hero-subtitle >}}
   Wir bringen Menschen zusammen, die sich in Regensburg für das gemeinschaftliche Wohnen interessieren. Triff uns am <span style="color:#B92926">Bürgerfest</span> (Keplerstraße / Ecke Metgerbergasse) vom <b>20. - 22. Juni jeweils von 13 bis 20 Uhr.</b>
 {{< /hextra/hero-subtitle >}}
 </div> -->
 
-<!-- <div class="hx-mb-6 inline-wrap">
+<!-- <div class="hx:mb-6 inline-wrap">
 {{< icon-button image="/images/mail.png" text="Demosios per Mail kontaktieren" link="mailto:info@gemeinschaftlich-wohnen-regensburg.de" >}}
 
 {{< icon-button image="/images/instagram_icon.png" text="Demosios über Instagram kontaktieren" link="https://www.instagram.com/gemeinschaftlich_wohnen_rgb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >}}
@@ -46,8 +46,8 @@ layout: hextra-home
 
 
 <!--  PLK  -->
-<div class="hx-mt-4 hx-mb-2">
-  <h2 class="not-prose hx-text-2xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-2xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400 hx-mt-6"> <a href="/kastanienhof">Kastanienhof: Neues Wohnprojekt auf dem Geländer der ehemaligen PLK</a></h2>
+<div class="hx:mt-4 hx:mb-2">
+  <h2 class="not-prose hx:text-2xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-2xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400 hx:mt-6"> <a href="/kastanienhof">Kastanienhof: Neues Wohnprojekt auf dem Geländer der ehemaligen PLK</a></h2>
   <div class="horizontal-bar"></div>
 
   {{<media-object 
@@ -67,8 +67,8 @@ layout: hextra-home
 </div>
 
 <!--  Inspiration - bestehende gemeinschaftliche Wohnprojekte  -->
-<div class="hx-mt-4 hx-mb-4">
-<h2 class="not-prose hx-text-2xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-2xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400 hx-mt-6"> <a href="/wohnprojekte/beispiele">Inspiration - bestehende gemeinschaftliche Wohnprojekte</a></h2>
+<div class="hx:mt-4 hx:mb-4">
+<h2 class="not-prose hx:text-2xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-2xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400 hx:mt-6"> <a href="/wohnprojekte/beispiele">Inspiration - bestehende gemeinschaftliche Wohnprojekte</a></h2>
 <div class="horizontal-bar"></div>
 <br>
 Hier findest du bestehende Wohnprojekte zur Inspiration. Diese Projekte sind nicht aus unserem Verein entstanden und haben sind hier nur als Beispiele aufgeführt.
@@ -99,13 +99,13 @@ Hier findest du bestehende Wohnprojekte zur Inspiration. Diese Projekte sind nic
 
 
 <!--  Verein  -->
-<div class="hx-mt-4 hx-mb-4">
-  <h2 class="not-prose hx-text-2xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-2xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400 hx-mt-6"> <a href="/verein">Verein</a></h2>
+<div class="hx:mt-4 hx:mb-4">
+  <h2 class="not-prose hx:text-2xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-2xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400 hx:mt-6"> <a href="/verein">Verein</a></h2>
   <div class="horizontal-bar"></div>
   <br>
   Wir bringen Menschen in Regensburg zusammen, die sich für gemeinschaftliches Wohnen interessieren. Uns vereint der Wunsch einen <b>nachhaltigen Beitrag zur Stadtentwicklung</b> und zur <b>Schaffung gerechten und bezahlbaren Wohnraums</b> zu leisten. Dazu betreiben wir diese Informationsplattform, richten Veranstaltungen aus und treffen uns jeden zweiten Dienstag im Monat zu unserem offenen Stammtisch und Netzwerktreffen im Raum für Engagement (D.-Martin-Luther-Straße 19). Du möchtest das <b>unterstützen</b>? Dann werde Mitglied 💙
 
-  <div class="hx-mt-12 hx-text-center hx-mx-auto">
+  <div class="hx:mt-12 hx:text-center hx:mx-auto">
   {{< hextra/hero-button text="Mitglied werden" link="/mitglied-werden" >}}
   </div>
 </div>
@@ -113,8 +113,8 @@ Hier findest du bestehende Wohnprojekte zur Inspiration. Diese Projekte sind nic
 
 <!--  AKTUELLES  -->
 
-<div class="hx-mb-6">
-  <h2 class="not-prose hx-text-2xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-2xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400 hx-mt-12">
+<div class="hx:mb-6">
+  <h2 class="not-prose hx:text-2xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-2xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400 hx:mt-12">
     <a href="/aktuelles">Aktuelles</a>
   </h2>
   <div class="horizontal-bar"></div>
@@ -126,9 +126,9 @@ Hier findest du bestehende Wohnprojekte zur Inspiration. Diese Projekte sind nic
 
 <!--  VERANSTALTUNGEN  -->
 
-<div class="hx-mt-4 hx-mb-4">
+<div class="hx:mt-4 hx:mb-4">
 
-  <h2 class="not-prose hx-text-2xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-2xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400 hx-mt-6"> <a href="/veranstaltungen">Veranstaltungen</a></h2>
+  <h2 class="not-prose hx:text-2xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-2xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400 hx:mt-6"> <a href="/veranstaltungen">Veranstaltungen</a></h2>
   <div class="horizontal-bar"></div>
 
   {{< events topN="5">}}
@@ -140,13 +140,13 @@ Hier findest du bestehende Wohnprojekte zur Inspiration. Diese Projekte sind nic
 
 <!--  GRUNDSTÜCKE  -->
 
-<div class="hx-mb-6">
-  <h2 class="not-prose hx-text-2xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-2xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400 hx-mt-12">
+<div class="hx:mb-6">
+  <h2 class="not-prose hx:text-2xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-2xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400 hx:mt-12">
     <a href="/liegenschaften">Grundstücke</a>
   </h2>
   <div class="horizontal-bar"></div>
   
-  <div class="hx-mt-4 hx-mb-6">
+  <div class="hx:mt-4 hx:mb-6">
   {{< hextra/feature-grid cols="2" gap="8">}}
     {{<media-object 
       title="Keilberg-Hollerweg" 
@@ -179,11 +179,11 @@ Hier findest du bestehende Wohnprojekte zur Inspiration. Diese Projekte sind nic
 
 <!--  PROJEKTGRUPPEN  -->
 
-<div class="hx-mt-4 hx-mb-4">
-  <h2 class="not-prose hx-text-2xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-2xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400"><a href="/mitmachen/vernetzen/projektgruppen">Projektgruppen</a></h2>
+<div class="hx:mt-4 hx:mb-4">
+  <h2 class="not-prose hx:text-2xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-2xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400"><a href="/mitmachen/vernetzen/projektgruppen">Projektgruppen</a></h2>
   <div class="horizontal-bar"></div>
 
-  <div class="hx-mt-4">
+  <div class="hx:mt-4">
   {{< hextra/feature-grid cols="2" gap="8">}}
     {{<media-object 
       title="LeWo: Leben und Wohnen" 
@@ -218,7 +218,7 @@ Hier findest du bestehende Wohnprojekte zur Inspiration. Diese Projekte sind nic
 <div class="horizontal-bar"></div>
 <div class="horizontal-bar" style="margin-top: 0.1em"></div>
 
-<div class="hx-mt-12 hx-mb-12">
+<div class="hx:mt-12 hx:mb-12">
     {{< newsletter-brevo >}}
 </div>
 

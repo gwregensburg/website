@@ -10,7 +10,7 @@ description: Für einen nachhaltigen Wandel in der Baubranche. Ortsgruppe Regens
 ## Kontakt
 Die Ortsgruppe Regensburg ist in einer Telegram-Gruppe organisiert, die jeder und jedem offen steht. Zudem führt sie einen Instagram-Account.
 
-<div class="hx-mb-6 hx-mt-6 inline-wrap">
+<div class="hx:mb-6 hx:mt-6 inline-wrap">
 {{< icon-button image="/images/telegram-logo.png" text="A4F bei Telegram beitreten" link="https://t.me/+n3k6zYSMOAFlNzhi" >}}
 
 {{< icon-button image="/images/instagram_icon.png" text="A4F bei Instagram" link="https://instagram.com/architects4future_rgb" >}}

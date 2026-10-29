@@ -126,7 +126,7 @@ Der <span class="highlight">November</span> bringt Regensburg die [1. Wohnbaukon
 
 Am 2. <span class="highlight">Dezember</span> schließlich finden sich 14 Gründungsmitglieder bei unserem Netzwerktreffen im M26 ein, um den Verein Gemeinschaftlich Wohnen Regensburg zu gründen und unser Anliegen zu stärken und ein offizielles Gewandt zu geben. 
 
-<div class="hx-mt-6 hx-mb-6 hx-text-center hx-mx-auto">
+<div class="hx:mt-6 hx:mb-6 hx:text-center hx:mx-auto">
 {{< hextra/hero-button text="Mitglied werden" link="/mitglied-werden" >}}
 </div>
 

@@ -41,7 +41,7 @@ Am Dörnbergpark angrenzend liegt ein ehemaliges Kloster der Schwestern der kath
 
 ## Weitere Informationen
 
-<div class="hx-mt-8">
+<div class="hx:mt-8">
 {{< cards >}}
   {{< card
     link="https://rechtaufstadt-regensburg.de/leerstandsmelder/"

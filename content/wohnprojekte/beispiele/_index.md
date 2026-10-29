@@ -9,7 +9,7 @@ weight: 3
 
 Auf dieser Seite findest Du Kurzporträts von bereits umgesetzten Projekten. 
 
-<div class="hx-mb-12">
+<div class="hx:mb-12">
 {{< cards >}}
 {{< card 
     link="/wohnprojekte/beispiele/stadtnatur" 
@@ -35,7 +35,7 @@ Auf dieser Seite findest Du Kurzporträts von bereits umgesetzten Projekten.
 {{< /cards >}}
 </div>
 
-<div class="hx-mt-6 hx-mb-6">
+<div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-subtitle >}}
   Noch mehr umsetzte Projekte findest Du auf diesen Seiten 👇
 {{< /hextra/hero-subtitle >}}

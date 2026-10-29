@@ -10,12 +10,12 @@
 {{- $px := index (dict "small" 160 "large" 320 "xlarge" 480 "xxlarge" 640) $size | default 320 -}}
 
 <div class="media-object-bg">
-  <h2 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">{{ $title }}</h2>
+  <h2 class="not-prose hx:text-xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400">{{ $title }}</h2>
   {{ if $image }}
   {{ partial "image.html" (dict "src" $image "alt" "Image" "class" $css "sizes" (printf "%dpx" $px) "widths" (slice $px (mul $px 2))) }}
   {{ end }}
   <div>
-    <p class="hx-text-gray-600" style="inline-size: 100%; margin: 0rem; margin-bottom: 0.1rem">{{ $subtitle }}</p>
+    <p class="hx:text-gray-600" style="inline-size: 100%; margin: 0rem; margin-bottom: 0.1rem">{{ $subtitle }}</p>
     <p>
       {{ .InnerDeindent | markdownify }}
     </p>

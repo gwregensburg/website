@@ -146,7 +146,7 @@ Gefördert werden diese Projekte durch die Förderrichtlinie „Selbstbestimmt L
 {{< press topic="baukulturtage" >}}
 
 ### Mi(e)tbauzentrale Regensburg vom 8.-11.Oktober 2024 im M26
-<p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ August 2024 ┆ Kulturjournal ┆ Ulla Basqué</p>
+<p class="hx:mt-22 hx:mb-2 hx:text-gray-600">⏱️ August 2024 ┆ Kulturjournal ┆ Ulla Basqué</p>
 
 Auch in Regensburg fehlt bezahlbarer Wohnraum für eine wachsende Unter- und Mittelschicht, die sich Wohneigentum oder sogar die Miete in der Stadt nicht mehr leisten kann. Dies trifft besonders junge Familien und aufgrund des demografischen Wandels die wachsende Zahl älterer Paare oder alleinlebender Menschen.
 

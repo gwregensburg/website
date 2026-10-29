@@ -9,7 +9,7 @@
 {{- $titleSlug := printf "%s" ($title | lower | replaceRE "\\s+" "-" | replaceRE "[^\\w\\s-]+" "") -}}
 {{- $tipp := .Get "tipp" -}}
 
-  <div class="hx-mt-6 hx-mb-6">
+  <div class="hx:mt-6 hx:mb-6">
 
     <div class="book__object">
         {{- if $tipp -}}
@@ -17,14 +17,14 @@
         {{- end -}}   
         {{ partial "image.html" (dict "src" $image "alt" $title "style" "border-radius: 0.5rem; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);" "sizes" "(min-width: 768px) 250px, 100vw" "widths" (slice 250 500 800)) }}
         <span class="anchor-link" id="{{ $titleSlug }}"></span>
-        <h3 class="hx-block hx-font-semibold hx-text-2xl hx-leading-none hx-tracking-tighter">
+        <h3 class="hx:block hx:font-semibold hx:text-2xl hx:leading-none hx:tracking-tighter">
             {{ $title }}
             <a href="#{{ $titleSlug }}" class="subheading-anchor" aria-label="Permalink for this section"></a>
         </h3>
         {{- if $subtitle -}}
-            <p class="hx-text-gray-600">{{ $subtitle }}</p>
+            <p class="hx:text-gray-600">{{ $subtitle }}</p>
         {{- end -}}
-        <p class="hx-text-gray-600">{{ $author }} {{- if $published -}} | {{ $published }} {{- end -}} </p>
+        <p class="hx:text-gray-600">{{ $author }} {{- if $published -}} | {{ $published }} {{- end -}} </p>
         <p>
             {{ $description | markdownify }}
         </p>

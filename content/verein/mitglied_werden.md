@@ -15,12 +15,12 @@ Mitglied werden ist einfach! Schickt uns eine Mail mit folgenden Daten:
   Klicke auf den folgenden Link, um direkt eine vorformulierte Mail zu erstellen 👇
 {{< /callout >}}
 
-<div class="hx-mt-6 hx-mb-6">
+<div class="hx:mt-6 hx:mb-6">
   {{< feature-card 
     link="mailto:info@gemeinschaftlich-wohnen-regensburg.de?subject=Mitglied%20werden&body=Hallo%20Gemeinschaftlich%20Wohnen%20Regensburg%2C%0A%0AIch%20m%C3%B6chte%20gerne%20Mitglied%20werden.%20Hier%20sind%20meine%20Daten%3A%0A%0AVorname%20und%20Name%3A%0AHandy-%20oder%20Telefonnummer%3A%0AE-Mailadresse%3A%0A%0AMit%20freundlichen%20Gr%C3%BC%C3%9Fen%2C%0A%5BDein%20Name%5D" 
     title="info@gemeinschaftlich-wohnen-regensburg.de" 
     icon="mail"
-    imageClass="hx-top-[40%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
+    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
 </div>

@@ -28,7 +28,7 @@ Auch in Regensburg [existieren schon](#wohnprojekte-in-regensburg) Wohnprojekte 
 
 <span style="background-color: #ABD694; padding: 0.2em; color: #E7332A; -webkit-box-decoration-break: clone; box-decoration-break: clone;">Hast du Interesse, im Innovationsquartier PLK ein genossenschaftliches Projekt aktiv mitzugestalten? Vernetze dich mit unserer Projektgruppe!</span>
 
-<div class="hx-mt-6 hx-mb-6">
+<div class="hx:mt-6 hx:mb-6">
 {{<media-object 
       title="Projektgruppe PLK" 
       subtitle="Vielfältig | Kinderfreundlich | Generationsübergreifend | Gemeinschaftlich |  Nachhaltig"
@@ -93,7 +93,7 @@ In dieser Phase hat die Gruppe ihren höchsten Aufwand hinter sich, das ist nun 
 
 {{% /steps %}}
 
-<div class="hx-mb-6">
+<div class="hx:mb-6">
 {{< hextra/hero-subtitle >}}
   💡 Übrigens: so etwas kann überraschend schnell gehen. Nicht selten sind es von der ersten Idee bis zum Einzug nur drei Jahre.
 {{< /hextra/hero-subtitle >}}

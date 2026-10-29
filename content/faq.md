@@ -170,7 +170,7 @@ siehe auch:
 
 ## Weitere FAQ
 
-<div class="hx-mt-6 hx-mb-6">
+<div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-subtitle >}}
   Und hier gibt es weitere FAQ, die andere Projekte und Netzwerke zusammengetragen haben 👇
 {{< /hextra/hero-subtitle >}}

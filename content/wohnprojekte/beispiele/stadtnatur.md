@@ -33,7 +33,7 @@ Sonstiges | <ul><li>Passivhaus mit Photovoltaikanlage</li><li>Zielsetzung: ökol
 
 Heidi Rauch, die selbst in diesem Wohnprojekt wohnt, hat darüber und über weitere Projekte ein Buch geschrieben:
 
-<div class="hx-mt-6 hx-mb-6">
+<div class="hx:mt-6 hx:mb-6">
 {{<media-object
   title="Mut zum Miteinander! Gemeinsam bauen, wohnen und leben" 
   subtitle="Heidi Rauch und Dr. Wolfgang Eckart" 

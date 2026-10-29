@@ -39,7 +39,7 @@ Hier findest du  {{< icon "user-group" >}}  [Kurzporträts](projektgruppen) von 
   {{< card link="https://www.architects4future.de/" title="Architects 4 Future" icon="external-link">}}
 {{< /cards >}}
   
-<div class="hx-mt-6 hx-mb-6">
+<div class="hx:mt-6 hx:mb-6">
 {{< callout type="info" >}}
   Diese Seite ist in Entstehung. 
 

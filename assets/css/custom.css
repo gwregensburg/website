@@ -28,7 +28,7 @@ body {
   font-size: 1.2em;
 }
 
-.hx-line-clamp-3 {
+.hx\:line-clamp-3 {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -110,11 +110,11 @@ input {
   margin: 0.5rem;
 }
 
-.hx-gap-8 {
+.hx\:gap-8 {
   gap: 2rem;
 }
 
-.hx-gap-16 {
+.hx\:gap-16 {
   gap: 4rem;
 }
 
@@ -143,7 +143,7 @@ p > [href^="http"]::before {
   margin-right: 0.3em;
 }
 
-[href^="mailto"]:not(.not-prose):not(.hx-text-current)::before {
+[href^="mailto"]:not(.not-prose):not(.hx\:text-current)::before {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"  width="0.9em" height="0.9em" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>');
   vertical-align: middle;
   margin-right: 0.3em;
@@ -194,7 +194,7 @@ p > [href^="http"]::before {
   float: left;
   height: 3.5em;
   width: 3.5em;
-  background-color: hsl(var(--primary-hue) var(--primary-saturation) 94% / var(--tw-bg-opacity));
+  background-color: hsl(var(--primary-hue) var(--primary-saturation) 94%);
   border-radius: 50%;
   align-items: stretch;
   margin-right: 1rem;
@@ -229,7 +229,7 @@ p > [href^="http"]::before {
   grid-auto-rows: 1fr;
   float: left;
   margin-right: 1rem;
-  background-color: hsl(var(--primary-hue) var(--primary-saturation) 94% / var(--tw-bg-opacity));
+  background-color: hsl(var(--primary-hue) var(--primary-saturation) 94%);
   border-radius: 5%;
   align-items: stretch;
 }
@@ -452,7 +452,7 @@ p > [href^="http"]::before {
     background-color: white;
   }
 
-  .hx-text-xl{
+  .hx\:text-xl{
     margin-top: -1rem;
     font-weight: normal;
     color: #7a5b4d;
@@ -618,4 +618,23 @@ dialog.lightbox img {
    :where() keeps the specificity at zero, so other rules (e.g. width: 100% on phones) still win. */
 :where(img[srcset][style*="max-height"], img[srcset].media-object-img) {
   width: auto;
+}
+
+/* Tailwind utilities our templates use that Hextra v0.13's compiled CSS doesn't contain
+   (definitions taken from Hextra v0.9.7, which included them). */
+.hx\:active\:shadow-xs:active {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+.hx\:focus\:outline-hidden:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.hx\:focus\:ring-primary-300:focus {
+  --gwr-ring-color: hsl(var(--primary-hue) var(--primary-saturation) calc(var(--primary-lightness) + calc(calc(100% - var(--primary-lightness)) / 50) * 27));
+}
+html.dark .hx\:dark\:focus\:ring-primary-800:focus {
+  --gwr-ring-color: hsl(var(--primary-hue) var(--primary-saturation) calc(calc(var(--primary-lightness) / 50) * 32));
+}
+.hx\:focus\:ring-4:focus {
+  box-shadow: 0 0 0 4px var(--gwr-ring-color, currentColor);
 }

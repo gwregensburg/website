@@ -28,7 +28,7 @@
 {{- end -}}
 
 <a
-  class="hx-group hx-flex hx-flex-col hx-justify-start hx-overflow-hidden hx-rounded-lg hx-text-current hx-no-underline dark:hx-shadow-none hover:hx-shadow-gray-100 dark:hover:hx-shadow-none hx-shadow-gray-100 active:hx-shadow-sm active:hx-shadow-gray-200 hx-transition-all hx-duration-200 {{ $linkClass }}"
+  class="hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-xs hx:active:shadow-gray-200 hx:transition-all hx:duration-200 {{ $linkClass }}"
   {{- if $link -}}
     href="{{ $href }}"
     {{ with $external }}target="_blank" rel="noreferrer"{{ end -}}
@@ -44,17 +44,17 @@
     />
   {{- end -}}
 
-  {{- $padding := "hx-p-4" -}}
+  {{- $padding := "hx:p-4" -}}
   {{- with $subtitle -}}
-    {{- $padding = "hx-pt-4 hx-px-4" -}}
+    {{- $padding = "hx:pt-4 hx:px-4" -}}
   {{- end -}}
 
 
-  <span class="hx-font-semibold hx-items-start {{ $padding }} hx-text-gray-700 hover:hx-text-gray-900 dark:hx-text-neutral-200 dark:hover:hx-text-neutral-50">
+  <span class="hx:font-semibold hx:items-start {{ $padding }} hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50">
     {{- $title -}}
   </span>
   {{- with $subtitle -}}
-    <div class="hextra-card-subtitle hx-line-clamp-3 hx-text-sm hx-font-normal hx-text-gray-500 dark:hx-text-gray-400 hx-px-4 hx-mb-4 hx-mt-2">{{- $subtitle | markdownify -}}</div>
+    <div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2">{{- $subtitle | markdownify -}}</div>
   {{- end -}}
 </a>
 {{- /* Strip trailing newline. */ -}}

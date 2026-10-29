@@ -15,7 +15,7 @@ Karlsbader Str. 5
 0175 747 62 93  
 info@gemeinschaftlich-wohnen-regensburg.de
 
-<div class="hx-mt-12 hx-mb-12"></div>
+<div class="hx:mt-12 hx:mb-12"></div>
 
 Diese Webseite verwendet keine Cookies. Mit Ausnahme der IP-Adresse, die von unserem Hoster (Microsoft/Github) gespeichert wird, erheben und speichern wir keine personenbezogenen Daten. Weitere Informationen dazu finden sich in dem [Privacy-Statement von Github](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 

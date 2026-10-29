@@ -10,7 +10,7 @@ Vereinsmitglieder haben kostenlosen Zugriff auf unsere [Bibliothek des gemeinsam
 
 Unser [Flyer](/docs/GWR_Flyer_Web.pdf) bietet einen kleinen Einblick in unsere Vereinsarbeit und die Möglichkeiten des gemeinschaftlichen Wohnens in Regensburg.
 
-<div class="hx-mt-12 hx-mb-12 hx-text-center hx-mx-auto">
+<div class="hx:mt-12 hx:mb-12 hx:text-center hx:mx-auto">
 {{< hextra/hero-button text="Mitglied werden!" link="/mitglied-werden" >}}
 </div>
 

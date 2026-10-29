@@ -8,7 +8,7 @@ next: vernetzen
 toc: false
 ---
 
-<div class="hx-mt-6 hx-mb-12">
+<div class="hx:mt-6 hx:mb-12">
 {{< hextra/hero-subtitle >}}
 👋 Hi! Wir haben das gleiche Ziel 🎯
 {{< /hextra/hero-subtitle >}}

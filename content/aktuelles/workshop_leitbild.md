@@ -53,7 +53,7 @@ Du findest unsere Arbeit gut? Dann **unterstütze uns**, indem du [unserem gemei
 
 Du hast Interesse, Teil eines konkreten Wohnprojekts zu werden? Auf der [**PLK**](/plk) im Stadtosten könnte dieser Wunsch bald Realität werden! Fülle die Umfrage aus und vernetze die mit Menschen, die daran ebenfalls interessiert sind!
 
-<div class="hx-mt-2 hx-mb-2" style="text-align: center; margin: 0 auto;">
+<div class="hx:mt-2 hx:mb-2" style="text-align: center; margin: 0 auto;">
   {{< hextra/hero-button text="An Umfrage teilnehmen" link="https://cryptpad.gemeinschaftlich-wohnen-regensburg.de/form/#/2/form/view/qmc0oQg8dZzsTzjSdVVH1frMyqfGqrXmB2vDCpiR--0/embed/" >}}
 </div>
 

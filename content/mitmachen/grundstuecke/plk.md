@@ -84,7 +84,7 @@ Die Genossenschaft **Werkvolk** aus Amberg bewirbt sich im Juni 2025 als erste G
 
 [Energiekonzept](https://www.regensburg.de/rathaus/aemteruebersicht/planungs-u-baureferat/amt-fuer-stadtentwicklung/entwicklungsplanung/aufgaben-und-projekte/energie/energiekonzept-plk)
 
-<div class="hx-mt-8">
+<div class="hx:mt-8">
 {{< cards >}}
   {{< card
     link="https://www.regensburg.de/prinz-leopold-kaserne/mediathek"
@@ -106,11 +106,11 @@ Die Genossenschaft **Werkvolk** aus Amberg bewirbt sich im Juni 2025 als erste G
 
 {{< press topic="plk" >}}
 
-<div class="hx-mt-6">
+<div class="hx:mt-6">
   <span class="anchor-link" id="tva-rundgang"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Regensburg: Rundgang in der Prinz-Leopold-Kaserne
+  <h3 class="not-prose hx:text-xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400">Regensburg: Rundgang in der Prinz-Leopold-Kaserne
     <a href="#tva-rundgang" class="subheading-anchor" aria-label="Permalink for this section"></a>
   </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">TVA ┆ <a target="_blank" href="https://www.tvaktuell.com/cmms-embed/317109">Beitrag anschauen</a></p>
+  <p class="hx:mt-22 hx:mb-2 hx:text-gray-600">TVA ┆ <a target="_blank" href="https://www.tvaktuell.com/cmms-embed/317109">Beitrag anschauen</a></p>
 </div>
 

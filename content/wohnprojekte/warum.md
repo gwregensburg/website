@@ -16,7 +16,7 @@ Wohnfläche im Stadtbereich ist **teuer** und **knapp.** Hier kann gemeinschaftl
 - Platz statt Autos! Gemeinschaftlich kann man ein **Mobilitätskonzept** umsetzen und die Stellplatzvorgaben erheblich reduzieren. Garten statt Parkplätze.
 
 
-<div class="hx-mt-6 hx-mb-6">
+<div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-subtitle >}}
 Kurz gesagt: in Gemeinschaft schafft man mehr!
 {{< /hextra/hero-subtitle >}}

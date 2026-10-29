@@ -1,4 +1,8 @@
 ---
+# Use the theme's blog layouts (single posts unchanged from the theme, list in layouts/blog/list.html)
+type: blog
+cascade:
+  type: blog
 title: "Aktuelles"
 description: Aktuelle Meldungen und Veranstaltungen zum gemeinschaftlichen Wohnen und Wohnprojekten in und um Regensburg.
 ---

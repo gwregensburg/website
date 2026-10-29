@@ -1,5 +1,5 @@
-{{ $defaultClass := "hx-mt-6" }}
-{{ $internalClass := "hx-mt-6 hx-border-blue-200 highlight-event" }}
+{{ $defaultClass := "hx:mt-6" }}
+{{ $internalClass := "hx:mt-6 hx:border-blue-200 highlight-event" }}
 {{ $class := $defaultClass }}
 
 {{ if .internal }}
@@ -11,31 +11,31 @@
 
 <div class="{{ $class }}">
   <span class="anchor-link" id="{{ $titleSlug }}"></span>
-  <h2 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">
+  <h2 class="not-prose hx:text-xl hx:font-bold hx:leading-none hx:tracking-tighter hx:md:text-xl hx:py-2 hx:bg-clip-text hx:text-transparent hx:bg-gradient-to-r hx:from-gray-900 hx:to-gray-600 hx:dark:from-gray-100 hx:dark:to-gray-400">
     {{ .title }}
     <a href="#{{ $titleSlug }}" class="subheading-anchor" aria-label="Permalink for this section"></a>
   </h2>
-  <div class="dot hx-text-xl hx-font-bold">
+  <div class="dot hx:text-xl hx:font-bold">
     <div>{{ $start.Format "02" }}.</div>
     <div>{{ $start.Format "01" }}.</div>
   </div>
   {{- with .end_date -}}
   {{- $end := time . -}}
-  <div class="dot-dash hx-text-xl hx-font-bold">
+  <div class="dot-dash hx:text-xl hx:font-bold">
     <p>–</p>
   </div>
-  <div class="dot hx-text-xl hx-font-bold">
+  <div class="dot hx:text-xl hx:font-bold">
     <div>{{ $end.Format "02" }}.</div>
     <div>{{ $end.Format "01" }}.</div>
   </div>
   {{- end -}}
   <div>
     {{- if .time -}}
-      <p class="hx-text-gray-600" style="inline-size: 100%; margin: 0rem; ">⏱️ {{ .time }}</p>
+      <p class="hx:text-gray-600" style="inline-size: 100%; margin: 0rem; ">⏱️ {{ .time }}</p>
     {{- end -}}
-    <p class="hx-text-gray-600" style="inline-size: 100%; margin: 0rem; ">📍 {{ .location }}</p>
+    <p class="hx:text-gray-600" style="inline-size: 100%; margin: 0rem; ">📍 {{ .location }}</p>
     {{- if .organizer -}}
-      <p class="hx-text-gray-600" style="inline-size: 100%; margin: 0rem; ">💡 {{ .organizer }}</p>
+      <p class="hx:text-gray-600" style="inline-size: 100%; margin: 0rem; ">💡 {{ .organizer }}</p>
     {{- end -}}
   </div>
   <p>

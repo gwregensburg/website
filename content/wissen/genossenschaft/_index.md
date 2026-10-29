@@ -27,7 +27,7 @@ Die Stadt Regensburg stellt zudem eine [Übersichtsseite über Wohnbaugenossensc
 ## Weitere Informationen
 
 
-<div class="hx-mb-12">
+<div class="hx:mb-12">
 {{< cards >}}
 {{< card 
     link="https://www.mitbauzentrale-muenchen.de/wohnprojekte/projektformen/genossenschaften.html" 
