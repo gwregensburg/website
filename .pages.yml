@@ -190,3 +190,59 @@ content:
         label: Schlagwörter
         type: string
         list: true
+
+  # One file per article. The file name (without .yaml) is the ID used on pages: {{< press "<ID>" >}}
+  - name: press
+    label: Presse
+    type: collection
+    path: data/press
+    format: yaml
+    filename:
+      template: "{fields.date}-{fields.title}.yaml"
+      # Shown only when creating, so editors can pick a short ID. Renaming later would break pages using it.
+      field: create
+    view:
+      fields: [date, title, source]
+      primary: title
+      sort: [date, title, source]
+      search: [title, source, author, teaser]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Titel
+        type: string
+        required: true
+      - name: date
+        label: Datum
+        type: date
+        required: true
+        options: { format: yyyy-MM-dd }
+      - name: month_only
+        label: Nur Monat anzeigen
+        description: Wenn der genaue Tag unbekannt ist (z. B. "August 2024").
+        type: boolean
+      - name: source
+        label: Medium
+        description: z. B. Mittelbayerische, regensburg-digital
+        type: string
+        required: true
+      - name: author
+        label: Autor:in
+        type: string
+      - name: link
+        label: Link zum Artikel
+        type: string
+      - name: link_label
+        label: Linktext
+        description: Leer lassen für "Artikel lesen". Z. B. "Beitrag anschauen" bei Videos.
+        type: string
+      - name: paywall
+        label: Bezahlschranke
+        description: Zeigt ein €-Symbol neben dem Link.
+        type: boolean
+      - name: teaser
+        label: Teaser
+        description: Kurzer Auszug aus dem Artikel.
+        type: text

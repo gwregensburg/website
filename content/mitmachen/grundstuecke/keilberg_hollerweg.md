@@ -52,56 +52,14 @@ Auf den [2. Baukulturtage](/baukulturtage-2) im Oktober 2024 stellte die Amtslei
 
 ## Presse
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2024-07-11"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Geldverschwendung der Stadt Regensburg am Hollerweg: Fläche besichtigt, aber Biotop nicht erkannt
-    <a href="#2025-07-11" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 11. Juli 2025 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/geldverschwendung-der-stadt-regensburg-am-hollerweg-flaeche-besichtigt-aber-biotop-nicht-erkannt/11072025/">Artikel lesen</a></p>
-  <p>Nach Veröffentlichung unseres letzten Berichts zu dem überteuerten Grundstücksankauf am für den Bebauungsplan Hollerweg und mehrfacher Nachfragen, erklärt die Stadt Regensburg nun: Man hat die Fläche im Vorfeld doch in Augenschein genommen. Doch so ein Biotop sei nur schwer zu erkennen.</p>
-</div>
+{{< press "2025-07-11-geldverschwendung-der-stadt-regensburg-am-hollerweg" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2024-07-09"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Biotop statt Baugebiet: Stadt Regensburg prüfte Millionendeal offenbar nur vom Schreibtisch aus
-    <a href="#2025-07-09" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 09. Juli 2025 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/biotop-statt-baugebiet-stadt-regensburg-pruefte-millionendeal-vom-schreibtisch-aus/09072025/">Artikel lesen</a></p>
-  <p>Der millionenteure Ankauf eines Grundstücks, dass nicht für die beabsichtige Bebauung geeignet ist, zieht weitere Kreise. Grüne und CSU fordern Aufklärung, wie es dazu kommen konnte. Offenbar hatte sich niemand bei der Stadt Regensburg die Fläche im Vorfeld vor Ort angesehen.</p>
-</div>
+{{< press "2025-07-09-biotop-statt-baugebiet-stadt-regensburg-pruefte" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2024-07-03"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">„Skandal“ am Regensburger Keilberg: Bebauungsplan auf der Kippe und Millionen verschleudert?
-    <a href="#2025-07-03" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 03. Juli 2025 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/skandal-am-regensburger-keilberg-bebauungsplan-auf-der-kippe-und-millionen-verschleudert/03072025/">Artikel lesen</a></p>
-  <p>Eine unbedachte Frage in der öffentlichen Sitzung des Stadtrats brachte es an den Tag: Die Stadt Regensburg hat bei dem ambitionierten Baugebiet am Keilberg ein Riesenproblem und vermutlich Flächen zu einem völlig überteuerten Preis angekauft.</p>
-</div>
+{{< press "2025-07-03-skandal-am-regensburger-keilberg-bebauungsplan-auf" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2024-06-21"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Neue Chancen auf Grundstücke: Stadt Regensburg verdoppelt Baugebiet in Keilberg
-    <a href="#2023-06-21" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 21. Juni 2023 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/lokales/stadt-regensburg/neue-chancen-auf-grundstuecke-stadt-regensburg-verdoppelt-baugebiet-in-keilberg-12162087">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Familien sollen Chancen auf Grundstücke bekommen – Wie werden Flächen vergeben?</p>
-</div>
+{{< press "2023-06-21-neue-chancen-auf-grundstuecke-stadt-regensburg" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2024-06-21"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">SPD setzt in Keilberg auf Erbpacht
-    <a href="#2021-11-01" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 01. November 2021 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/archiv/1/spd-setzt-in-keilberg-auf-erbpacht-11652008">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Dr. Thomas Burger will das geplante Baugebiet auf diese Weise für junge Familien erschwinglich machen.</p>
-</div>
+{{< press "2021-11-01-spd-setzt-in-keilberg-auf-erbpacht" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2024-06-21"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Neue Chance auf städtische Grundstücke
-    <a href="#2021-10-06" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 06. Oktober 2021 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/archiv/1/neue-chance-auf-staedtische-grundstuecke-11635547">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Es kommt selten vor in Regensburg, jetzt aber doch: Die Kommune entwickelt ein Baugebiet. Gehen die Parzellen an Privatleute?</p>
-</div>
+{{< press "2021-10-06-neue-chance-auf-staedtische-grundstuecke" >}}

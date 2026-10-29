@@ -28,47 +28,12 @@ Die zehn Forderungen samt Erklärung und Kontext finden sich [hier](https://www.
 
 ## Presse
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2024-10-01"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Regensburger Baukulturtage: Wohnen jenseits der Bauträgerfixierung
-    <a href="#2024-10-01" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 01. Oktober 2024 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/regensburger-baukulturtage-wohnen-jenseits-der-bautraegerfixierung/01102024/">Artikel lesen</a></p>
-  <p>Gemeinschaftliche Wohnformen sind zentrales Thema der zweiten Baukulturtage im Kulturzentrum M26 in der Maxstraße. Wie funktionieren Genossenschaften, Baugemeinschaften und kollaborative Wohnprojekte?</p>
-</div>
+{{< press "2024-10-01-regensburger-baukulturtage-wohnen-jenseits-der-bautraegerfixierung" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2024-09-26"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Wohnen in der Gemeinschaft: Regensburger Architektin Ulla Basqué fordert mehr Experimentierfreude
-    <a href="#2024-09-26" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 26. September 2024 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/lokales/stadt-regensburg/wohnen-in-der-gemeinschaft-regensburger-architektin-ulla-basque-fordert-mehr-experimentierfreude-17077400">Artikel lesen</a> ┆ {{< icon "currency-euro" >}}</p>
-  <p>Regensburger Architekten fiebern der Eröffnung der zweiten Baukulturtage von 1. bis 11. Oktober entgegen. Eine davon ist Ulla Basqué. Sie verspricht geballte Infos zu preiswerteren Wohnformen und erklärt, wie das funktioniert.</p>
-</div>
+{{< press "2024-09-26-wohnen-in-der-gemeinschaft-regensburger-architektin" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2024-09-26"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Mi(e)tbauzentrale Regensburg vom 8.-11.Oktober 2024 im M26
-    <a href="#2024-09-26" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ August 2024 ┆ Kulturjournal ┆ Ulla Basqué ┆ <a target="_blank" href="/baukulturtage-2/#mietbauzentrale-regensburg-vom-8-11oktober-2024-im-m26">Artikel lesen</a></p>
-  <p>Auch in Regensburg fehlt bezahlbarer Wohnraum für eine wachsende Unter- und Mittelschicht, die sich Wohneigentum oder sogar die Miete in der Stadt nicht mehr leisten kann. Dies trifft besonders junge Familien und aufgrund des demografischen Wandels die wachsende Zahl älterer Paare oder alleinlebender Menschen...</p>
-</div>
+{{< press "2024-08-mietbauzentrale-regensburg-vom-8-11-oktober" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2024-08-29"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Ältere Paare erproben neue Wohnformen
-    <a href="#2024-08-29" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 29. August 2024 ┆ F.A.Z. ┆ <a target="_blank" href="https://www.faz.net/aktuell/wirtschaft/wohnen/hoher-flaechenbedarf-aeltere-paare-erproben-neue-wohnformen-19949989.html">Artikel lesen</a> ┆ {{< icon "currency-euro" >}}</p>
-  <p>Von LAT bis Co-Living: Auch in einer Partnerschaft leben manche Paare getrennt voneinander mit zwei Adressen. Dadurch steigt in der Regel der Bedarf an Wohnraum.</p>
-</div>
+{{< press "2024-08-29-aeltere-paare-erproben-neue-wohnformen" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2022-07-19"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">„Bauwende jetzt“ gefordert – auch für das städtische Vorzeigeviertel
-    <a href="#2022-07-19" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 19. Juli 2022 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/bauwende-jetzt-gefordert-auch-fuer-das-staedtische-vorzeigeviertel/19072022/">Artikel lesen</a></p>
-  <p>Mehrere Bestandsgebäude auf der früheren Prinz-Leopold-Kaserne sollen erhalten werden statt sie abzureißen, lautet die Forderung einer Gruppe von Architektinnen und Architekten in einem Positionspapier. Im Stadtrat gibt es Unterstützung, aber eher so „grundsätzlich“.</p>
-</div>
+{{< press "2022-07-19-bauwende-jetzt-gefordert-auch-fuer-das" >}}

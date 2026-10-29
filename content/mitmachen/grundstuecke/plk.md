@@ -104,77 +104,21 @@ Die Genossenschaft **Werkvolk** aus Amberg bewirbt sich im Juni 2025 als erste G
 
 ## Presse
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2025-06-10"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Werkvolk plant Wohnungen in Regensburg
-    <a href="#2025-06-10" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 10. Juni 2025 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/lokales/stadt-regensburg/werkvolk-plant-wohnungen-in-regensburg-18837794">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Die Genossenschaft will auf dem Areal der Prinz-Leopold-Kaserne bauen.</p>
-</div>
+{{< press "2025-06-10-werkvolk-plant-wohnungen-in-regensburg" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2024-06-21"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Regensburger Kasernenareal: Stadttochter will 2025 bauen
-    <a href="#2024-06-21" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 21. Juni 2024 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/lokales/stadt-regensburg/regensburger-kasernenareal-stadttochter-will-2025-bauen-16286417">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Vor einem Jahr übergab die Stadt ihrer Bau-Tochter drei Grundstücke auf dem Areal der ehemaligen Prinz-Leopold-Kaserne. Gebaut hat sie dort noch nichts. Sie plant ihr Vorhaben mit 600 Wohnungen um.</p>
-</div>
+{{< press "2024-06-21-regensburger-kasernenareal-stadttochter-will-2025-bauen" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" class="anchor-link" id="2024-01-16"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Wasserstoff-Förderung fürs Innovationsquartier: Stadt Regensburg blitzt beim Freistaat ab
-    <a href="#2024-01-16" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 16. Januar 2024 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/t/prinz-leopold-kaserne/">Artikel lesen</a></p>
-  <p>Bei der Förderung des Energiekonzepts mit Wasserstofftechnologie auf der Prinz-Leopold-Kaserne lässt der Freistaat die Stadt Regensburg im ersten Anlauf hängen. Die hatte sich rund zwei Millionen Euro erhofft. So ging es den meisten Antragsstellern.</p>
-</div>
+{{< press "2024-01-16-wasserstoff-foerderung-fuers-innovationsquartier-stadt-regensburg" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2023-10-19"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Hunderte bezahlbare Wohnungen in Regensburg in der Warteschleife
-    <a href="#2023-10-19" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 19. Oktober 2023 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/lokales/stadt-regensburg/hunderte-bezahlbare-wohnungen-in-regensburg-in-der-warteschleife-14610015">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Auf dem Areal der ehemaligen Prinz-Leopold-Kaserne sollte ein klimafreundliches Vorzeigeviertel mit günstigen Wohnungen entstehen. Jetzt liegt es brach. Kommt der Bau von günstigem Wohnraum in Regensburg insgesamt zum Erliegen?</p>
-</div>
+{{< press "2023-10-19-hunderte-bezahlbare-wohnungen-in-regensburg-in" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2023-10-17"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Bebauung in Regensburger Kasernenviertel verzögert sich
-    <a href="#2023-10-17" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 17. Oktober 2023 ┆ idowa ┆ <a target="_blank" href="https://www.idowa.de/regionen/woerth-und-regensburg/regensburg/bebauung-in-regensburger-kasernenviertel-verzoegert-sich-3383810.html">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Die Stadtbau muss aufgrund der stark gestiegenen Baukosten für 368 Wohnungen umplanen. Der vorgesehene Termin der Fertigstellung 2026 wird sich nicht einhalten lassen.</p>
-</div>
+{{< press "2023-10-17-bebauung-in-regensburger-kasernenviertel-verzoegert-sich" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2023-09-08"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Wie Regensburg klimaneutrale Stadtviertel schaffen will
-    <a href="#2023-09-08" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 08. September 2023 ┆ br ┆ <a target="_blank" href="https://www.br.de/nachrichten/wirtschaft/wie-regensburg-klimaneutrale-stadtviertel-schaffen-will,TpB3i5X">Artikel lesen/hören</a></p>
-  <p>Städte und Gemeinden müssen eine Wärmeplanung vorlegen. So will es die Regierung im Begleitgesetz zum umstrittenen Heizungsgesetz. Regensburg hat zwei Modellprojekte, mit denen die Stadt auf dem Weg zu einer klimaneutralen Wärmeversorgung ist.</p>
-</div>
+{{< press "2023-09-08-wie-regensburg-klimaneutrale-stadtviertel-schaffen-will" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2023-06-07"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Regensburg: Neues Innovationsquartier setzt auf einzigartiges Energiekonzept
-    <a href="#2023-06-07" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 07. Juni 2023 ┆ TVA ┆ <a target="_blank" href="https://www.tvaktuell.com/mediathek/video/regensburg-neues-innovationsquartier-setzt-auf-einzigartiges-energiekonzept-2/">Beitrag anschauen</a></p>
-  <p>Seit Ende 2021 ist es gefühlt Dauerthema: Die Strom- und Gaspreise steigen in die Höhe, an den Tankstellen stehen immer wieder neue Höchstpreise und beim Blick auf die Energierechnung werden die Augen groß. Für das neue Areal auf dem Gelände der ehemaligen Prinz Leopold Kaserne will die Stadt Regensburg deshalb auf solarbasierte und CO2-neutrale Energie setzten.</p>
-</div>
+{{< press "2023-06-07-regensburg-neues-innovationsquartier-setzt-auf-einzigartiges" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2023-06-07"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Stadtosten: Bürger wollen Klartext
-    <a href="#2023-06-07" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 12. Februar 2022 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/archiv/1/stadtosten-buerger-wollen-klartext-11740598">Beitrag lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Für die Bebauung des Geländes der ehemaligen Prinz-Leopold-Kaserne gibt es viele Anregungen. Doch werden die auch umgesetzt?</p>
-</div>
+{{< press "2022-02-12-stadtosten-buerger-wollen-klartext" >}}
 
 <div class="hx-mt-6">
   <span class="anchor-link" id="tva-rundgang"></span>
@@ -184,29 +128,8 @@ Die Genossenschaft **Werkvolk** aus Amberg bewirbt sich im Juni 2025 als erste G
   <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">TVA ┆ <a target="_blank" href="https://www.tvaktuell.com/cmms-embed/317109">Beitrag anschauen</a></p>
 </div>
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2021-07-12"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Vorzeigeviertel mit vielen Unwägbarkeiten
-    <a href="#2021-07-12" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 12. Juli 2021 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/vorzeigeviertel-mit-vielen-unwaegbarkeiten/12072021/">Artikel lesen</a></p>
-  <p>Die Planungen für die ehemalige Prinz-Leopold-Kaserne werden konkreter. Bis Ende 2024 müssen die ersten 368 Wohnungen stehen, damit die Stadt nicht Gefahr läuft, auf den günstigen Kaufpreis noch ein paar Millionen drauflegen zu müssen. Ein Großteil der positiv klingenden Planungen ist allerdings nach wie vor im Schwange.</p>
-</div>
+{{< press "2021-07-12-vorzeigeviertel-mit-vielen-unwaegbarkeiten" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2021-06-07"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Regensburg plant energieautarkes Quartier
-    <a href="#2021-06-07" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 07. Juni 2021 ┆ idowa ┆ <a target="_blank" href="https://www.idowa.de/regionen/woerth-und-regensburg/regensburg/kasernenareal-kombination-regenerativer-energien-und-wasserstofftechnik-2350325.html">Artikel lesen</a></p>
-  <p>Eine Kombination aus verschiedenen regenerativen Energiequellen soll dafür sorgen, dass das neue Quartier auf dem Gelände der ehemaligen Prinz-Leopold-Kaserne in Regensburg CO<sub>2</sub>-neutral wird.</p>
-</div>
+{{< press "2021-06-07-regensburg-plant-energieautarkes-quartier" >}}
 
-<div class="hx-mt-6">
-  <span class="anchor-link" id="2021-03-05"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Viele Versprechen für Prinz-Leopold-Kaserne
-    <a href="#2021-03-05" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 05. März 2021 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/viele-versprechen-fuer-prinz-leopold-kaserne/05032021/">Artikel lesen</a></p>
-  <p>Im Rahmen einer Informationsveranstaltung stellten Oberbürgermeisterin und Verwaltung diese Woche den derzeitigen Stand der Planungen auf dem ehemaligen Kasernenareal an der Landshuter Straße vor. Auch zu den angrenzenden Privatgrundstücken gibt es konkretere Informationen.</p>
-</div>
+{{< press "2021-03-05-viele-versprechen-fuer-prinz-leopold-kaserne" >}}

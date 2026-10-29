@@ -143,13 +143,9 @@ Gefördert werden diese Projekte durch die Förderrichtlinie „Selbstbestimmt L
 
 ## Presse
 
-### Regensburger Baukulturtage: Wohnen jenseits der Bauträgerfixierung
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 01. Oktober 2024 ┆ regensburg-digital ┆ <a target="_blank" href="https://www.regensburg-digital.de/regensburger-baukulturtage-wohnen-jenseits-der-bautraegerfixierung/01102024/">Artikel lesen</a></p>
-  <p>Gemeinschaftliche Wohnformen sind zentrales Thema der zweiten Baukulturtage im Kulturzentrum M26 in der Maxstraße. Wie funktionieren Genossenschaften, Baugemeinschaften und kollaborative Wohnprojekte?</p>
+{{< press "2024-10-01-regensburger-baukulturtage-wohnen-jenseits-der-bautraegerfixierung" >}}
 
-### Wohnen in der Gemeinschaft: Regensburger Architektin Ulla Basqué fordert mehr Experimentierfreude
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 26. September 2024 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/lokales/stadt-regensburg/wohnen-in-der-gemeinschaft-regensburger-architektin-ulla-basque-fordert-mehr-experimentierfreude-17077400">Artikel lesen</a> ┆ {{< icon "currency-euro" >}}</p>
-  <p>Regensburger Architekten fiebern der Eröffnung der zweiten Baukulturtage von 1. bis 11. Oktober entgegen. Eine davon ist Ulla Basqué. Sie verspricht geballte Infos zu preiswerteren Wohnformen und erklärt, wie das funktioniert.</p>
+{{< press "2024-09-26-wohnen-in-der-gemeinschaft-regensburger-architektin" >}}
 
 ### Mi(e)tbauzentrale Regensburg vom 8.-11.Oktober 2024 im M26
 <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ August 2024 ┆ Kulturjournal ┆ Ulla Basqué</p>

@@ -25,59 +25,17 @@ Ob die Initiativen mit einer sozialen und ökologischen Ausrichtung den Zuschlag
 
 ## Presse
 
-<div class="hx-mt-6">
-  <span id="2024-05-02"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Leerstehendes Ex-Kloster in Regensburger Bestlage: Es gibt sieben Interessenten
-    <a href="#2024-05-02" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 02. Mai 2024 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/lokales/stadt-regensburg/leerstehendes-ex-kloster-in-regensburger-bestlage-es-gibt-sieben-interessenten-15968223">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Das frühere Kloster am Dörnbergpark zählt zu Regensburgs langwierigsten und bekanntesten Leerständen. Naht jetzt die Lösung?</p>
-</div>
+{{< press "2024-05-02-leerstehendes-ex-kloster-in-regensburger-bestlage" >}}
 
-<div class="hx-mt-6">
-  <span id="2024-01-16"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Endlich Bewegung bei Regensburger Brache: Für Ex-Kloster in Bestlage läuft Bieterverfahren
-    <a href="#2024-01-16" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 16. Januar 2024 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/lokales/stadt-regensburg/endlich-bewegung-bei-regensburger-brache-fuer-ex-kloster-in-bestlage-laeuft-bieterverfahren-15222671">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Hinter den Kulissen wird schon länger an einer Wiederbelebung des ehemaligen Klostergebäudes in der Wittelsbacherstraße gearbeitet. Nach sechseinhalb Jahren Leerstand sind diese Bemühungen nun auch in aller Öffentlichkeit sichtbar.</p>
-</div>
+{{< press "2024-01-16-endlich-bewegung-bei-regensburger-brache-fuer" >}}
 
-<div class="hx-mt-6">
-  <span id="2023-08-10"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Bistum Regensburg sucht weiter Nutzer für seit sechs Jahren leerstehenden Gebäudekomplex
-    <a href="#2023-08-10" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 10. August 2023 ┆ CNA ┆ <a target="_blank" href="https://de.catholicnewsagency.com/news/13794/bistum-regensburg-sucht-weiter-nutzer-fur-seit-sechs-jahren-leerstehenden-gebaudekomplex">Artikel lesen</a></p>
-  <p>Das Bistum Regensburg hat sich gegen den Vorwurf der Mittelbayerischen Zeitung verwahrt, wonach bester Wohnraum mitten in der Stadt vor sich hin rotte. Konkret stehe „ein großes Objekt in attraktiver Lage nun schon seit mehr als sechs Jahren leer“, berichtete die Zeitung am Montag.</p>
-</div>
+{{< press "2023-08-10-bistum-regensburg-sucht-weiter-nutzer-fuer" >}}
 
-<div class="hx-mt-6">
-  <span id="2023-08-09"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Leerstand in bester Lage: Bistum Regensburg will jetzt Gas geben
-    <a href="#2023-08-09 class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 09. August 2023 ┆ Mittelbayerische ┆ <a target="_blank" href="https://de.catholicnewsagency.com/news/13794/bistum-regensburg-sucht-weiter-nutzer-fur-seit-sechs-jahren-leerstehenden-gebaudekomplex">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Wie steht es um den langwierigen Leerstand einer kirchlichen Immobilie beim Regensburger Dörnbergpark? Das Bistum meldet sich nach der Berichterstattung der Mittelbayerischen zu Wort.</p>
-</div>
+{{< press "2023-08-09-leerstand-in-bester-lage-bistum-regensburg" >}}
 
-<div class="hx-mt-6">
-  <span id="2023-08-07"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Bester Wohnraum mitten in Regensburg rottet vor sich hin – Verein will von Kirche kaufen
-    <a href="#2023-08-07 class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 07. August 2023 ┆ Mittelbayerische ┆ <a target="_blank" href="https://de.catholicnewsagency.com/news/13794/bistum-regensburg-sucht-weiter-nutzer-fur-seit-sechs-jahren-leerstehenden-gebaudekomplex">Artikel lesen</a> ┆  {{< icon "currency-euro" >}}</p>
-  <p>Überall fehlt es an Wohnraum in Regensburg. Da ist es umso erstaunlicher, wenn ein großes Objekt in attraktiver Lage nun schon seit mehr als sechs Jahren leer steht.</p>
-</div>
+{{< press "2023-08-07-bester-wohnraum-mitten-in-regensburg-rottet" >}}
 
-<div class="hx-mt-6">
-  <span id="2022-08-02"></span>
-  <h3 class="not-prose hx-text-xl hx-font-bold hx-leading-none hx-tracking-tighter md:hx-text-xl hx-py-2 hx-bg-clip-text hx-text-transparent hx-bg-gradient-to-r hx-from-gray-900 hx-to-gray-600 dark:hx-from-gray-100 dark:hx-to-gray-400">Wann endet der Dornröschenschlaf in der Wittelsbacherstraße?
-    <a href="#2022-08-02" class="subheading-anchor" aria-label="Permalink for this section"></a>
-  </h3>
-  <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ 02. August 2022 ┆ Mittelbayerische ┆ <a target="_blank" href="https://www.mittelbayerische.de/archiv/1/wann-endet-der-dornroeschenschlaf-in-der-wittelsbacherstrasse-11860043">Artikel lesen</a>  ┆  {{< icon "currency-euro" >}}  </p>
-  <p>Zentrale Lage am Altstadtrand, imposante Grundstücksgröße, die komplette Gebäuderückseite zum Park orientiert, keine Denkmalschutz-Auflagen: Von so etwas träumt man in der Immobilienbranche. Meist vergeblich, weil es so etwas in Regensburg eigentlich nicht gibt. Umso verwunderlicher ist es, wenn ein Objekt mit exakt diesem Zuschnitt seit mehr als fünf Jahren leer steht.</p>
-</div>
+{{< press "2022-08-02-wann-endet-der-dornroeschenschlaf-in-der" >}}
 
 [^1]: [Nachbarn in Regensburger Wohngebiet kämpfen um Grün: Baurecht sticht Baumschutz](https://www.mittelbayerische.de/lokales/stadt-regensburg/nachbarn-in-regensburger-wohngebiet-kaempfen-um-gruen-baurecht-sticht-baumschutz-15858906). Mittelbayerische. 16.04.2024
 [^2]: [Leerstand in bester Lage: Bistum Regensburg will jetzt Gas geben](https://www.mittelbayerische.de/lokales/stadt-regensburg/leerstand-in-bester-lage-bistum-regensburg-will-jetzt-gas-geben-14046839). Mittelbayerische. 09.98.2024

@@ -7,6 +7,7 @@ Veranstaltungen, Aktuelles und Bibliothek werden im Browser über [Pages CMS](ht
 - Redakteur:innen werden in Pages CMS per E-Mail eingeladen und brauchen kein GitHub-Konto.
 - Jedes Speichern ist ein Commit auf `main` mit `deploy` in der Nachricht, die Webseite wird danach automatisch neu gebaut (dauert ca. 1–2 Minuten).
 - Jede Veranstaltung ist eine eigene Datei in `data/events/` (`<datum>-<titel>.yaml`). Auf der Webseite wird nach Datum sortiert, vergangene Veranstaltungen verschwinden mit dem täglichen Neubau.
+- Presseartikel liegen zentral in `data/press/` (je Artikel eine Datei, im CMS unter „Presse“). Auf einer Seite eingebunden werden sie mit `{{< press "<ID>" >}}`, die ID ist der Dateiname ohne `.yaml`. Unbekannte IDs erzeugen beim Bauen eine Warnung und werden nicht angezeigt.
 - Startseite und Layout-Seiten (viele Shortcodes) sind bewusst nicht im CMS und werden direkt im Repository bearbeitet.
 
 ## Entwicklung
