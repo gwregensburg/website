@@ -2,7 +2,7 @@
 {{- $internal := .Get "internal" | default "false" | lower | eq "true" -}}
 {{ $currentDate := now.Format "2006-01-02" }}
 
-{{ $events := .Site.Data.events }}
+{{ $events := hugo.Data.events }}
 {{ $futureEvents := slice }}
 
 {{/* One file per event in data/events/, edited in the CMS; sort by date here rather than relying on file names. */}}

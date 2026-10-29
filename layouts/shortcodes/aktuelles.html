@@ -4,7 +4,7 @@
 {{- range first 3 $pages }}
   <div class="media__object">
     {{- if .Params.image -}}
-    <img src="{{ .Params.image }}" alt="{{ .Title }}" style="border-radius: 0.5rem;">
+    {{ partial "image.html" (dict "src" .Params.image "alt" .Title "style" "border-radius: 0.5rem;" "sizes" "(min-width: 768px) 400px, 100vw" "widths" (slice 480 800) "lightbox" false) }}
     {{- end -}}
     <div class="media__object__text">
       <h3><a style="color: inherit; text-decoration: none;" class="hx-block hx-font-semibold hx-text-2xl " href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

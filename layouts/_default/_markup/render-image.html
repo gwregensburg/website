@@ -1,0 +1,10 @@
+{{- /* Markdown images: responsive versions + lightbox via partials/image.html (replaces the theme's hook). */ -}}
+{{- $img := partial "image.html" (dict "src" .Destination "alt" .PlainText "title" .Title) -}}
+{{- with .Title -}}
+  <figure>
+    {{ $img }}
+    <figcaption>{{ . }}</figcaption>
+  </figure>
+{{- else -}}
+  {{ $img }}
+{{- end -}}

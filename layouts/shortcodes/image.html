@@ -1,0 +1,14 @@
+{{- /*
+  Image with attributes that Markdown can't express. Plain images should use ![alt](/images/foto.jpg).
+    {{< image src="/images/plan-klein.jpg" large="/images/plan-gross.jpg" >}}   lightbox shows another image
+    {{< image src="/images/logo.png" alt="Logo" style="max-height: 6rem;" lightbox="false" >}}
+*/ -}}
+{{- partial "image.html" (dict
+  "src" (.Get "src")
+  "alt" (.Get "alt")
+  "title" (.Get "title")
+  "class" (.Get "class")
+  "style" (.Get "style")
+  "large" (.Get "large")
+  "lightbox" (ne (.Get "lightbox") "false")
+) -}}

@@ -4,7 +4,7 @@
     {{- if .tipp -}}
         <span class="badge">Tipp</span>
     {{- end -}}   
-    <img src="{{ .image }}" alt="{{ .title }}" style="border-radius: 0.5rem; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);">
+    {{ partial "image.html" (dict "src" .image "alt" .title "style" "border-radius: 0.5rem; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);" "sizes" "(min-width: 768px) 250px, 100vw" "widths" (slice 250 500 800)) }}
     <span class="anchor-link" id="{{ $titleSlug }}"></span>
     <h3 class="hx-block hx-font-semibold hx-text-2xl hx-leading-none hx-tracking-tighter">
         {{ .title }}

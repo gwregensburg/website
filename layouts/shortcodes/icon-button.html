@@ -12,5 +12,5 @@
   {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
   {{ if $external }}target="_blank" rel="noreferrer"{{ end -}}
 >
-  <img src="{{ $image }}" alt="{{ $text }}" style="max-height: 5rem; border-radius: 1rem">
+  {{ partial "image.html" (dict "src" $image "alt" $text "style" "max-height: 5rem; border-radius: 1rem" "sizes" "160px" "widths" (slice 160 320) "lightbox" false) }}
 </a>

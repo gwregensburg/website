@@ -574,3 +574,36 @@ p > [href^="http"]::before {
   color: #303030;
   padding: 0.2rem;
 }
+/* Lightbox for images (assets/js/lightbox.js, partials/image.html) */
+a.lightbox-link img {
+  cursor: zoom-in;
+}
+dialog.lightbox {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-out;
+}
+dialog.lightbox::backdrop {
+  background: rgb(0 0 0 / 0.85);
+}
+dialog.lightbox img {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  max-width: 95vw;
+  max-height: 95vh;
+  object-fit: contain;
+}
+.lightbox-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1;
+}

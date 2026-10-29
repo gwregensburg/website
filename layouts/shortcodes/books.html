@@ -1,6 +1,6 @@
 {{/* One file per book in data/books/, edited in the CMS. "weight" sets the order (smaller = higher); books without one go last. */}}
 {{- $books := slice -}}
-{{- range .Site.Data.books -}}
+{{- range hugo.Data.books -}}
   {{- $books = $books | append (merge (dict "weight" 9999) .) -}}
 {{- end -}}
 

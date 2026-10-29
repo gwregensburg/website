@@ -6,3 +6,4 @@
     <script src="/js/multiple-pie-chart.js"></script>
     <script src="/js/single-axis-chart.js"></script>
     <script src="/js/radar-chart.js"></script>
+    {{ with resources.Get "js/lightbox.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}

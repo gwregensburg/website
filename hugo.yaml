@@ -6,6 +6,26 @@ theme: hextra
 enableRobotsTXT: true
 enableGitInfo: true
 
+# Uploaded images live in static/images (Pages CMS) and stay published as originals under /images/.
+# They are also mounted as assets, so partials/image.html can build resized versions at build time.
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: static/images
+      target: assets/images
+
+imaging:
+  resampleFilter: CatmullRom
+  webp:
+    quality: 80
+  jpeg:
+    quality: 80
+
+# The first build without a filled image cache (resources/_gen) processes every image and needs more
+# than the default 60 s for image-heavy pages. Later builds reuse the cache and take seconds.
+timeout: 10m
+
 markup:
   # allow raw html
   goldmark:
@@ -89,7 +109,8 @@ params:
     displayTitle: false
     displayLogo: true
     logo:
-      path: logo.png
+      # Small copy of logo.png for the 40 px navbar (the original is 1650 px, 2 MB)
+      path: logo-navbar.png
       # dark: images/logo-dark.svg
       width: 40
       height: 20

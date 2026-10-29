@@ -1,0 +1,78 @@
+{{- /*
+  Responsive image for files under /images/ (static/images, mounted as assets/images in hugo.yaml).
+  Builds WebP versions (srcset) at build time and, for the lightbox, a large version of at most 2400 px.
+  Anything else (external URLs, SVG, GIF, missing files) is output as a plain <img>.
+
+  Context: dict
+    src       required, e.g. "/images/foto.jpg"
+    alt, title, class, style
+    sizes     sizes attribute (default: content width)
+    widths    srcset widths in px (default: 480 800 1200)
+    lightbox  wrap in a link to the large version (default: true)
+    large     show a different image in the lightbox, e.g. a detailed plan for a preview
+*/ -}}
+{{- $ctx := . -}}
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $lightbox := cond (isset . "lightbox") .lightbox true -}}
+{{- $sizes := .sizes | default "(min-width: 768px) 768px, 100vw" -}}
+{{- $widths := .widths | default (slice 480 800 1200) -}}
+
+{{- $img := false -}}
+{{- $url := urls.Parse $src -}}
+{{- $path := strings.TrimPrefix "/" $url.Path -}}
+{{- if and $src (not $url.Scheme) (hasPrefix $path "images/") -}}
+  {{- with resources.Get $path -}}
+    {{- if in (slice "jpeg" "png" "webp") .MediaType.SubType -}}
+      {{- $img = . -}}
+    {{- else -}}
+      {{- /* SVG, GIF: not processed, but linked by their resolved path (also for "images/..." without slash). */ -}}
+      {{- $src = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $img -}}
+  {{- /* Camera photos often store their rotation in EXIF, which resizing would drop. */ -}}
+  {{- if eq $img.MediaType.SubType "jpeg" -}}
+    {{- $img = $img.Filter images.AutoOrient -}}
+  {{- end -}}
+  {{- $srcset := slice -}}
+  {{- range $widths -}}
+    {{- if lt . $img.Width -}}
+      {{- with $img.Resize (printf "%dx webp" .) -}}
+        {{- $srcset = $srcset | append (printf "%s %dw" .RelPermalink .Width) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if le $img.Width (index $widths (sub (len $widths) 1)) -}}
+    {{- with $img.Process "webp" -}}
+      {{- $srcset = $srcset | append (printf "%s %dw" .RelPermalink .Width) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $default := cond (gt $img.Width 800) ($img.Resize "800x webp") ($img.Process "webp") -}}
+  {{- if $lightbox -}}
+    {{- $large := $img -}}
+    {{- with $ctx.large -}}
+      {{- with resources.Get (strings.TrimPrefix "/" (urls.Parse .).Path) -}}
+        {{- if eq .MediaType.SubType "jpeg" -}}
+          {{- $large = .Filter images.AutoOrient -}}
+        {{- else if in (slice "png" "webp") .MediaType.SubType -}}
+          {{- $large = . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $large = $large.Fit "2400x2400 webp q85" -}}
+    <a href="{{ $large.RelPermalink }}" class="lightbox-link" data-lightbox aria-label="Bild vergrößern">
+  {{- end -}}
+  <img src="{{ $default.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ $sizes }}" width="{{ $default.Width }}" height="{{ $default.Height }}" alt="{{ $alt }}"
+    {{- with $ctx.title }} title="{{ . }}"{{ end }}
+    {{- with $ctx.class }} class="{{ . }}"{{ end }}
+    {{- with $ctx.style }} style="{{ . | safeCSS }}"{{ end }} loading="lazy" decoding="async">
+  {{- if $lightbox }}</a>{{ end -}}
+{{- else -}}
+  <img src="{{ $src }}" alt="{{ $alt }}"
+    {{- with $ctx.title }} title="{{ . }}"{{ end }}
+    {{- with $ctx.class }} class="{{ . }}"{{ end }}
+    {{- with $ctx.style }} style="{{ . | safeCSS }}"{{ end }} loading="lazy">
+{{- end -}}

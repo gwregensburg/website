@@ -6,7 +6,7 @@
 {{- with .Get "topic" -}}
   {{- $topic := . -}}
   {{- $found := slice -}}
-  {{- range $id, $article := site.Data.press -}}
+  {{- range $id, $article := hugo.Data.press -}}
     {{- if in ($article.topics | default slice) $topic -}}
       {{- $found = $found | append (dict "id" $id "date" $article.date "article" $article) -}}
     {{- end -}}
@@ -18,7 +18,7 @@
   {{- end -}}
 {{- else -}}
   {{- $id := .Get 0 | default (.Get "id") -}}
-  {{- with index site.Data.press $id -}}
+  {{- with index hugo.Data.press $id -}}
     {{ partial "press-article" (dict "id" $id "article" .) }}
   {{- else -}}
     {{- warnf "press: unknown article %q in %s" $id $.Position -}}

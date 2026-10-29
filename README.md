@@ -10,6 +10,16 @@ Veranstaltungen, Aktuelles und Bibliothek werden im Browser über [Pages CMS](ht
 - Presseartikel liegen zentral in `data/press/` (je Artikel eine Datei, im CMS unter „Presse“). Im Feld „Erscheint auf“ wählt man die Seiten aus; dort zeigt `{{< press topic="plk" >}}` alle Artikel des Themas, neueste zuerst. Ein einzelner Artikel geht mit `{{< press "<ID>" >}}` (ID = Dateiname ohne `.yaml`). Neue Themen müssen in `.pages.yml` ergänzt werden.
 - Startseite und Layout-Seiten (viele Shortcodes) sind bewusst nicht im CMS und werden direkt im Repository bearbeitet.
 
+## Bilder
+Bilder werden in Originalgröße nach `static/images/` hochgeladen (im CMS automatisch) und als `/images/datei.jpg` eingebunden, z. B. `![Beschreibung](/images/datei.jpg)`. Den Rest erledigt Hugo beim Bauen (`layouts/partials/image.html`):
+- verkleinerte WebP-Versionen (480/800/1200 px), der Browser lädt nur die passende Größe,
+- Klick auf ein Bild öffnet eine große Version (max. 2400 px) in einer Lightbox (`assets/js/lightbox.js`, ohne externe Bibliothek),
+- die Drehung von Handyfotos (EXIF) wird korrigiert; SVG und GIF bleiben unverändert.
+
+Für Sonderfälle gibt es den Shortcode `image`, z. B. eine Vorschau, die beim Klick ein anderes Bild zeigt: `{{< image src="/images/plan-klein.jpg" large="/images/plan-gross.jpg" >}}`, oder ein Logo ohne Lightbox: `{{< image src="/images/logo.png" alt="Logo" style="max-height: 6rem;" lightbox="false" >}}`.
+
+Die verkleinerten Bilder werden in `resources/_gen` zwischengespeichert (lokal und in GitHub Actions). Der erste Build ohne Zwischenspeicher dauert einige Minuten, danach Sekunden.
+
 ## Entwicklung
 ### Dev Container
 Der einfachste Weg ist, den mitgelieferten Devcontainer zu verwenden: `CMD SHIFT P` / `CTRL SHIFT P` → `Dev Containers: Reopen in container`.

@@ -21,12 +21,12 @@ Ich (geb. 1962) bin auf der Suche nach **Best Ager/Babyboomer der 1960er-Jahre**
 Jeder hat seine eigene, komplett abgeschlossene Wohnung und zusätzlich gibt es einen Gemeinschaftsraum für gemeinsame Aktivitäten, an denen sich jeder beteiligen kann, aber keiner beteiligen muss. [Weiter...](1)
 
 ### 2 ┇ Kastanienhof - Leben in der ehem. PLK ┇ 🔎
-<img src="/images/projektgruppe_plk_header.jpg" alt="Kastanienhof" style="max-height: 20rem;">
+{{< image src="/images/projektgruppe_plk_header.jpg" alt="Kastanienhof" style="max-height: 20rem;" >}}
 
 Wir suchen Menschen, die **aktiv** ein Mietwohnprojekt in Kooperation mit der Stadtbau im neuen Innovationsquartier im Stadtosten mitgestalten wollen. [Weiter...](/kastanienhof)
 
 ### 3 ┇ Demosios ┇ 🚫
-<img src="/images/demosios.png" alt="Demosios" style="max-height: 6rem;">
+{{< image src="/images/demosios.png" alt="Demosios" style="max-height: 6rem;" lightbox="false" >}}
 
 Wir sind Demosios, eine **wertegetriebene Genossenschaft in Gründung**. Wir stehen für Menschlichkeit, Toleranz und Nachhaltigkeit. Wir sind offen für alle Menschen, die unsere Werte teilen, ungeachtet ihrer Religion, ihrer Herkunft, ihrer Lebensform oder ihres Geschlechts.
 Entstanden sind wir aus einer **Interessensgemeinschaft junger Regensburger Familien**, die gemeinschaftlich leben wollen. Uns vereint der Wunsch einen nachhaltigen Beitrag zur Stadtentwicklung und zur Schaffung gerechten und bezahlbaren Wohnraums zu leisten. [Weiter...](/demosios)

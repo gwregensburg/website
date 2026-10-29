@@ -11,7 +11,7 @@
   <p class="hx-mt-22 hx-mb-2 hx-text-gray-600">⏱️ {{ if .month_only }}{{ $date | time.Format "January 2006" }}{{ else }}{{ $date | time.Format "02. January 2006" }}{{ end }} ┆ {{ .source }}
     {{- with .author }} ┆ {{ . }}{{ end }}
     {{- with .link }} ┆ <a target="_blank" href="{{ . }}">{{ $article.link_label | default "Artikel lesen" }}</a>{{ end }}
-    {{- if .paywall }} ┆ <span class="hx-inline-block hx-align-text-bottom icon" title="Bezahlschranke">{{ replaceRE "<svg" "<svg height=1em" (index site.Data.icons "currency-euro") | safeHTML }}</span>{{ end -}}
+    {{- if .paywall }} ┆ <span class="hx-inline-block hx-align-text-bottom icon" title="Bezahlschranke">{{ replaceRE "<svg" "<svg height=1em" (index hugo.Data.icons "currency-euro") | safeHTML }}</span>{{ end -}}
   </p>
   <p>{{ .teaser | safeHTML }}</p>
 </div>

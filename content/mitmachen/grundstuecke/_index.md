@@ -12,9 +12,7 @@ weight: 6
 {{< /callout >}}
 
 ## Keilberg-Hollerweg
-<a href= "plk" style="padding: 0;">
-<img src="/images/keilberg_hollerweg.png">
-</a> 
+<a href="plk" style="padding: 0;">{{< image src="/images/keilberg_hollerweg.png" lightbox="false" >}}</a> 
 <figure>
   <figcaption>Naturnahes Neubaugebiet für Baugruppen<sup><a href="https://srv19.regensburg.de/bi/vo020.asp?VOLFDNR=17707" target="_blank">↗</a></sup>.</figcaption>
 </figure>
@@ -23,9 +21,7 @@ weight: 6
 Platz für 400 Bewohner:innen soll das **Neubaugebiet Keilberg-Hollerweg** bieten. Dabei soll behutsam verdichtet gebaut und Frei- sowie Grünflächen erhalten werden. Eine Quartiersgarage ist angedacht. Die **Zielgruppe sind Baugruppen**, die gemeinschaftlich ein größeres Projekt umsetzen wollen. [Weitere Informationen...](/mitmachen/grundstuecke/keilberg_hollerweg)
 
 ## Prinz-Leopold-Kaserne (PLK)
-<a href= "plk" style="padding: 0;">
-<img src="/images/plk.jpg">
-</a> 
+<a href="plk" style="padding: 0;">{{< image src="/images/plk.jpg" lightbox="false" >}}</a> 
 <figure>
   <figcaption>Innovationsquartier Prinz-Leopold-Kaserne. © Stadt Regensburg<sup><a href="https://www.regensburg.de/prinz-leopold-kaserne" target="_blank">↗</a></sup>.</figcaption>
 </figure>

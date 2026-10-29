@@ -26,16 +26,8 @@
   {{- end -}}
 >
   {{- with $image -}}
-    <img
-      alt="{{ $title }}"
-      class="hextra-card-image"
-      loading="lazy"
-      decoding="async"
-      src="{{ $image | safeURL }}"
-      {{ with $width }}width="{{ . }}"{{ end }}
-      {{ with $height }}height="{{ . }}"{{ end }}
-      {{ with $imageStyle }}style="{{ . | safeCSS }}"{{ end }}
-    />
+    {{- /* The card itself is a link, so no lightbox. */ -}}
+    {{ partial "image.html" (dict "src" $image "alt" $title "class" "hextra-card-image" "style" $imageStyle "sizes" "(min-width: 768px) 400px, 100vw" "widths" (slice 480 800) "lightbox" false) }}
   {{- end -}}
 
   {{- $padding := "hx-p-4" -}}
