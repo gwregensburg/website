@@ -1,11 +1,14 @@
-{{- /* One book or publication from data/books/ (library list and {{< book "<id>" >}}). */ -}}
+{{- /* One book, publication, podcast or video from data/books/ (library, Infothek and {{< book "<id>" >}}). */ -}}
 {{- $titleSlug := printf "%s" (.title | lower | replaceRE "\\s+" "-" | replaceRE "[^\\w\\s-]+" "") -}}
+{{- $type := .type | default "" -}}
 
 <div class="book__object">
     {{- if .tipp -}}
         <span class="badge">Tipp</span>
     {{- end -}}
-    {{ partial "image.html" (dict "src" .image "alt" .title "style" "border-radius: 0.5rem; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);" "sizes" "(min-width: 768px) 250px, 100vw" "widths" (slice 250 500 800)) }}
+    {{- with .image }}
+    {{ partial "image.html" (dict "src" . "alt" $.title "style" "border-radius: 0.5rem; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);" "sizes" "(min-width: 768px) 250px, 100vw" "widths" (slice 250 500 800)) }}
+    {{- end }}
     <span class="anchor-link" id="{{ $titleSlug }}"></span>
     <h3 class="hx:block hx:font-semibold hx:text-2xl hx:leading-none hx:tracking-tighter">
         {{ .title }}
@@ -14,13 +17,20 @@
     {{- if .subtitle -}}
         <p class="hx:text-gray-600">{{ .subtitle }}</p>
     {{- end -}}
+    {{- if or .author .published -}}
     <p class="hx:text-gray-600">{{ .author }} {{- with .published }} | {{ . }}{{ end }}</p>
+    {{- end -}}
     <p>
         {{ .description | markdownify }}
     </p>
     {{- with .link -}}
         <div class="content">
-        <a target="_blank" href="{{ . }}">{{ if strings.HasSuffix . ".pdf" }}Kostenloser Download{{ else }}Mehr Informationen...{{ end }}</a>
+        <a target="_blank" href="{{ . }}">
+            {{- if eq $type "Podcast" }}Anhören
+            {{- else if eq $type "Video" }}Ansehen
+            {{- else if strings.HasSuffix . ".pdf" }}Kostenloser Download
+            {{- else }}Mehr Informationen...{{ end -}}
+        </a>
         </div>
     {{- end -}}
 </div>

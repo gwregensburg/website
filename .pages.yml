@@ -132,10 +132,11 @@ content:
         type: code
         options: { format: markdown }
 
-  # Books and publications, one file each. Library books (borrowable) are listed by {{< books >}};
-  # any book can be placed on a page with {{< book "<ID>" >}} (ID = file name without .yaml).
+  # Books, publications, podcasts and videos, one file each, all shown in book view.
+  # Library books (📚) are listed by {{< books >}}, Infothek entries (📖) by {{< infothek "lesen|hoeren|schauen" >}};
+  # any entry can be placed on a page with {{< book "<ID>" >}} (ID = file name without .yaml).
   - name: books
-    label: Bücher & Publikationen
+    label: Medien
     type: collection
     path: data/books
     format: yaml
@@ -147,9 +148,9 @@ content:
     operations: { rename: false }
     view:
       # Markers right after the title, so they stay visible when the text columns make the table wide.
-      fields: [image, title, tipp, library, author, subtitle]
+      fields: [image, title, type, tipp, library, infothek, author]
       primary: title
-      sort: [weight, title]
+      sort: [weight, title, type]
       search: [title, subtitle, author]
       default:
         sort: weight
@@ -159,11 +160,19 @@ content:
         label: Titel
         type: string
         required: true
+      - name: type
+        label: Art
+        description: Leer lassen für Bücher und Publikationen.
+        type: select
+        options:
+          placeholder: Buch / Publikation
+          values: [Podcast, Video]
       - name: subtitle
         label: Untertitel
         type: string
       - name: author
-        label: Autor:in / Herausgeber
+        label: Autor:in / Herausgeber / Quelle
+        description: Bei Podcasts und Videos der Sender oder die Sendung, z. B. "DLF Kultur" oder "holy HOME".
         type: string
       - name: published
         label: Erschienen
@@ -202,9 +211,21 @@ content:
           values:
             - name: "📚"
               label: "📚 Vereinsbibliothek (ausleihbar)"
+      - name: infothek
+        label: Infothek
+        description: Erscheint in der Infothek unter Lesen, Hören oder Schauen (je nach Art).
+        # A select instead of a boolean, so the table shows 📖 instead of "True".
+        type: select
+        options:
+          multiple: true
+          max: 1
+          placeholder: Nicht in der Infothek
+          values:
+            - name: "📖"
+              label: "📖 In der Infothek zeigen"
       - name: weight
         label: Reihenfolge
-        description: Kleinere Zahl = weiter oben in der Bibliothek. Neue Bücher ohne Zahl stehen ganz unten.
+        description: Kleinere Zahl = weiter oben in der Bibliothek bzw. Infothek. Einträge ohne Zahl stehen ganz unten.
         type: number
       - name: tags
         label: Schlagwörter

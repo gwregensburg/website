@@ -1,0 +1,25 @@
+{{- /*
+  One section of the Infothek: everything in data/books/ marked "infothek", by type, in book view.
+    {{< infothek "lesen" >}}   books and publications (no type)
+    {{< infothek "hoeren" >}}  type Podcast
+    {{< infothek "schauen" >}} type Video
+  "weight" sets the order (smaller = higher); entries without one go last.
+*/ -}}
+{{- $section := .Get 0 -}}
+{{- $type := index (dict "lesen" "" "hoeren" "Podcast" "schauen" "Video") $section -}}
+{{- if not (in (slice "lesen" "hoeren" "schauen") $section) -}}
+  {{- warnf "infothek: unknown section %q in %s (lesen, hoeren or schauen)" $section .Position -}}
+{{- end -}}
+{{- $items := slice -}}
+{{- range hugo.Data.books -}}
+  {{- if and .infothek (eq (.type | default "") $type) -}}
+    {{- $items = $items | append (merge (dict "weight" 9999) .) -}}
+  {{- end -}}
+{{- end -}}
+{{- range sort $items "weight" }}
+  <div class="hx:mt-6 hx:mb-6">
+    {{ partial "book" . }}
+  </div>
+{{- else -}}
+  {{- warnf "infothek: no entries for %q in %s" $section .Position -}}
+{{- end -}}
