@@ -3,6 +3,9 @@ type: Podcast
 author: holy HOME
 image: /images/holy_home_63.jpg
 link: https://holyhome.podigee.io/65-1
+topics:
+- Genossenschaft
+- Beispiele
 infothek:
 - 📖
 weight: 100

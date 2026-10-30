@@ -3,6 +3,9 @@ type: Podcast
 author: holy HOME
 image: /images/holy_home_59.jpg
 link: https://holyhome.podigee.io/61-neue-episode
+topics:
+- Mietshäusersyndikat
+- Finanzierung
 infothek:
 - 📖
 weight: 130

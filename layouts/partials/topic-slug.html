@@ -1,0 +1,6 @@
+{{- /* URL-friendly topic key for the Infothek filter: "Mietshäusersyndikat" -> "mietshaeusersyndikat". */ -}}
+{{- $slug := lower . -}}
+{{- range $from, $to := dict "ä" "ae" "ö" "oe" "ü" "ue" "ß" "ss" -}}
+  {{- $slug = replace $slug $from $to -}}
+{{- end -}}
+{{- return urlize $slug -}}

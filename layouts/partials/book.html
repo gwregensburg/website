@@ -20,6 +20,9 @@
     {{- if or .author .published -}}
     <p class="hx:text-gray-600">{{ .author }} {{- with .published }} | {{ . }}{{ end }}</p>
     {{- end -}}
+    {{- if and .show_topics .topics }}
+    <p class="book-topics">{{ range .topics }}<span class="book-topic">{{ . }}</span>{{ end }}</p>
+    {{- end }}
     <p>
         {{ .description | markdownify }}
     </p>

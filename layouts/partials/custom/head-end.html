@@ -13,3 +13,6 @@
   {{- end }}
 {{- end }}
 {{ with resources.Get "js/lightbox.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}
+{{- if .HasShortcode "infothek-filter" }}
+{{ with resources.Get "js/infothek-filter.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}
+{{- end }}

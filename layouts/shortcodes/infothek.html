@@ -4,6 +4,7 @@
     {{< infothek "hoeren" >}}  type Podcast
     {{< infothek "schauen" >}} type Video
   "weight" sets the order (smaller = higher); entries without one go last.
+  The data-* attributes are used by the filter ({{< infothek-filter >}}, assets/js/infothek-filter.js).
 */ -}}
 {{- $section := .Get 0 -}}
 {{- $type := index (dict "lesen" "" "hoeren" "Podcast" "schauen" "Video") $section -}}
@@ -16,10 +17,15 @@
     {{- $items = $items | append (merge (dict "weight" 9999) .) -}}
   {{- end -}}
 {{- end -}}
+<div class="infothek-section" data-section="{{ $section }}">
 {{- range sort $items "weight" }}
-  <div class="hx:mt-6 hx:mb-6">
-    {{ partial "book" . }}
+  {{- $topics := slice -}}
+  {{- range .topics }}{{ $topics = $topics | append (partial "topic-slug" .) }}{{ end -}}
+  {{- $search := lower (delimit (slice .title (.subtitle | default "") (.author | default "") (.description | default "") (delimit (.topics | default slice) " ")) " ") }}
+  <div class="hx:mt-6 hx:mb-6 infothek-item" data-section="{{ $section }}" data-topics="{{ delimit $topics " " }}" data-search="{{ $search }}">
+    {{ partial "book" (merge . (dict "show_topics" true)) }}
   </div>
 {{- else -}}
   {{- warnf "infothek: no entries for %q in %s" $section .Position -}}
-{{- end -}}
+{{- end }}
+</div>

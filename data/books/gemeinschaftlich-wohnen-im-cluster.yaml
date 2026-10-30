@@ -2,6 +2,9 @@ title: Gemeinschaftlich Wohnen im Cluster
 image: /images/gem_wohnen_cluster.png
 link: https://www.netzwerk-generationen.de/fileadmin/user_upload/PDF/Downloads_brosch%C3%BCren-dokumentationen/2019-12-13_Broschuere_Cluster_web.pdf
 description: Einführung in das Thema Cluster-Wohnen, das vor allem für ältere Menschen interessanter wird und auch explizit vom Staat Bayern gefördert wird.
+topics:
+- Cluster-Wohnen
+- Wohnen im Alter
 infothek:
 - 📖
 weight: 70

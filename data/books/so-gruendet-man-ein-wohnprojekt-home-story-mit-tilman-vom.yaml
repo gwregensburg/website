@@ -3,6 +3,8 @@ type: Podcast
 author: holy HOME
 image: /images/holy_home_64.jpg
 link: https://holyhome.podigee.io/66-new-episode
+topics:
+- Beispiele
 infothek:
 - 📖
 weight: 90

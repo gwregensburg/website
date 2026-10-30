@@ -10,6 +10,8 @@ cascade:
 
 Hier findest du [Bücher](#lesen), [Podcasts](#hören) und [Videos](#schauen) zum Thema Gemeinschaftliches Wohnen. 
 
+{{< infothek-filter >}}
+
 ## Lesen
 
 Weitere Titel finden sich in der [Bibliothek](/bibliothek) und können von Vereinsmitgliedern kostenlos ausgeliehen werden.

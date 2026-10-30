@@ -187,6 +187,14 @@ content:
       - name: description
         label: Beschreibung
         type: text
+      - name: topics
+        label: Themen
+        description: Für den Filter in der Infothek. Mehrere möglich.
+        type: select
+        options:
+          multiple: true
+          placeholder: Kein Thema
+          values: [Genossenschaft, Mietshäusersyndikat, Baugemeinschaft, Wohnen im Alter, Mehrgenerationenwohnen, Cluster-Wohnen, Inklusion, Beispiele, Rechtsformen, Finanzierung]
       - name: tipp
         label: Buchtipp
         description: Wird auf der Webseite als Tipp hervorgehoben.
