@@ -133,7 +133,7 @@ content:
         options: { format: markdown }
 
   # Books, publications, podcasts and videos, one file each, all shown in book view.
-  # Library books (📚) are listed by {{< books >}}, Infothek entries (📖) by {{< infothek "lesen|hoeren|schauen" >}};
+  # Library books (📚) are listed by {{< books >}}, Infothek entries (📖) by {{< infothek >}};
   # any entry can be placed on a page with {{< book "<ID>" >}} (ID = file name without .yaml).
   - name: books
     label: Medien
@@ -221,7 +221,7 @@ content:
               label: "📚 Vereinsbibliothek (ausleihbar)"
       - name: infothek
         label: Infothek
-        description: Erscheint in der Infothek unter Lesen, Hören oder Schauen (je nach Art).
+        description: Erscheint in der Infothek.
         # A select instead of a boolean, so the table shows 📖 instead of "True".
         type: select
         options:
@@ -233,7 +233,7 @@ content:
               label: "📖 In der Infothek zeigen"
       - name: weight
         label: Reihenfolge
-        description: Kleinere Zahl = weiter oben in der Bibliothek bzw. Infothek. Einträge ohne Zahl stehen ganz unten.
+        description: Kleinere Zahl = weiter oben in der Bibliothek bzw. Infothek (dort innerhalb der Art). Einträge ohne Zahl stehen ganz unten.
         type: number
       - name: tags
         label: Schlagwörter

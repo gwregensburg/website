@@ -8,22 +8,10 @@ cascade:
   type: docs
 ---
 
-Hier findest du [Bücher](#lesen), [Podcasts](#hören) und [Videos](#schauen) zum Thema Gemeinschaftliches Wohnen. 
-
-{{< media-filter "infothek" >}}
-
-## Lesen
+Hier findest du Bücher, Podcasts und Videos zum Thema Gemeinschaftliches Wohnen. Mit dem Filter kannst du nach Art, Thema oder Stichwort suchen.
 
 Weitere Titel finden sich in der [Bibliothek](/bibliothek) und können von Vereinsmitgliedern kostenlos ausgeliehen werden.
 
-{{< infothek "lesen" >}}
+{{< media-filter "infothek" >}}
 
-## Hören 
-
-
-{{< infothek "hoeren" >}}
-
-## Schauen 
-
-
-{{< infothek "schauen" >}}
+{{< infothek >}}
