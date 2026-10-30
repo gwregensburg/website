@@ -697,3 +697,4 @@ html.dark .hx\:dark\:focus\:ring-primary-800:focus {
   margin-top: 0.5rem;
 }
 .book-topic { font-size: 0.8rem; padding: 0.05rem 0.6rem; opacity: 0.85; }
+.book-type { font-weight: 600; background-color: rgba(128, 128, 128, 0.12); }

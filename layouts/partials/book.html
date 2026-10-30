@@ -20,8 +20,11 @@
     {{- if or .author .published -}}
     <p class="hx:text-gray-600">{{ .author }} {{- with .published }} | {{ . }}{{ end }}</p>
     {{- end -}}
-    {{- if and .show_topics .topics }}
-    <p class="book-topics">{{ range .topics }}<span class="book-topic">{{ . }}</span>{{ end }}</p>
+    {{- if and .show_topics (or $type .topics) }}
+    <p class="book-topics">
+        {{- with $type }}<span class="book-topic book-type">{{ index (dict "Podcast" "🎧" "Video" "🎬") . }} {{ . }}</span>{{ end -}}
+        {{- range .topics }}<span class="book-topic">{{ . }}</span>{{ end -}}
+    </p>
     {{- end }}
     <p>
         {{ .description | markdownify }}
