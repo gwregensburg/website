@@ -260,3 +260,161 @@ content:
             - { name: wittelsbacher, label: Wittelsbacher Str. 7 }
             - { name: a4f, label: Architects for Future (A4F) }
             - { name: baukulturtage, label: 2. Baukulturtage }
+
+  # All other pages, one collection per menu section (subfolders included, so new pages appear automatically).
+  # Only title, description and text are in the form; other front matter (url, type, weight, cascade, ...)
+  # is kept on save (settings.content.merge). No create/rename/delete: pages have fixed URLs and menu entries.
+  # The home page (content/_index.md) is deliberately not editable here.
+  - name: pages
+    label: Seiten
+    type: group
+    items:
+      - name: wohnprojekte
+        label: Wohnprojekte
+        type: collection
+        path: content/wohnprojekte
+        format: yaml-frontmatter
+        subfolders: true
+        view:
+          layout: tree
+          node: { filename: _index.md }
+          primary: title
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: title
+            label: Titel
+            type: string
+            required: true
+          - name: description
+            label: Kurzbeschreibung
+            description: Für Suchmaschinen und Vorschauen.
+            type: text
+          - name: body
+            label: Text
+            description: Markdown mit Hugo-Shortcodes ({{< … >}}) und HTML. Shortcodes und HTML-Blöcke bitte nur vorsichtig ändern.
+            type: code
+            options: { format: markdown }
+      - name: mitmachen
+        label: Mitmachen
+        type: collection
+        path: content/mitmachen
+        format: yaml-frontmatter
+        subfolders: true
+        view:
+          layout: tree
+          node: { filename: _index.md }
+          primary: title
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: title
+            label: Titel
+            type: string
+            required: true
+          - name: description
+            label: Kurzbeschreibung
+            description: Für Suchmaschinen und Vorschauen.
+            type: text
+          - name: body
+            label: Text
+            description: Markdown mit Hugo-Shortcodes ({{< … >}}) und HTML. Shortcodes und HTML-Blöcke bitte nur vorsichtig ändern.
+            type: code
+            options: { format: markdown }
+      - name: veranstaltungen
+        label: Veranstaltungen
+        type: collection
+        path: content/veranstaltungen
+        format: yaml-frontmatter
+        subfolders: true
+        view:
+          layout: tree
+          node: { filename: _index.md }
+          primary: title
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: title
+            label: Titel
+            type: string
+            required: true
+          - name: description
+            label: Kurzbeschreibung
+            description: Für Suchmaschinen und Vorschauen.
+            type: text
+          - name: body
+            label: Text
+            description: Markdown mit Hugo-Shortcodes ({{< … >}}) und HTML. Shortcodes und HTML-Blöcke bitte nur vorsichtig ändern.
+            type: code
+            options: { format: markdown }
+      - name: wissen
+        label: Wissen
+        type: collection
+        path: content/wissen
+        format: yaml-frontmatter
+        subfolders: true
+        view:
+          layout: tree
+          node: { filename: _index.md }
+          primary: title
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: title
+            label: Titel
+            type: string
+            required: true
+          - name: description
+            label: Kurzbeschreibung
+            description: Für Suchmaschinen und Vorschauen.
+            type: text
+          - name: body
+            label: Text
+            description: Markdown mit Hugo-Shortcodes ({{< … >}}) und HTML. Shortcodes und HTML-Blöcke bitte nur vorsichtig ändern.
+            type: code
+            options: { format: markdown }
+      - name: verein
+        label: Verein
+        type: collection
+        path: content/verein
+        format: yaml-frontmatter
+        subfolders: true
+        view:
+          layout: tree
+          node: { filename: _index.md }
+          primary: title
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: title
+            label: Titel
+            type: string
+            required: true
+          - name: description
+            label: Kurzbeschreibung
+            description: Für Suchmaschinen und Vorschauen.
+            type: text
+          - name: body
+            label: Text
+            description: Markdown mit Hugo-Shortcodes ({{< … >}}) und HTML. Shortcodes und HTML-Blöcke bitte nur vorsichtig ändern.
+            type: code
+            options: { format: markdown }
+      - name: other_pages
+        label: Weitere Seiten
+        type: collection
+        path: content
+        format: yaml-frontmatter
+        subfolders: false
+        exclude: [_index.md]
+        view:
+          primary: title
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - name: title
+            label: Titel
+            type: string
+            required: true
+          - name: description
+            label: Kurzbeschreibung
+            description: Für Suchmaschinen und Vorschauen.
+            type: text
+          - name: body
+            label: Text
+            description: Markdown mit Hugo-Shortcodes ({{< … >}}) und HTML. Shortcodes und HTML-Blöcke bitte nur vorsichtig ändern.
+            type: code
+            options: { format: markdown }
