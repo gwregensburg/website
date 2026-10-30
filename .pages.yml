@@ -194,7 +194,7 @@ content:
         options:
           multiple: true
           placeholder: Kein Thema
-          values: [Genossenschaft, Mietshäusersyndikat, Baugemeinschaft, Wohnen im Alter, Mehrgenerationenwohnen, Cluster-Wohnen, Inklusion, Beispiele, Rechtsformen, Finanzierung]
+          values: [Genossenschaft, Mietshäusersyndikat, Baugemeinschaft, Wohnen im Alter, Mehrgenerationenwohnen, Cluster-Wohnen, Inklusion, Beispiele, Rechtsformen, Finanzierung, Gründung, Kommunen]
       - name: tipp
         label: Buchtipp
         description: Wird auf der Webseite als Tipp hervorgehoben.

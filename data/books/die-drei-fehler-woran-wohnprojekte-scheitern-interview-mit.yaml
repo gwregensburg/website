@@ -3,4 +3,6 @@ type: Podcast
 author: holy HOME
 image: /images/holy_home_65.jpg
 link: https://holyhome.podigee.io/67-new-episode
+topics:
+- Gründung
 weight: 80
