@@ -46,15 +46,7 @@ Auch in Regensburg [existieren schon](#wohnprojekte-in-regensburg) Wohnprojekte 
 Regensburg braucht mehr Wohnprojekte, um vielfältigen, sicheren und günstigen Wohnraum zu schaffen! Selbst ein neues Wohnprojekt zu gründen kann ein Schritt in diese Richtung werden.
 
 
-  {{<book 
-    title="Ein Wohnprojekt starten"
-    author="Stiftung trias (Hrsg.)"
-    published="2019" 
-    tipp=true
-    image="/images/Ein_Wohnprojekt_starten.png"
-    link="https://www.stiftung-trias.de/fileadmin/media/downloads/2019_trias_Ein_Wohnprojekt_starten_net.pdf"
-    description="Gemeinschaftliches Wohnen - Was ist das? Wie geht das? Was bringt das? Wo finde ich Wohnprojekte? Wo gibt es Hilfe und Unterstützung? <br> Diese und weitere Fragen beantwortet unsere Broschüre in verschiedenen Beiträgen zu den Themen, die am Beginn eines gemeinschaftlichen Wohnprojekts entstehen."
-  >}}
+  {{< book "ein-wohnprojekt-starten" >}}
 
 Wohnprojekte sind vielfältig, aber der Weg, ein Wohnprojekt zu gründen ist oft ähnlich[^1]:
 
@@ -102,28 +94,9 @@ In dieser Phase hat die Gruppe ihren höchsten Aufwand hinter sich, das ist nun 
 [^1]: **Wie geht gemeinschaftliches Wohnen?** Versuch einer Anleitung - Schritt für Schritt. Schaller, Natalie und Skok, Heike. In: [Ein Wohnprojekt starten.](https://www.stiftung-trias.de/fileadmin/media/downloads/2019_trias_Ein_Wohnprojekt_starten_net.pdf) Stiftung trias (Hrsg.) 2019. 
 
 ### Weitere Informationen
-  {{<book 
-    title="Ein Wohnprojekt starten. WIN"
-    author="WIN für Gemeinschaftliches Wohnen"
-    image="/images/win.jpg"
-    link="https://win.fgw-ev.de/lernbereich/wohnprojekte-realisieren/projekt-starten/"
-    description="Wohnprojekte entstehen häufig 'bottom up' durch Privatinitiative von Einzelnen oder das Gespräch im Freundeskreis. Bei 'top down'-Projekten machen Institutionen (z.B. soziale Träger, Kommunen, Wohnungsunternehmen) den ersten Schritt. In beiden Fällen verständigt sich zunächst eine Kerngruppe über wichtige Merkmale des Projekts (z.B. Lage, Größe, Zusammensetzung). Auf dieser Basis können sich weitere Interessenten und Interessentinnen anschließen."
-  >}}
-  {{<book 
-    title="Ein Wohnprojekt starten. mitbau kompakt"
-    author="mitbauzentrale"
-    image="/images/wohnprojekt-starten.png"
-    link="https://www.mitbauzentrale-muenchen.de/files/daten/dokumente/pdfs/Service%20Downloads/mitbauKompakt-ProjektStarten-Doppelseiten-web.pdf"
-    description="Wohnprojekte, das gemeinschaftliche und generationenübergreifende Wohnen, sind in vieler Munde. Sie haben vielleicht bereits Projekte besucht und dabei ganz eigene Ideen entwickelt, wie Ihre ideale Wohnform aussehen soll? Deshalb möchten Sie ein eigenes Projekt gründen! Damit der Start gelingt, hier eine Orientierung über die Bausteine und Schritte von der Idee zum fertigen Projekt."
-  >}}
-  {{<book 
-    title="Gründungsleitfaden inklusives Wohnprojekt"
-    subtitle="Schritt für Schritt von der Idee zur inklusiven Wohnform"
-    author="Wohn:Sinn"
-    image="/images/Wohnsinn_gruendungsleitfaden.jpg"
-    link="https://www.wohnsinn.org/wissen-von-a-z/gruendungsleitfadenf"
-    description="Dieser Leitfaden nimmt Sie an die Hand und führt Sie durch den Gründungsprozess eines inklusiven Wohnprojekts. Egal ob Sie noch am Anfang stehen oder sich mitten in der Umsetzung befinden: Der Leitfaden hilft Ihnen bei jedem Schritt weiter."
-  >}}
+  {{< book "ein-wohnprojekt-starten-win" >}}
+  {{< book "ein-wohnprojekt-starten-mitbau-kompakt" >}}
+  {{< book "gruendungsleitfaden-inklusives-wohnprojekt" >}}
 
 ## Ein bestehendes Wohnprojekt finden
 Eine weitere Option ist, einem bestehenden Projekt beizutreten. Das können etwa [Wohnbaugenossenschaften](https://www.regensburg.de/leben/wohnen-u-bauen/wohnungssuche-in-regensburg) oder [Gruppen auf der Suche nach Mitgliedern](/mitmachen/vernetzen/projektgruppen/) sein. Auch [Wohnprojektportale](/mitmachen/vernetzen/) könnten eine gute Anlaufstelle sein. 

@@ -3,11 +3,12 @@
 Quellcode der Webseite [gemeinschaftlich-wohnen-regensburg.de](https://gemeinschaftlich-wohnen-regensburg.de), gebaut mit [Hugo](https://gohugo.io/) und dem Theme [Hextra](https://github.com/imfing/hextra), gehostet auf GitHub Pages.
 
 ## Inhalte bearbeiten (ohne Git)
-Veranstaltungen, Aktuelles, Bibliothek, Presse und alle Seiten werden im Browser über [Pages CMS](https://app.pagescms.org) bearbeitet. Die Konfiguration liegt in `.pages.yml`.
+Veranstaltungen, Aktuelles, Bücher, Presse und alle Seiten werden im Browser über [Pages CMS](https://app.pagescms.org) bearbeitet. Die Konfiguration liegt in `.pages.yml`.
 - Redakteur:innen werden in Pages CMS per E-Mail eingeladen und brauchen kein GitHub-Konto.
 - Jedes Speichern ist ein Commit auf `main` mit `deploy` in der Nachricht, die Webseite wird danach automatisch neu gebaut (dauert ca. 1–2 Minuten).
 - Jede Veranstaltung ist eine eigene Datei in `data/events/` (`<datum>-<titel>.yaml`). Auf der Webseite wird nach Datum sortiert, vergangene Veranstaltungen verschwinden mit dem täglichen Neubau.
 - Presseartikel liegen zentral in `data/press/` (je Artikel eine Datei, im CMS unter „Presse“). Im Feld „Erscheint auf“ wählt man die Seiten aus; dort zeigt `{{< press topic="plk" >}}` alle Artikel des Themas, neueste zuerst. Ein einzelner Artikel geht mit `{{< press "<ID>" >}}` (ID = Dateiname ohne `.yaml`). Neue Themen müssen in `.pages.yml` ergänzt werden.
+- Bücher und Publikationen liegen in `data/books/` (im CMS unter „Bücher & Publikationen“). Ausleihbare Bücher sind als „Vereinsbibliothek“ markiert und erscheinen automatisch auf der Bibliotheksseite (`{{< books >}}`). Jedes Buch lässt sich auf einer Seite mit `{{< book "<ID>" >}}` einbinden (ID = Dateiname ohne `.yaml`).
 - Unter „Seiten“ sind alle Seiten nach Menübereichen als Baum erreichbar (neue Unterseiten erscheinen automatisch). Im Formular stehen nur Titel, Kurzbeschreibung und Text (Markdown mit Shortcodes); alle übrigen Einstellungen der Seite bleiben beim Speichern erhalten. Anlegen, Umbenennen und Löschen geht nur im Repository, weil Seiten feste Adressen und Menüeinträge haben.
 - Die Startseite ist bewusst nicht im CMS (besteht fast nur aus Layout-Bausteinen) und wird direkt im Repository bearbeitet.
 

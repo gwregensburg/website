@@ -132,14 +132,19 @@ content:
         type: code
         options: { format: markdown }
 
+  # Books and publications, one file each. Library books (borrowable) are listed by {{< books >}};
+  # any book can be placed on a page with {{< book "<ID>" >}} (ID = file name without .yaml).
   - name: books
-    label: Bibliothek
+    label: Bücher & Publikationen
     type: collection
     path: data/books
     format: yaml
-    filename: "{fields.title}.yaml"
+    filename:
+      template: "{fields.title}.yaml"
+      # Shown only when creating, so editors can pick a short ID. Renaming later would break pages using it.
+      field: create
     view:
-      fields: [image, title, subtitle, author, tipp]
+      fields: [image, title, subtitle, author, tipp, library]
       primary: title
       sort: [weight, title]
       search: [title, subtitle, author]
@@ -182,6 +187,18 @@ content:
           values:
             - name: "★"
               label: "★ Buchtipp"
+      - name: library
+        label: Vereinsbibliothek
+        description: Ausleihbares Buch, erscheint auf der Bibliotheksseite. Andere Publikationen bindet man auf einer Seite mit {{< book "Dateiname" >}} ein.
+        # A select instead of a boolean, so the table shows 📚 instead of "True".
+        type: select
+        options:
+          multiple: true
+          max: 1
+          placeholder: Nicht in der Bibliothek
+          values:
+            - name: "📚"
+              label: "📚 Vereinsbibliothek (ausleihbar)"
       - name: weight
         label: Reihenfolge
         description: Kleinere Zahl = weiter oben in der Bibliothek. Neue Bücher ohne Zahl stehen ganz unten.

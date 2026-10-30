@@ -1,7 +1,11 @@
-{{/* One file per book in data/books/, edited in the CMS. "weight" sets the order (smaller = higher); books without one go last. */}}
+{{/* The club library: books in data/books/ marked "library" (borrowable), edited in the CMS.
+     "weight" sets the order (smaller = higher); books without one go last.
+     Other publications are placed on pages one by one with {{< book "<id>" >}}. */}}
 {{- $books := slice -}}
 {{- range hugo.Data.books -}}
-  {{- $books = $books | append (merge (dict "weight" 9999) .) -}}
+  {{- if .library -}}
+    {{- $books = $books | append (merge (dict "weight" 9999) .) -}}
+  {{- end -}}
 {{- end -}}
 
 {{ range sort $books "weight" }}

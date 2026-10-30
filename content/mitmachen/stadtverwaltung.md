@@ -53,52 +53,15 @@ Die mitbauzentrale aus München hält [Wohnprojekte als ideale Partner für Komm
 {{< /callout >}} -->
 ## Publikationen
 
-  {{<book 
-    title="Wohnprojekte als ideale Partner für Kommunen"
-    author="mitbauzentrale München"
-    image="/images/Wohnprojekte_mitbauzentrale.jpg"
-    link="https://www.mitbauzentrale-muenchen.de/files/daten/dokumente/pdfs/Service%20Downloads/Flyer_WP_Kommunen-2021-web.pdf"
-    description="Es liegt maßgeblich in der Hand von Kommunen, Wohnprojekten den Weg zu bereiten. Darüber informiert diese kurze Publikation der mitbauzentrale München."
-  >}}
+  {{< book "wohnprojekte-als-ideale-partner-fuer-kommunen" >}}
 
-  {{<book 
-    title="Baugruppen und Wohngruppenprojekte - Ein Handbuch für Kommunen"
-    author="Ministerium für Wirtschaft, Energie, Bauen, Wohnen und Verkehr des Landes Nordrhein-Westfalen"
-    published=2010
-    image="/images/Baugruppen_und_Wohnprojekte_Handbuch.jpg"
-    link="https://www.neue-wohnformen.de/fileadmin/media/Informationen/Handbuch_Baugruppen_2011.pdf"
-    description="Dieses Handbuch gibt Kommunen viele praxisnahe Hinweise und Anregungen, wie sie solche Projekte, je nach ihren finanziellen und personellen Möglichkeiten, mit unterschiedlichsten Ansätzen und Maßnahmen unterstützen können. <br> Das Handbuch ist dazu gezielt in Form eines Baukastensystems aufgebaut. Jede Kommune kann sich zu dem Thema, das sie interessiert oder angehen will, unterschiedliche Ideen und Themen aus dem Baukasten herausnehmen. "
-  >}}
+  {{< book "baugruppen-und-wohngruppenprojekte-ein-handbuch-fuer" >}}
 
-  {{<book 
-    title="Grundstücksvergabe für gemeinschaftliches Wohnen"
-    subtitle="Konzeptverfahren zur Förderung des sozialen Zusammenhalts, bezahlbaren Wohnraums und lebendiger Quartiere | Praxisbeispiele aus Tübingen, Hamburg, München und Berlin"
-    author="FORUM Gemeinschaftliches Wohnen e.V. Bundesvereinigung"
-    published=2023
-    image="/images/grundstuecksvergabe_gem_wohnen.jpg"
-    link="https://verein.fgw-ev.de/media/forum_grundstuecksvergabe_barrierefrei_2.auflage.pdf"
-    description="Konkret möchte das FORUM Impulse geben, wie Kommunen zukunftsfeste Wohnqualitäten erreichen können: lebendige Quartiere, in denen sich Menschen gut aufgehoben fühlen, mit Wohnprojekten, in denen Interes sierte gemeinschaftlich und selbstbestimmt leben können und mit neuen Wohn-Pflege-Formen als Alternativen zu klassischen Pflegeheimen im Alter. Wie Kommunen das im Hinblick auf Wohnprojekte umsetzen können, will die vorliegende Veröffentlichung aufzeigen. Wohnprojekte sind Alternativen zum „Wohnen wie gewohnt“. Ihnen geht es um gemeinschaftliche Selbsthilfe im Wohnen: miteinander gut nachbar schaftlich und sozial aufmerksam unter einem Dach und in eigenen Woh nungen leben. Besonders junge Familien und ältere Menschen interessieren sich dafür. Aber wie an bezahlbare Grundstücke kommen? Das ist vor allem, aber nicht nur in prosperierenden Städten ein Problem. "
-  >}}
+  {{< book "grundstuecksvergabe-fuer-gemeinschaftliches-wohnen" >}}
 
-  {{<book 
-    title="Gemeinschaftliche Wohnprojekte: wenig Aufwand - viele Chancen"
-    subtitle="Ein Gewinn für die Kommunen: Beispiele, Methoden und Ideen zur Förderung von Wohnprojekten"
-    author="FORUM Gemeinschaftliches Wohnen e.V. Bundesvereinigung"
-    published=2014
-    image="/images/gem_wohnprojekte_aufwand_chancen.jpg"
-    link="https://verein.fgw-ev.de/media/broschuere_forum_kommune_.pdf"
-    description="Woher soll das Geld kommen, um Kommunen attraktiv zu halten? Was ist überhaupt attraktiv, jetzt oder in zehn Jahren – die Ansiedlung von Gewerbe für mehr Arbeitsplätze, die Sicherung der Infrastruktur oder ein ökologisches Neubaugebiet? Angesichts der unsicheren finanziellen Zukunft und eines rasanten gesellschaftlichen Wandels sind Spielräume für Kommunen schwer zu bestimmen. Dabei gibt es Handlungsspielräume, die den Haushalt kaum belasten und im Stadtviertel ebenso funktionieren wie im ländlichen Dorf. Die Bürger leben es längst vor. Gemeinschaftliche Wohnprojekte sind Keimzellen zur Quartiersaufwertung. Sie entwickeln eine große Strahlkraft, unabhängig von der sozialen Umgebung. Kommunen können hier einerseits neue Bauherren und Investoren binden, andererseits Infrastruktur für Familien und ältere Einwohner sichern – und das ohne nennenswerte finanzielle Aufwände. Die Erfahrungen Dutzender Kommunen belegen: Wer Wohn- und Baugruppen unterstützt, gewinnt auch als Kommune. Diese Broschüre fasst erste Ansätze für interessierte Kommunen zusammen."
-  >}}
+  {{< book "gemeinschaftliche-wohnprojekte-wenig-aufwand-viele-chancen" >}}
 
-  {{<book 
-    title="Baukultur für das Quartier"
-    subtitle="Prozesskultur durch Konzeptvergabe"
-    author="Bundesinstitut für Bau-, Stadt- und Raumforschung"
-    published=2020
-    image="/images/Baukultur_Konzeptvergabe.jpeg"
-    link="https://www.bbsr.bund.de/BBSR/DE/veroeffentlichungen/sonderveroeffentlichungen/2020/konzeptvergabe-langfassung-dl.pdf?__blob=publicationFile&v=3"
-    description="Konzeptverfahren etablieren sich für Lagen mit Entwicklungspotenzialen zunehmend als ein weiteres Instrument der kommunalen Bodenpolitik. Dabei wird die Liegenschaft nicht nach dem Höchstpreis vergeben, sondern nach dem Konzept, das die nachhaltigsten Ansätze zur Weiterentwicklung des Quartiers verspricht. So bieten die Verfahren den Kommunen Lösungsansätze für zwei aktuelle und dringende Problemstellungen: den Bedarf nach einer qualitativ und baukulturell hochwertigen Stadtentwicklung und nach bezahlbarem Wohnraum. "
-  >}}
+  {{< book "baukultur-fuer-das-quartier" >}}
 
 
 
