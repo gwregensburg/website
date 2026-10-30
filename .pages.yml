@@ -51,6 +51,8 @@ content:
         label: Letzter Tag (nur bei mehrtägigen Veranstaltungen)
         description: Bei eintägigen Veranstaltungen leer lassen. Gilt bei weiteren Terminen für jeden Termin (gleiche Dauer).
         type: date
+        # Without a default, Pages CMS fills an empty date field with today's date on every save.
+        default: ""
         options: { format: yyyy-MM-dd }
       - name: dates
         label: Weitere Termine

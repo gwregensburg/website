@@ -7,18 +7,24 @@
 
 {{/* One file per event in data/events/, edited in the CMS; sort by date here rather than relying on file names.
      Recurring events list further dates in "dates" ("Weitere Termine"); each date is shown as its own event.
-     A multi-day event ("end_date") keeps its length on every date. */}}
+     A multi-day event ("end_date") keeps its length on every date; an end date that is not after the
+     start is ignored (Pages CMS used to fill empty date fields with the day of saving). */}}
 {{ range $events }}
   {{ $event := . }}
   {{ $start := time .date }}
   {{ $length := 0 }}
-  {{ with .end_date }}{{ $length = (time .).Sub $start }}{{ end }}
+  {{ with .end_date }}
+    {{ $length = (time .).Sub $start }}
+    {{ if le $length 0 }}
+      {{ warnf "events: %q ignores end_date %v, it is not after date %v" $event.title . $event.date }}
+    {{ end }}
+  {{ end }}
   {{ range (slice .date | append (.dates | default slice)) }}
     {{ $date := time . }}
     {{ $eventDate := $date.Format "2006-01-02" }}
     {{ if ge $eventDate $currentDate }}
-      {{ $occurrence := merge $event (dict "date" $eventDate "sort_date" $eventDate) }}
-      {{ if $event.end_date }}
+      {{ $occurrence := merge $event (dict "date" $eventDate "sort_date" $eventDate "end_date" "") }}
+      {{ if gt $length 0 }}
         {{ $occurrence = merge $occurrence (dict "end_date" (($date.Add $length).Format "2006-01-02")) }}
       {{ end }}
       {{ $futureEvents = $futureEvents | append $occurrence }}
