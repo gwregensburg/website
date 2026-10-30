@@ -40,7 +40,7 @@ Du...
   >}}
 
 {{< feature-card 
-    link="/contact" 
+    link="/verein/#kontakt" 
     title="... besitzt eine Immobilie..." 
     subtitle="... und möchtest sie teilen oder einem sinnvollen Zweck zuführen?" 
     icon="home"

@@ -43,6 +43,6 @@ Hier findest du  {{< icon "user-group" >}}  [Kurzporträts](projektgruppen) von 
 {{< callout type="info" >}}
   Diese Seite ist in Entstehung. 
 
-  Du willst deine Gruppe auch hier präsentieren? [Schreib uns!](/contact)
+  Du willst deine Gruppe auch hier präsentieren? [Schreib uns!](/verein/#kontakt)
 {{< /callout >}}
 </div>

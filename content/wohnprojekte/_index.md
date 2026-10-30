@@ -101,7 +101,7 @@ In dieser Phase hat die Gruppe ihren höchsten Aufwand hinter sich, das ist nun 
 ## Ein bestehendes Wohnprojekt finden
 Eine weitere Option ist, einem bestehenden Projekt beizutreten. Das können etwa [Wohnbaugenossenschaften](https://www.regensburg.de/leben/wohnen-u-bauen/wohnungssuche-in-regensburg) oder [Gruppen auf der Suche nach Mitgliedern](/mitmachen/vernetzen/projektgruppen/) sein. Auch [Wohnprojektportale](/mitmachen/vernetzen/) könnten eine gute Anlaufstelle sein. 
 
-Kommt ihr nicht weiter, [schreibt uns](/contact) gerne!
+Kommt ihr nicht weiter, [schreibt uns](/verein/#kontakt) gerne!
 
 ## Wohnprojekte in Regensburg
 Neben den in unseren [Projektsteckbriefen](beispiele) vorgestellten Leuchtturmprojekten außerhalb Regensburgs finden sich auch hier schon einige umgesetzte Wohnprojekte.
@@ -120,7 +120,7 @@ Ein selbstverwaltetes Wohnprojekt im Mietshäuser-Syndikat im Norden Regensburgs
 
 {{< callout >}}
 **Dein Wohnprojekt fehlt hier? 👀**
-*Dann [melde](/contact) dich gerne bei uns! Wir nehmen es gerne hier auf.* 💙
+*Dann [melde](/verein/#kontakt) dich gerne bei uns! Wir nehmen es gerne hier auf.* 💙
 {{< /callout >}}
 
 ## Weitere Informationen

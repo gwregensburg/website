@@ -68,7 +68,7 @@ Die **Danz**, ein im Mietshäuser Syndikat organisertes, selbstverwaltetes Wohnp
 
 Von der **NaBau** umgesetzte [Wohnprojekte](https://www.nabau-eg.de/index.html%3Fp=215.html).
 
-Und wahrscheinlich jede Menge kleinere und größere Gemeinschaften, die anders als in drei-Zimmer-Küche-Bad zusammenleben. [Schreibt uns](/contact)! Wir würden uns gerne austauschen, und, falls ihr Lust habt, euch auch hier mit einem kurzen Steckbrief aufnehmen.
+Und wahrscheinlich jede Menge kleinere und größere Gemeinschaften, die anders als in drei-Zimmer-Küche-Bad zusammenleben. [Schreibt uns](/verein/#kontakt)! Wir würden uns gerne austauschen, und, falls ihr Lust habt, euch auch hier mit einem kurzen Steckbrief aufnehmen.
 
 [^1]: [die danz](https://die-danz.org/).
 {{% /details %}}

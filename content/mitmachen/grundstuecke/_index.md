@@ -8,7 +8,7 @@ aliases:
 weight: 6
 ---
 {{< callout emoji="🏡" type="warning">}}
-  Du hast ein Grundstück oder eine Immobilie die für gemeinschaftliches Wohnen geeignet ist? Gerne nehmen wir sie hier mit auf! [Kontaktiere uns!](/contact)
+  Du hast ein Grundstück oder eine Immobilie die für gemeinschaftliches Wohnen geeignet ist? Gerne nehmen wir sie hier mit auf! [Kontaktiere uns!](/verein/#kontakt)
 {{< /callout >}}
 
 ## Keilberg-Hollerweg

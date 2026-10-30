@@ -44,7 +44,7 @@ Diese Seite braucht noch mehr Inhalt. Es fehlen:
   - Detailliertere Ausarbeitungen
   - Beispiele aus umgesetzten Wohnprojekten
   
-*Interesse? Dann [melde](/contact) dich gerne bei uns! Literatur zu diesen Themen stellen wir gerne bereit.* 💙
+*Interesse? Dann [melde](/verein/#kontakt) dich gerne bei uns! Literatur zu diesen Themen stellen wir gerne bereit.* 💙
 {{< /callout >}}
 
 <!-- 

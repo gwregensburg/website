@@ -68,7 +68,7 @@ menu:
       pageRef: /wissen
       weight: 5
     - name: Kontakt
-      pageRef: /contact
+      url: /verein/#kontakt
       weight: 7
     - name: Verein
       pageRef: /verein
