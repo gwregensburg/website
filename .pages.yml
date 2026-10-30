@@ -30,7 +30,8 @@ content:
     format: yaml
     filename: "{fields.date}-{fields.title}.yaml"
     view:
-      fields: [date, title, dates, location]
+      # No "dates" column: Pages CMS passes the whole list to the date parser in the table view (t.match is not a function).
+      fields: [date, title, location]
       primary: title
       sort: [date, title]
       search: [title, location, organizer]
