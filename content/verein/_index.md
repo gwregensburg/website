@@ -42,6 +42,8 @@ Gerne kannst du uns auch über Instagram oder Signal kontaktieren:
   {{< icon-button image="/images/signal_icon.png" text="Gemeinschaftlich Wohnen Regensburg über Signal kontaktieren" link="https://signal.group/#CjQKINArAY1vjpQqAQ_uyO3GLCDSRcWIu0mXj0k7zl6-7mFzEhBeubuwgK_Yc-b7zRiCLUJh" >}}
 </div>
 
+### Newsletter
+
 <div class="hx:mt-12 hx:mb-12">
     {{< newsletter-brevo >}}
 </div>
