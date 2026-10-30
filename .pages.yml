@@ -141,8 +141,10 @@ content:
     format: yaml
     filename:
       template: "{fields.title}.yaml"
-      # Shown only when creating, so editors can pick a short ID. Renaming later would break pages using it.
-      field: create
+      # The file name is the ID used on pages. Editable when creating (to pick a short ID), shown locked
+      # afterwards: renaming is off, because it would break every page using the ID.
+      field: true
+    operations: { rename: false }
     view:
       # Markers right after the title, so they stay visible when the text columns make the table wide.
       fields: [image, title, tipp, library, author, subtitle]
@@ -217,8 +219,10 @@ content:
     format: yaml
     filename:
       template: "{fields.date}-{fields.title}.yaml"
-      # Shown only when creating, so editors can pick a short ID. Renaming later would break pages using it.
-      field: create
+      # The file name is the ID used on pages. Editable when creating (to pick a short ID), shown locked
+      # afterwards: renaming is off, because it would break every page using the ID.
+      field: true
+    operations: { rename: false }
     view:
       fields: [date, title, source, topics]
       primary: title
