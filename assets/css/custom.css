@@ -638,3 +638,9 @@ html.dark .hx\:dark\:focus\:ring-primary-800:focus {
 .hx\:focus\:ring-4:focus {
   box-shadow: 0 0 0 4px var(--gwr-ring-color, currentColor);
 }
+
+/* Hextra >= 0.12 pushes card titles to the bottom (mt-auto), which leaves empty space above the title in
+   cards of uneven height. Keep them at the top, right below the image, as before. */
+.hextra-card > .hx\:mt-auto {
+  margin-top: 0;
+}
