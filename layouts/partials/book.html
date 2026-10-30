@@ -20,9 +20,11 @@
     {{- if or .author .published -}}
     <p class="hx:text-gray-600">{{ .author }} {{- with .published }} | {{ . }}{{ end }}</p>
     {{- end -}}
-    {{- if and .show_topics (or $type .topics) }}
+    {{- $borrowable := and .show_library .library -}}
+    {{- if and .show_topics (or $type .topics $borrowable) }}
     <p class="book-topics">
         {{- with $type }}<span class="book-topic book-type">{{ index (dict "Podcast" "🎧" "Video" "🎬") . }} {{ . }}</span>{{ end -}}
+        {{- if $borrowable }}<a class="book-topic book-type" href="/bibliothek/" title="Für Vereinsmitglieder kostenlos ausleihbar">📚 Ausleihbar</a>{{ end -}}
         {{- range .topics }}<span class="book-topic">{{ . }}</span>{{ end -}}
     </p>
     {{- end }}

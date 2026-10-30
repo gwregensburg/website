@@ -10,7 +10,7 @@ cascade:
 
 Hier findest du Bücher, Podcasts und Videos zum Thema Gemeinschaftliches Wohnen. Mit dem Filter kannst du nach Art, Thema oder Stichwort suchen.
 
-Weitere Titel finden sich in der [Bibliothek](/bibliothek) und können von Vereinsmitgliedern kostenlos ausgeliehen werden.
+Bücher mit „📚 Ausleihbar“ stehen in unserer [Bibliothek](/bibliothek) und können von Vereinsmitgliedern kostenlos ausgeliehen werden.
 
 {{< media-filter "infothek" >}}
 

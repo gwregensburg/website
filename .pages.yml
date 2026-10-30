@@ -133,7 +133,7 @@ content:
         options: { format: markdown }
 
   # Books, publications, podcasts and videos, one file each, all shown in book view.
-  # Library books (📚) are listed by {{< books >}}, Infothek entries (📖) by {{< infothek >}};
+  # The Infothek ({{< infothek >}}) lists all of them, library books (📚) are also listed by {{< books >}};
   # any entry can be placed on a page with {{< book "<ID>" >}} (ID = file name without .yaml).
   - name: books
     label: Medien
@@ -148,7 +148,7 @@ content:
     operations: { rename: false }
     view:
       # Markers right after the title, so they stay visible when the text columns make the table wide.
-      fields: [image, title, type, tipp, library, infothek, author]
+      fields: [image, title, type, tipp, library, author]
       primary: title
       sort: [weight, title, type]
       search: [title, subtitle, author]
@@ -189,7 +189,7 @@ content:
         type: text
       - name: topics
         label: Themen
-        description: Für den Filter in der Infothek. Mehrere möglich.
+        description: Für den Filter in Infothek und Bibliothek. Mehrere möglich.
         type: select
         options:
           multiple: true
@@ -219,21 +219,9 @@ content:
           values:
             - name: "📚"
               label: "📚 Vereinsbibliothek (ausleihbar)"
-      - name: infothek
-        label: Infothek
-        description: Erscheint in der Infothek.
-        # A select instead of a boolean, so the table shows 📖 instead of "True".
-        type: select
-        options:
-          multiple: true
-          max: 1
-          placeholder: Nicht in der Infothek
-          values:
-            - name: "📖"
-              label: "📖 In der Infothek zeigen"
       - name: weight
         label: Reihenfolge
-        description: Kleinere Zahl = weiter oben in der Bibliothek bzw. Infothek (dort innerhalb der Art). Einträge ohne Zahl stehen ganz unten.
+        description: Kleinere Zahl = weiter oben in Bibliothek und Infothek (dort innerhalb der Art, erst Bücher, dann Podcasts, dann Videos). Einträge ohne Zahl stehen ganz unten.
         type: number
       - name: tags
         label: Schlagwörter

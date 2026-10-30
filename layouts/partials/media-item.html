@@ -6,5 +6,6 @@
 {{- range $item.topics }}{{ $topics = $topics | append (partial "topic-slug" .) }}{{ end -}}
 {{- $search := lower (delimit (slice $item.title ($item.subtitle | default "") ($item.author | default "") ($item.description | default "") (delimit ($item.topics | default slice) " ")) " ") -}}
 <div class="hx:mt-6 hx:mb-6 media-item" data-section="{{ .section }}" data-topics="{{ delimit $topics " " }}" data-search="{{ $search }}">
-  {{ partial "book" (merge $item (dict "show_topics" true)) }}
+  {{- /* In the Infothek, library books are marked as borrowable; on the library page that goes without saying. */}}
+  {{ partial "book" (merge $item (dict "show_topics" true "show_library" (ne .section ""))) }}
 </div>

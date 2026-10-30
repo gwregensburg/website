@@ -1,9 +1,9 @@
 {{- /*
   Filter bar for the media lists on the same page: type (Infothek only), topic and free text.
-    {{< media-filter "infothek" >}}  above the {{< infothek "..." >}} sections
+    {{< media-filter "infothek" >}}  above {{< infothek >}}
     {{< media-filter "library" >}}   above {{< books >}}
-  Topics are collected from the entries of that list (alphabetical, with count); the list of selectable
-  topics is maintained in .pages.yml. Hidden without JavaScript, then all entries stay visible.
+  Topics are collected from the entries of that list (Infothek: all, library: marked 📚), alphabetical with
+  count; the list of selectable topics is maintained in .pages.yml. Hidden without JavaScript, then all entries stay visible.
 */ -}}
 {{- $scope := .Get 0 -}}
 {{- if not (in (slice "infothek" "library") $scope) -}}
@@ -11,7 +11,7 @@
 {{- end -}}
 {{- $counts := dict -}}
 {{- range hugo.Data.books -}}
-  {{- if index . $scope -}}
+  {{- if or (eq $scope "infothek") .library -}}
     {{- range .topics -}}
       {{- $counts = merge $counts (dict . (add (index $counts . | default 0) 1)) -}}
     {{- end -}}

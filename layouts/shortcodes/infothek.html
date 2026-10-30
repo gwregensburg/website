@@ -1,5 +1,5 @@
 {{- /*
-  The Infothek: everything in data/books/ marked "infothek", in book view, as one list:
+  The Infothek: everything in data/books/, in book view, as one list:
   books and publications (no type) first, then podcasts, then videos.
     {{< infothek >}}            all entries
     {{< infothek "hoeren" >}}   only one type: lesen (books), hoeren (Podcast) or schauen (Video)
@@ -18,7 +18,7 @@
 {{- range $section := $sections }}
   {{- $items := slice -}}
   {{- range hugo.Data.books -}}
-    {{- if and .infothek (eq (.type | default "") (index $types $section)) -}}
+    {{- if eq (.type | default "") (index $types $section) -}}
       {{- $items = $items | append (merge (dict "weight" 9999) .) -}}
     {{- end -}}
   {{- end -}}
