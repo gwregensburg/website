@@ -22,11 +22,11 @@ layout: hextra-home
 </div> -->
 
 <!-- <div class="hx:mb-6 inline-wrap">
-{{< icon-button image="/images/mail.png" text="Demosios per Mail kontaktieren" link="mailto:info@gemeinschaftlich-wohnen-regensburg.de" >}}
+{{< icon-button image="/images/mail.png" text="Gemeinschaftlich Wohnen Regensburg per Mail kontaktieren" link="mailto:info@gemeinschaftlich-wohnen-regensburg.de" >}}
 
-{{< icon-button image="/images/instagram_icon.png" text="Demosios über Instagram kontaktieren" link="https://www.instagram.com/gemeinschaftlich_wohnen_rgb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >}}
+{{< icon-button image="/images/instagram_icon.png" text="Gemeinschaftlich Wohnen Regensburg über Instagram kontaktieren" link="https://www.instagram.com/gemeinschaftlich_wohnen_rgb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >}}
 
-{{< icon-button image="/images/signal_icon.png" text="Demosios über Signal kontaktieren" link="https://signal.group/#CjQKINArAY1vjpQqAQ_uyO3GLCDSRcWIu0mXj0k7zl6-7mFzEhBeubuwgK_Yc-b7zRiCLUJh" >}}
+{{< icon-button image="/images/signal_icon.png" text="Gemeinschaftlich Wohnen Regensburg über Signal kontaktieren" link="https://signal.group/#CjQKINArAY1vjpQqAQ_uyO3GLCDSRcWIu0mXj0k7zl6-7mFzEhBeubuwgK_Yc-b7zRiCLUJh" >}}
 </div> -->
 
 <!-- ![](/images/Baukulturtage.jpg) -->

@@ -37,9 +37,9 @@ Am Besten erreichst Du uns indem du uns eine Mail schreibst. Wir antworten zeitn
 Gerne kannst du uns auch über Instagram oder Signal kontaktieren:
 
 <div class="hx:mt-6 hx:mb-6 inline-wrap">
-  {{< icon-button image="/images/instagram_icon.png" text="Demosios über Instagram kontaktieren" link="https://www.instagram.com/gemeinschaftlich_wohnen_rgb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >}}
+  {{< icon-button image="/images/instagram_icon.png" text="Gemeinschaftlich Wohnen Regensburg über Instagram kontaktieren" link="https://www.instagram.com/gemeinschaftlich_wohnen_rgb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" >}}
 
-  {{< icon-button image="/images/signal_icon.png" text="Demosios über Signal kontaktieren" link="https://signal.group/#CjQKINArAY1vjpQqAQ_uyO3GLCDSRcWIu0mXj0k7zl6-7mFzEhBeubuwgK_Yc-b7zRiCLUJh" >}}
+  {{< icon-button image="/images/signal_icon.png" text="Gemeinschaftlich Wohnen Regensburg über Signal kontaktieren" link="https://signal.group/#CjQKINArAY1vjpQqAQ_uyO3GLCDSRcWIu0mXj0k7zl6-7mFzEhBeubuwgK_Yc-b7zRiCLUJh" >}}
 </div>
 
 <div class="hx:mt-12 hx:mb-12">
