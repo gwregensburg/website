@@ -144,7 +144,8 @@ content:
       # Shown only when creating, so editors can pick a short ID. Renaming later would break pages using it.
       field: create
     view:
-      fields: [image, title, subtitle, author, tipp, library]
+      # Markers right after the title, so they stay visible when the text columns make the table wide.
+      fields: [image, title, tipp, library, author, subtitle]
       primary: title
       sort: [weight, title]
       search: [title, subtitle, author]
