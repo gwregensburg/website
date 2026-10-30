@@ -47,16 +47,16 @@ content:
         type: date
         required: true
         options: { format: yyyy-MM-dd }
+      - name: end_date
+        label: Letzter Tag (nur bei mehrtägigen Veranstaltungen)
+        description: Bei eintägigen Veranstaltungen leer lassen. Gilt bei weiteren Terminen für jeden Termin (gleiche Dauer).
+        type: date
+        options: { format: yyyy-MM-dd }
       - name: dates
         label: Weitere Termine
         description: Für wiederkehrende Veranstaltungen mit gleichem Ort, Uhrzeit und Text (z. B. Netzwerktreffen). Jeder Termin erscheint auf der Webseite einzeln, vergangene verschwinden automatisch.
         type: date
         list: true
-        options: { format: yyyy-MM-dd }
-      - name: end_date
-        label: Bis
-        description: Nur bei mehrtägigen Veranstaltungen
-        type: date
         options: { format: yyyy-MM-dd }
       - name: time
         label: Uhrzeit
