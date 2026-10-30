@@ -645,8 +645,8 @@ html.dark .hx\:dark\:focus\:ring-primary-800:focus {
   margin-top: 0;
 }
 
-/* Infothek filter (shortcode infothek-filter, assets/js/infothek-filter.js) */
-.infothek-filter {
+/* Filter for the Infothek and the library (shortcode media-filter, assets/js/media-filter.js) */
+.media-filter {
   margin: 1.5rem 0 2rem;
   padding: 1rem;
   border: 1px solid rgba(128, 128, 128, 0.3);
@@ -654,18 +654,18 @@ html.dark .hx\:dark\:focus\:ring-primary-800:focus {
   display: grid;
   gap: 0.75rem;
 }
-.infothek-filter[hidden], .infothek-filter__empty[hidden] { display: none; }
-.infothek-filter__row {
+.media-filter[hidden], .media-filter__empty[hidden] { display: none; }
+.media-filter__row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem;
 }
-.infothek-filter__label {
+.media-filter__label {
   font-weight: 600;
   min-width: 4rem;
 }
-.infothek-filter button,
+.media-filter button,
 .book-topic {
   border: 1px solid rgba(128, 128, 128, 0.4);
   border-radius: 999px;
@@ -673,14 +673,14 @@ html.dark .hx\:dark\:focus\:ring-primary-800:focus {
   font-size: 0.9rem;
   line-height: 1.5;
 }
-.infothek-filter button:hover { border-color: var(--hx-color-primary-500); }
-.infothek-filter button[aria-pressed="true"] {
+.media-filter button:hover { border-color: var(--hx-color-primary-500); }
+.media-filter button[aria-pressed="true"] {
   background-color: var(--hx-color-primary-600);
   border-color: var(--hx-color-primary-600);
   color: white;
 }
-.infothek-filter__count { opacity: 0.6; font-size: 0.8em; }
-.infothek-filter input[type="search"] {
+.media-filter__count { opacity: 0.6; font-size: 0.8em; }
+.media-filter input[type="search"] {
   flex: 1 1 14rem;
   min-width: 0;
   padding: 0.3rem 0.75rem;
@@ -688,8 +688,8 @@ html.dark .hx\:dark\:focus\:ring-primary-800:focus {
   border-radius: 0.5rem;
   background: transparent;
 }
-.infothek-filter__status, .infothek-filter__empty { margin: 0; font-size: 0.9rem; opacity: 0.8; }
-.infothek-filter__status:empty { display: none; }
+.media-filter__status, .media-filter__empty { margin: 0; font-size: 0.9rem; opacity: 0.8; }
+.media-filter__status:empty { display: none; }
 .book-topics {
   display: flex;
   flex-wrap: wrap;

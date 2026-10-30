@@ -10,4 +10,6 @@ Alle Bücher können von Vereinsmitglieder kostenlos ausgeliehen werden. Ausleih
 
 Weitere Titel finden sich in der [Infothek](/wohnprojekte/infos/), teils auch frei zum Download verfügbar. 
 
+{{< media-filter "library" >}}
+
 {{< books >}}

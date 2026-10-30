@@ -1,5 +1,6 @@
 {{/* The club library: books in data/books/ marked "library" (borrowable), edited in the CMS.
      "weight" sets the order (smaller = higher); books without one go last.
+     Filterable with {{< media-filter "library" >}} on the same page.
      Other publications are placed on pages one by one with {{< book "<id>" >}}. */}}
 {{- $books := slice -}}
 {{- range hugo.Data.books -}}
@@ -8,8 +9,8 @@
   {{- end -}}
 {{- end -}}
 
+<div class="media-section">
 {{ range sort $books "weight" }}
-  <div class="hx:mt-6 hx:mb-6">
-    {{ partial "book" . }}
-  </div>
+  {{ partial "media-item" (dict "item" . "section" "") }}
 {{ end }}
+</div>

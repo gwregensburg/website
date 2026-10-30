@@ -10,7 +10,7 @@ cascade:
 
 Hier findest du [Bücher](#lesen), [Podcasts](#hören) und [Videos](#schauen) zum Thema Gemeinschaftliches Wohnen. 
 
-{{< infothek-filter >}}
+{{< media-filter "infothek" >}}
 
 ## Lesen
 

@@ -1,0 +1,10 @@
+{{- /* One entry in a filterable list (shortcodes infothek and books), in book view with topic labels.
+       The data-* attributes are read by the filter ({{< media-filter >}}, assets/js/media-filter.js).
+       Params: item (an entry from data/books/), section (Infothek section, empty in the library). */ -}}
+{{- $item := .item -}}
+{{- $topics := slice -}}
+{{- range $item.topics }}{{ $topics = $topics | append (partial "topic-slug" .) }}{{ end -}}
+{{- $search := lower (delimit (slice $item.title ($item.subtitle | default "") ($item.author | default "") ($item.description | default "") (delimit ($item.topics | default slice) " ")) " ") -}}
+<div class="hx:mt-6 hx:mb-6 media-item" data-section="{{ .section }}" data-topics="{{ delimit $topics " " }}" data-search="{{ $search }}">
+  {{ partial "book" (merge $item (dict "show_topics" true)) }}
+</div>

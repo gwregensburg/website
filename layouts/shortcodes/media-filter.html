@@ -1,0 +1,42 @@
+{{- /*
+  Filter bar for the media lists on the same page: type (Infothek only), topic and free text.
+    {{< media-filter "infothek" >}}  above the {{< infothek "..." >}} sections
+    {{< media-filter "library" >}}   above {{< books >}}
+  Topics are collected from the entries of that list (alphabetical, with count); the list of selectable
+  topics is maintained in .pages.yml. Hidden without JavaScript, then all entries stay visible.
+*/ -}}
+{{- $scope := .Get 0 -}}
+{{- if not (in (slice "infothek" "library") $scope) -}}
+  {{- warnf "media-filter: unknown list %q in %s (infothek or library)" $scope .Position -}}
+{{- end -}}
+{{- $counts := dict -}}
+{{- range hugo.Data.books -}}
+  {{- if index . $scope -}}
+    {{- range .topics -}}
+      {{- $counts = merge $counts (dict . (add (index $counts . | default 0) 1)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<form class="media-filter" role="search" aria-label="{{ if eq $scope "library" }}Bibliothek{{ else }}Infothek{{ end }} filtern" hidden>
+  {{- if eq $scope "infothek" }}
+  <div class="media-filter__row">
+    <span class="media-filter__label">Art</span>
+    <button type="button" data-filter="art" data-value="lesen" aria-pressed="false">📖 Lesen</button>
+    <button type="button" data-filter="art" data-value="hoeren" aria-pressed="false">🎧 Hören</button>
+    <button type="button" data-filter="art" data-value="schauen" aria-pressed="false">🎬 Schauen</button>
+  </div>
+  {{- end }}
+  <div class="media-filter__row">
+    <span class="media-filter__label">Thema</span>
+    {{- range $topic, $count := $counts }}
+    <button type="button" data-filter="thema" data-value="{{ partial "topic-slug" $topic }}" aria-pressed="false">{{ $topic }} <span class="media-filter__count">{{ $count }}</span></button>
+    {{- end }}
+  </div>
+  <div class="media-filter__row">
+    <label class="media-filter__label" for="media-search">Suche</label>
+    <input id="media-search" type="search" name="q" placeholder="Titel, Autor:in, Beschreibung …" autocomplete="off">
+    <button type="reset" class="media-filter__reset">Zurücksetzen</button>
+  </div>
+  <p class="media-filter__status" role="status" aria-live="polite"></p>
+  <p class="media-filter__empty" hidden>Keine Einträge gefunden.</p>
+</form>
