@@ -17,7 +17,13 @@
       {{ .Scratch.Set "rssPages" (first 50 (where $.Site.RegularPages "Type" "in" $sections )) }}
     {{ else }}
       {{ if $.Parent.IsHome }}
-        {{ .Scratch.Set "rssPages" (first 50 (where $.Site.RegularPages "Type" $.Section )) }}
+        {{- /* By section, not type: aktuelles uses the theme's blog layouts (type: blog).
+               Only the sections listed in params.rss.sections get items. */}}
+        {{ $pages := slice }}
+        {{ if in .Site.Params.rss.sections $.Section }}
+          {{ $pages = (where $.Site.RegularPages "Section" $.Section).ByDate.Reverse }}
+        {{ end }}
+        {{ .Scratch.Set "rssPages" (first 50 $pages) }}
       {{ else }}
         {{ .Scratch.Set "rssPages" (first 50 $.Pages) }}
       {{ end }}

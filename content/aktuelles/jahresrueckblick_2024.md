@@ -7,20 +7,7 @@ image: /images/brueckenfest_reinhausen.jpg
 authors:
   - name: Benedikt Geisler
 ---
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <style>
-        .gradient-text {
-            font-size: 1.2em; /* Adjust the size as needed */
-        }
-    </style>
-    </style>
-</head>
-<body>
-    <p class="gradient-text highlight">Liebe Freunde des Gemeinschaftlichen Wohnens,</p>
-</body>
-</html>
+<p class="highlight" style="font-size: 1.2em;">Liebe Freunde des Gemeinschaftlichen Wohnens,</p>
 <br> 
 
  das Jahr neigt sich dem Ende zu, und so beugen auch wir uns der Tradition und halten Rückschau. Viel Spaß beim Lesen, und Danke an alle die bei den Veranstaltungen dabei waren!

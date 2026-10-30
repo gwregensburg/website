@@ -7,20 +7,7 @@ image: /images/baukulturtage_2025_2.jpg
 authors:
   - name: Friederike Maier
 ---
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <style>
-        .gradient-text {
-            font-size: 1.2em; /* Adjust the size as needed */
-        }
-    </style>
-    </style>
-</head>
-<body>
-    <p class="gradient-text highlight">Liebe Freunde des Gemeinschaftlichen Wohnens,</p>
-</body>
-</html>
+<p class="highlight" style="font-size: 1.2em;">Liebe Freunde des Gemeinschaftlichen Wohnens,</p>
 <br> 
 
 Menschen in Regensburg zusammenbringen, die sich für gemeinschaftliches Wohnen interessieren - das will unser Verein. Und dem Ziel, dass sich aus unserer Mitte tatsächlich ein ganz konkretes Projekt gründet, sind wir in diesem Jahr ein gutes Stück näher gekommen!
